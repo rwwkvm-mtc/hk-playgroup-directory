@@ -15,7 +15,7 @@ const appData = {
       "phone": "2234-5678",
       "email": "info@happykids.hk",
       "type": "Playgroup",
-      "age_range": "12-36 months",
+      "age_range": "6-36 months",
       "session_types": ["Half-day AM", "Half-day PM"],
       "language": ["English", "Cantonese"],
       "fees": 2800,
@@ -33,7 +33,7 @@ const appData = {
       "phone": "2345-6789",
       "email": "contact@littlescholars.hk",
       "type": "Pre-nursery",
-      "age_range": "24-42 months",
+      "age_range": "24-36 months",
       "session_types": ["Whole-day"],
       "language": ["English", "Mandarin"],
       "fees": 4200,
@@ -68,15 +68,15 @@ const appData = {
       "address": "3/F, Rainbow Building, 456 Nathan Road, Kowloon",
       "phone": "2678-9012",
       "email": "info@rainbowkids.hk",
-      "type": "Mixed Programs",
-      "age_range": "6-48 months",
+      "type": "Playgroup",
+      "age_range": "6-36 months",
       "session_types": ["Half-day AM", "Half-day PM", "Whole-day"],
       "language": ["English", "Cantonese"],
       "fees": 3800,
       "rating": 4.6,
       "reviews": 41,
       "facilities": ["Indoor playground", "Dance studio", "Quiet reading area"],
-      "description": "Comprehensive programs catering to different age groups and developmental stages."
+      "description": "Comprehensive playgroup programs catering to different developmental stages."
     },
     {
       "id": 5,
@@ -87,7 +87,7 @@ const appData = {
       "phone": "2789-0123",
       "email": "start@brightbeginnings.hk",
       "type": "Playgroup",
-      "age_range": "15-36 months",
+      "age_range": "12-36 months",
       "session_types": ["Half-day AM", "Half-day PM"],
       "language": ["English", "Cantonese"],
       "fees": 2600,
@@ -105,7 +105,7 @@ const appData = {
       "phone": "2890-1234",
       "email": "academy@smartstart.hk",
       "type": "Pre-nursery",
-      "age_range": "24-48 months",
+      "age_range": "24-36 months",
       "session_types": ["Whole-day", "Extended hours"],
       "language": ["English", "Mandarin", "Cantonese"],
       "fees": 4000,
@@ -123,7 +123,7 @@ const appData = {
       "phone": "2901-2345",
       "email": "angels@littleangels.hk",
       "type": "Playgroup",
-      "age_range": "12-30 months",
+      "age_range": "6-30 months",
       "session_types": ["Half-day AM", "Half-day PM"],
       "language": ["English", "Cantonese"],
       "fees": 3200,
@@ -140,15 +140,15 @@ const appData = {
       "address": "Shop 3-4, Yuen Long Plaza, Yuen Long",
       "phone": "2012-3456",
       "email": "creative@kidscorner.hk",
-      "type": "Mixed Programs",
-      "age_range": "18-42 months",
+      "type": "Playgroup",
+      "age_range": "18-36 months",
       "session_types": ["Half-day AM", "Whole-day"],
       "language": ["Trilingual"],
       "fees": 2900,
       "rating": 4.1,
       "reviews": 26,
       "facilities": ["Art studio", "Construction corner", "Dramatic play area"],
-      "description": "Mixed programs focusing on creativity and hands-on learning experiences."
+      "description": "Playgroup focusing on creativity and hands-on learning experiences."
     }
   ]
 };
@@ -490,7 +490,7 @@ function addActiveFilter(category, value, removeCallback) {
 
 function updateTypeCheckboxes() {
   document.querySelectorAll('input[type="checkbox"][value]').forEach(checkbox => {
-    if (['Playgroup', 'Pre-nursery', 'Mixed Programs'].includes(checkbox.value)) {
+    if (['Playgroup', 'Pre-nursery'].includes(checkbox.value)) {
       checkbox.checked = activeFilters.types.includes(checkbox.value);
     }
   });
@@ -914,7 +914,7 @@ function setupFilterEventListeners() {
 
 function handleCheckboxChange(e) {
   const value = e.target.value;
-  if (['Playgroup', 'Pre-nursery', 'Mixed Programs'].includes(value)) {
+  if (['Playgroup', 'Pre-nursery'].includes(value)) {
     if (e.target.checked) {
       if (!activeFilters.types.includes(value)) {
         activeFilters.types.push(value);

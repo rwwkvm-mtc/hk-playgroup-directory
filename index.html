@@ -41,8 +41,8 @@
                     <h1 data-en="Find the Perfect Playgroup & Pre-Nursery in Hong Kong" data-zh="尋找香港最適合的遊戲小組和學前班">
                         Find the Perfect Playgroup & Pre-Nursery in Hong Kong
                     </h1>
-                    <p data-en="Discover quality early childhood education programs across all 18 districts" data-zh="探索遍布18區的優質幼兒教育課程">
-                        Discover quality early childhood education programs across all 18 districts
+                    <p data-en="Discover quality early childhood programs for children aged 6 months to 3 years across all 18 districts" data-zh="探索遍布18區的優質幼兒課程，適合6個月至3歲兒童">
+                        Discover quality early childhood programs for children aged 6 months to 3 years across all 18 districts
                     </p>
                     <div class="search-container">
                         <div class="search-box">
@@ -54,6 +54,47 @@
                                 <span data-en="Search" data-zh="搜尋">Search</span>
                             </button>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Program Types Overview -->
+        <section class="program-types">
+            <div class="container">
+                <h2 data-en="Program Types" data-zh="課程類型">Program Types</h2>
+                <div class="program-grid">
+                    <div class="program-card">
+                        <div class="program-icon">
+                            <i class="fas fa-baby"></i>
+                        </div>
+                        <h3 data-en="Playgroups" data-zh="遊戲小組">Playgroups</h3>
+                        <p data-en="For children aged 6 months to 3 years. Focus on early development through play, social interaction, and sensory experiences." 
+                           data-zh="適合6個月至3歲兒童。通過遊戲、社交互動和感官體驗促進早期發展。">
+                            For children aged 6 months to 3 years. Focus on early development through play, social interaction, and sensory experiences.
+                        </p>
+                        <ul>
+                            <li data-en="Sensory play activities" data-zh="感官遊戲活動">Sensory play activities</li>
+                            <li data-en="Music and movement" data-zh="音樂和運動">Music and movement</li>
+                            <li data-en="Parent-child bonding" data-zh="親子互動">Parent-child bonding</li>
+                            <li data-en="Social development" data-zh="社交發展">Social development</li>
+                        </ul>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 data-en="Pre-Nursery Programs" data-zh="學前班課程">Pre-Nursery Programs</h3>
+                        <p data-en="For children aged 2-3 years. Structured learning to prepare for kindergarten with academic foundations and social skills." 
+                           data-zh="適合2-3歲兒童。結構化學習為幼稚園做準備，建立學術基礎和社交技能。">
+                            For children aged 2-3 years. Structured learning to prepare for kindergarten with academic foundations and social skills.
+                        </p>
+                        <ul>
+                            <li data-en="Basic academic skills" data-zh="基礎學術技能">Basic academic skills</li>
+                            <li data-en="Language development" data-zh="語言發展">Language development</li>
+                            <li data-en="School readiness" data-zh="入學準備">School readiness</li>
+                            <li data-en="Independent learning" data-zh="獨立學習">Independent learning</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -78,10 +119,10 @@
                 <div class="filter-buttons">
                     <button class="filter-btn" onclick="quickFilter('age', '6-18 months')" 
                             data-en="6-18 months" data-zh="6-18個月">6-18 months</button>
-                    <button class="filter-btn" onclick="quickFilter('age', '18-36 months')" 
-                            data-en="18-36 months" data-zh="18-36個月">18-36 months</button>
-                    <button class="filter-btn" onclick="quickFilter('age', '3-4 years')" 
-                            data-en="3-4 years" data-zh="3-4歲">3-4 years</button>
+                    <button class="filter-btn" onclick="quickFilter('age', '18-24 months')" 
+                            data-en="18-24 months" data-zh="18-24個月">18-24 months</button>
+                    <button class="filter-btn" onclick="quickFilter('age', '2-3 years')" 
+                            data-en="2-3 years" data-zh="2-3歲">2-3 years</button>
                 </div>
             </div>
         </section>
@@ -89,7 +130,7 @@
         <!-- Featured Institutions -->
         <section class="featured-institutions">
             <div class="container">
-                <h2 data-en="Featured Institutions" data-zh="精選機構">Featured Institutions</h2>
+                <h2 data-en="Featured Programs" data-zh="精選課程">Featured Programs</h2>
                 <div class="institutions-grid" id="featured-grid">
                     <!-- Featured institutions will be populated by JavaScript -->
                 </div>
@@ -106,8 +147,8 @@
                             <i class="fas fa-search"></i>
                         </div>
                         <h3 data-en="Search" data-zh="搜尋">Search</h3>
-                        <p data-en="Find institutions by location, age group, or program type" data-zh="按地點、年齡組或課程類型尋找機構">
-                            Find institutions by location, age group, or program type
+                        <p data-en="Find playgroups and pre-nursery programs by location, age group, or specific requirements" data-zh="按地點、年齡組或特定要求尋找遊戲小組和學前班課程">
+                            Find playgroups and pre-nursery programs by location, age group, or specific requirements
                         </p>
                     </div>
                     <div class="step">
@@ -115,8 +156,8 @@
                             <i class="fas fa-balance-scale"></i>
                         </div>
                         <h3 data-en="Compare" data-zh="比較">Compare</h3>
-                        <p data-en="Review programs, facilities, fees, and parent reviews" data-zh="查看課程、設施、費用和家長評價">
-                            Review programs, facilities, fees, and parent reviews
+                        <p data-en="Review program details, facilities, fees, and parent reviews" data-zh="查看課程詳情、設施、費用和家長評價">
+                            Review program details, facilities, fees, and parent reviews
                         </p>
                     </div>
                     <div class="step">
@@ -137,15 +178,15 @@
             <div class="container">
                 <div class="stats-grid">
                     <div class="stat">
-                        <div class="stat-number">990+</div>
-                        <div class="stat-label" data-en="Institutions" data-zh="機構">Institutions</div>
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label" data-en="Programs" data-zh="課程">Programs</div>
                     </div>
                     <div class="stat">
                         <div class="stat-number">18</div>
                         <div class="stat-label" data-en="Districts" data-zh="地區">Districts</div>
                     </div>
                     <div class="stat">
-                        <div class="stat-number">50,000+</div>
+                        <div class="stat-number">25,000+</div>
                         <div class="stat-label" data-en="Happy Families" data-zh="滿意家庭">Happy Families</div>
                     </div>
                 </div>
@@ -186,7 +227,7 @@
                     </div>
 
                     <div class="filter-group">
-                        <label class="filter-label" data-en="Institution Type" data-zh="機構類型">Institution Type</label>
+                        <label class="filter-label" data-en="Program Type" data-zh="課程類型">Program Type</label>
                         <div class="checkbox-group">
                             <label class="checkbox-label">
                                 <input type="checkbox" value="Playgroup" onchange="applyFilters()">
@@ -196,9 +237,23 @@
                                 <input type="checkbox" value="Pre-nursery" onchange="applyFilters()">
                                 <span data-en="Pre-nursery" data-zh="學前班">Pre-nursery</span>
                             </label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <label class="filter-label" data-en="Age Group" data-zh="年齡組別">Age Group</label>
+                        <div class="checkbox-group">
                             <label class="checkbox-label">
-                                <input type="checkbox" value="Mixed Programs" onchange="applyFilters()">
-                                <span data-en="Mixed Programs" data-zh="混合課程">Mixed Programs</span>
+                                <input type="checkbox" value="6-18 months" onchange="applyFilters()">
+                                <span data-en="6-18 months" data-zh="6-18個月">6-18 months</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" value="18-24 months" onchange="applyFilters()">
+                                <span data-en="18-24 months" data-zh="18-24個月">18-24 months</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" value="2-3 years" onchange="applyFilters()">
+                                <span data-en="2-3 years" data-zh="2-3歲">2-3 years</span>
                             </label>
                         </div>
                     </div>
@@ -241,7 +296,7 @@
                     <div class="results-header">
                         <div class="results-info">
                             <span id="results-count">0</span> 
-                            <span data-en="institutions found" data-zh="間機構">institutions found</span>
+                            <span data-en="programs found" data-zh="個課程">programs found</span>
                         </div>
                         <div class="sort-controls">
                             <label data-en="Sort by:" data-zh="排序:">Sort by:</label>
@@ -279,26 +334,46 @@
                 
                 <section class="about-section">
                     <h2 data-en="Our Mission" data-zh="我們的使命">Our Mission</h2>
-                    <p data-en="We help parents in Hong Kong find the best early childhood education programs for their children. Our comprehensive directory covers playgroups, pre-nurseries, and kindergartens across all 18 districts." 
-                       data-zh="我們幫助香港的家長為他們的孩子找到最好的幼兒教育課程。我們的綜合目錄涵蓋了18個地區的遊戲小組、學前班和幼稚園。">
-                        We help parents in Hong Kong find the best early childhood education programs for their children. Our comprehensive directory covers playgroups, pre-nurseries, and kindergartens across all 18 districts.
+                    <p data-en="We help parents in Hong Kong find the best early childhood education programs for their children aged 6 months to 3 years. Our comprehensive directory covers playgroups and pre-nursery programs across all 18 districts." 
+                       data-zh="我們幫助香港的家長為他們6個月至3歲的孩子找到最好的幼兒教育課程。我們的綜合目錄涵蓋了18個地區的遊戲小組和學前班課程。">
+                        We help parents in Hong Kong find the best early childhood education programs for their children aged 6 months to 3 years. Our comprehensive directory covers playgroups and pre-nursery programs across all 18 districts.
                     </p>
+                </section>
+
+                <section class="about-section">
+                    <h2 data-en="Program Types We Cover" data-zh="我們涵蓋的課程類型">Program Types We Cover</h2>
+                    <div class="program-types-about">
+                        <div class="program-type">
+                            <h3 data-en="Playgroups" data-zh="遊戲小組">Playgroups</h3>
+                            <p data-en="Designed for children aged 6 months to 3 years, playgroups focus on early development through play-based activities, sensory experiences, and social interaction. These programs help develop motor skills, language, and social awareness." 
+                               data-zh="專為6個月至3歲兒童設計，遊戲小組通過遊戲活動、感官體驗和社交互動促進早期發展。這些課程幫助發展運動技能、語言和社交意識。">
+                                Designed for children aged 6 months to 3 years, playgroups focus on early development through play-based activities, sensory experiences, and social interaction. These programs help develop motor skills, language, and social awareness.
+                            </p>
+                        </div>
+                        <div class="program-type">
+                            <h3 data-en="Pre-Nursery Programs" data-zh="學前班課程">Pre-Nursery Programs</h3>
+                            <p data-en="For children aged 2-3 years, pre-nursery programs provide structured learning to prepare children for kindergarten. They focus on academic foundations, language development, and school readiness skills." 
+                               data-zh="適合2-3歲兒童，學前班課程提供結構化學習為幼稚園做準備。他們專注於學術基礎、語言發展和入學準備技能。">
+                                For children aged 2-3 years, pre-nursery programs provide structured learning to prepare children for kindergarten. They focus on academic foundations, language development, and school readiness skills.
+                            </p>
+                        </div>
+                    </div>
                 </section>
 
                 <section class="about-section">
                     <h2 data-en="How to Use Our Platform" data-zh="如何使用我們的平台">How to Use Our Platform</h2>
                     <ol>
-                        <li data-en="Search for institutions by district, name, or specific requirements" 
-                            data-zh="按地區、名稱或特定要求搜尋機構">
-                            Search for institutions by district, name, or specific requirements
+                        <li data-en="Search for programs by district, name, or specific requirements" 
+                            data-zh="按地區、名稱或特定要求搜尋課程">
+                            Search for programs by district, name, or specific requirements
                         </li>
-                        <li data-en="Use filters to narrow down your options based on age group, fees, and language" 
-                            data-zh="使用篩選器根據年齡組、費用和語言縮小選擇範圍">
-                            Use filters to narrow down your options based on age group, fees, and language
+                        <li data-en="Use filters to narrow down your options based on age group, program type, fees, and language" 
+                            data-zh="使用篩選器根據年齡組、課程類型、費用和語言縮小選擇範圍">
+                            Use filters to narrow down your options based on age group, program type, fees, and language
                         </li>
-                        <li data-en="Read detailed information about each institution including facilities and reviews" 
-                            data-zh="閱讀每個機構的詳細信息，包括設施和評價">
-                            Read detailed information about each institution including facilities and reviews
+                        <li data-en="Read detailed information about each program including facilities and reviews" 
+                            data-zh="閱讀每個課程的詳細信息，包括設施和評價">
+                            Read detailed information about each program including facilities and reviews
                         </li>
                         <li data-en="Submit applications directly through our platform" 
                             data-zh="直接通過我們的平台提交申請">

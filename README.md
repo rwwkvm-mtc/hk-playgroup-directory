@@ -1,16 +1,16 @@
 # Hong Kong Playgroup & Pre-Nursery Directory
 
-A comprehensive web application designed to help parents in Hong Kong find and apply to early childhood education programs. This directory covers playgroups, pre-nurseries, and kindergartens across all 18 districts of Hong Kong.
+A comprehensive web application designed to help parents in Hong Kong find and apply to early childhood education programs. This directory covers playgroups and pre-nursery programs across all 18 districts of Hong Kong.
 
 ## 🌟 Features
 
 ### 🔍 Search & Discovery
-- **Advanced Search**: Find institutions by district, name, or address
-- **Smart Filtering**: Filter by institution type, age groups, language medium, and fees
+- **Advanced Search**: Find programs by district, name, or address
+- **Smart Filtering**: Filter by program type, age groups, language medium, and fees
 - **Quick Filters**: Popular districts and age groups for faster discovery
 - **Sorting Options**: Sort by name, fees, rating, or district
 
-### 🏫 Institution Profiles
+### 🏫 Program Profiles
 - **Comprehensive Information**: Contact details, programs, facilities, and reviews
 - **Bilingual Support**: Full English and Traditional Chinese interface
 - **Rating System**: Star ratings with parent reviews
@@ -24,12 +24,12 @@ A comprehensive web application designed to help parents in Hong Kong find and a
 ### 🎨 User Experience
 - **Responsive Design**: Mobile-friendly interface
 - **Bilingual Interface**: Toggle between English and Chinese
-- **Favorites System**: Save preferred institutions
+- **Favorites System**: Save preferred programs
 - **Modern UI**: Clean, professional design with accessibility features
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-demo-link.com) *(Coming Soon)*
+[View Live Demo](https://rwwkvm-mtc.github.io/hk-playgroup-directory/) *(Live Now!)*
 
 ## 🛠️ Technology Stack
 
@@ -84,7 +84,7 @@ hk-playgroup-directory/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/hk-playgroup-directory.git
+   git clone https://github.com/rwwkvm-mtc/hk-playgroup-directory.git
    cd hk-playgroup-directory
    ```
 
@@ -112,27 +112,39 @@ hk-playgroup-directory/
 
 ## 📊 Sample Data
 
-The application includes sample data for 8 institutions across different Hong Kong districts:
+The application includes sample data for 8 programs across different Hong Kong districts:
 
-- **Happy Kids Playgroup** (Central & Western)
-- **Little Scholars Pre-Nursery** (Wan Chai)
-- **Sunshine Toddlers** (Sha Tin)
-- **Rainbow Children Center** (Kowloon City)
-- **Bright Beginnings** (Kwun Tong)
-- **Smart Start Academy** (Tsuen Wan)
-- **Little Angels Playgroup** (Eastern)
-- **Creative Kids Corner** (Yuen Long)
+- **Happy Kids Playgroup** (Central & Western) - 6-36 months
+- **Little Scholars Pre-Nursery** (Wan Chai) - 24-36 months
+- **Sunshine Toddlers** (Sha Tin) - 18-30 months
+- **Rainbow Children Center** (Kowloon City) - 6-36 months
+- **Bright Beginnings** (Kwun Tong) - 12-36 months
+- **Smart Start Academy** (Tsuen Wan) - 24-36 months
+- **Little Angels Playgroup** (Eastern) - 6-30 months
+- **Creative Kids Corner** (Yuen Long) - 18-36 months
+
+## 🎯 Program Types
+
+### Playgroups (6 months to 3 years)
+- **Focus**: Early development through play-based activities
+- **Activities**: Sensory play, music and movement, parent-child bonding
+- **Benefits**: Motor skills, language development, social awareness
+
+### Pre-Nursery Programs (2-3 years)
+- **Focus**: Structured learning to prepare for kindergarten
+- **Activities**: Basic academic skills, language development, school readiness
+- **Benefits**: Academic foundations, independent learning, social skills
 
 ## 🎯 Usage Guide
 
-### Searching for Institutions
-1. Use the main search bar to find institutions by name or location
+### Searching for Programs
+1. Use the main search bar to find programs by name or location
 2. Apply filters using the sidebar options
 3. Use quick filter buttons for popular districts and age groups
 4. Sort results by different criteria
 
-### Viewing Institution Details
-1. Click on any institution card to view detailed information
+### Viewing Program Details
+1. Click on any program card to view detailed information
 2. Browse through contact information, programs, and facilities
 3. Read parent reviews and ratings
 4. Submit applications directly through the platform
@@ -184,8 +196,8 @@ We welcome contributions! Please feel free to submit issues and enhancement requ
 ## 📋 Requirements
 
 ### Functional Requirements
-- Institution search and discovery
-- Comprehensive institution profiles
+- Program search and discovery
+- Comprehensive program profiles
 - Online application system
 - Bilingual support (English/Chinese)
 - Mobile-responsive design
@@ -217,7 +229,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Project Link**: [https://github.com/yourusername/hk-playgroup-directory](https://github.com/yourusername/hk-playgroup-directory)
+- **Project Link**: [https://github.com/rwwkvm-mtc/hk-playgroup-directory](https://github.com/rwwkvm-mtc/hk-playgroup-directory)
+- **Live Demo**: [https://rwwkvm-mtc.github.io/hk-playgroup-directory/](https://rwwkvm-mtc.github.io/hk-playgroup-directory/)
 - **Email**: info@hkplaygroups.com *(Coming Soon)*
 - **Phone**: +852 1234-5678 *(Coming Soon)*
 
