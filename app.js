@@ -634,6 +634,10 @@ function quickFilter(type, value) {
 function applyFilters() {
   let filtered = [...appData.institutions];
   
+  // Debug: Log total institutions and Sha Tin institutions
+  console.log('Total institutions:', filtered.length);
+  console.log('Sha Tin institutions:', filtered.filter(inst => inst.district === 'Sha Tin').length);
+  
   // Apply search filter
   if (activeFilters.search) {
     const searchLower = activeFilters.search.toLowerCase();
@@ -648,6 +652,7 @@ function applyFilters() {
   // Apply district filter
   if (activeFilters.district) {
     filtered = filtered.filter(inst => inst.district === activeFilters.district);
+    console.log('After district filter:', filtered.length, 'institutions');
   }
   
   // Apply type filters
