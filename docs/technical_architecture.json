@@ -1,0 +1,154 @@
+{
+  "project_name": "Hong Kong Playgroup & Pre-Nursery Directory System",
+  "architecture_overview": {
+    "pattern": "Microservices with API Gateway",
+    "deployment": "Cloud-native with container orchestration",
+    "database": "PostgreSQL with Redis cache",
+    "frontend": "React.js with Next.js framework",
+    "mobile": "Progressive Web App (PWA)"
+  },
+  "system_components": {
+    "frontend": {
+      "technology": "React.js + Next.js + TypeScript",
+      "styling": "Tailwind CSS + Styled Components",
+      "state_management": "Redux Toolkit + RTK Query",
+      "authentication": "NextAuth.js",
+      "features": [
+        "Server-side rendering (SSR)",
+        "Static site generation (SSG)",
+        "Progressive Web App (PWA)",
+        "Mobile-responsive design",
+        "Bilingual support (English/Chinese)",
+        "Accessibility compliance (WCAG 2.1 AA)"
+      ]
+    },
+    "backend": {
+      "api_gateway": {
+        "technology": "Kong Gateway",
+        "features": [
+          "Rate limiting",
+          "Authentication",
+          "Request/Response transformation",
+          "Logging"
+        ]
+      },
+      "core_services": {
+        "institution_service": {
+          "technology": "Node.js + Express.js",
+          "responsibilities": [
+            "Institution CRUD",
+            "Search functionality",
+            "Data validation"
+          ]
+        },
+        "application_service": {
+          "technology": "Node.js + Express.js",
+          "responsibilities": [
+            "Application processing",
+            "Email notifications",
+            "Status tracking"
+          ]
+        },
+        "user_service": {
+          "technology": "Node.js + Express.js",
+          "responsibilities": [
+            "User authentication",
+            "Profile management",
+            "Role-based access"
+          ]
+        },
+        "notification_service": {
+          "technology": "Node.js + Bull Queue",
+          "responsibilities": [
+            "Email sending",
+            "SMS notifications",
+            "Push notifications"
+          ]
+        }
+      }
+    },
+    "database": {
+      "primary": {
+        "technology": "PostgreSQL 14+",
+        "features": [
+          "ACID compliance",
+          "Full-text search",
+          "JSON support",
+          "Spatial queries"
+        ]
+      },
+      "cache": {
+        "technology": "Redis 6+",
+        "usage": [
+          "Session storage",
+          "API response cache",
+          "Search results cache"
+        ]
+      },
+      "search": {
+        "technology": "Elasticsearch",
+        "usage": [
+          "Full-text search",
+          "Faceted search",
+          "Geographic search",
+          "Analytics"
+        ]
+      }
+    },
+    "infrastructure": {
+      "container_platform": "Docker + Kubernetes",
+      "cloud_provider": "AWS / Google Cloud Platform",
+      "cdn": "CloudFlare",
+      "monitoring": "Prometheus + Grafana",
+      "logging": "ELK Stack (Elasticsearch, Logstash, Kibana)"
+    }
+  },
+  "security_requirements": {
+    "data_protection": [
+      "Personal data encryption at rest and in transit",
+      "GDPR compliance for data processing",
+      "Regular security audits",
+      "Secure API authentication (JWT tokens)"
+    ],
+    "hong_kong_compliance": [
+      "Personal Data (Privacy) Ordinance compliance",
+      "Government accessibility standards",
+      "Data residency requirements"
+    ]
+  },
+  "integration_requirements": {
+    "edb_integration": {
+      "description": "Integration with Education Bureau systems",
+      "endpoints": [
+        "School registration verification",
+        "Official institution data sync",
+        "Compliance reporting"
+      ]
+    },
+    "government_apis": {
+      "geoinfo_map": "Government GIS services for location mapping",
+      "postcode_lookup": "Hong Kong postal code validation",
+      "district_boundaries": "Official district boundary data"
+    }
+  },
+  "performance_requirements": {
+    "response_time": "< 200ms for API calls, < 3s for page load",
+    "availability": "99.9% uptime",
+    "scalability": "Support for 10,000+ concurrent users",
+    "mobile_performance": "Lighthouse score > 90"
+  },
+  "development_workflow": {
+    "version_control": "Git with GitFlow branching strategy",
+    "ci_cd": "GitHub Actions / GitLab CI",
+    "testing": [
+      "Unit tests (Jest)",
+      "Integration tests (Supertest)",
+      "E2E tests (Playwright)"
+    ],
+    "code_quality": [
+      "ESLint + Prettier",
+      "SonarQube",
+      "Automated security scanning"
+    ]
+  }
+}

@@ -1,0 +1,637 @@
+{
+  "database_name": "hk_playgroup_prenursery_system",
+  "description": "Comprehensive database for Hong Kong playgroups and pre-nursery institutions",
+  "tables": {
+    "institutions": {
+      "description": "Main table for playgroups and pre-nursery institutions",
+      "fields": {
+        "institution_id": {
+          "type": "INTEGER",
+          "primary_key": true,
+          "auto_increment": true
+        },
+        "school_no": {
+          "type": "VARCHAR(10)",
+          "unique": true,
+          "description": "Official school registration number"
+        },
+        "institution_name_en": {
+          "type": "VARCHAR(255)",
+          "required": true
+        },
+        "institution_name_zh": {
+          "type": "VARCHAR(255)",
+          "required": true
+        },
+        "institution_type": {
+          "type": "ENUM",
+          "values": [
+            "playgroup",
+            "pre_nursery",
+            "nursery",
+            "kindergarten",
+            "kindergarten_cum_childcare"
+          ],
+          "required": true
+        },
+        "category": {
+          "type": "ENUM",
+          "values": [
+            "non_profit_making",
+            "private_independent"
+          ],
+          "required": true
+        },
+        "joining_kg_education_scheme": {
+          "type": "BOOLEAN",
+          "default": false
+        },
+        "district": {
+          "type": "ENUM",
+          "values": [
+            "Central_Western",
+            "Eastern",
+            "Islands",
+            "Kowloon_City",
+            "Kwai_Tsing",
+            "Kwun_Tong",
+            "North",
+            "Sai_Kung",
+            "Sham_Shui_Po",
+            "Sha_Tin",
+            "Southern",
+            "Tai_Po",
+            "Tsuen_Wan",
+            "Tuen_Mun",
+            "Wan_Chai",
+            "Wong_Tai_Sin",
+            "Yau_Tsim_Mong",
+            "Yuen_Long"
+          ],
+          "required": true
+        },
+        "address_en": {
+          "type": "TEXT",
+          "required": true
+        },
+        "address_zh": {
+          "type": "TEXT",
+          "required": true
+        },
+        "latitude": {
+          "type": "DECIMAL(10,8)",
+          "description": "GPS coordinate"
+        },
+        "longitude": {
+          "type": "DECIMAL(11,8)",
+          "description": "GPS coordinate"
+        },
+        "phone": {
+          "type": "VARCHAR(20)"
+        },
+        "fax": {
+          "type": "VARCHAR(20)"
+        },
+        "email": {
+          "type": "VARCHAR(255)"
+        },
+        "website": {
+          "type": "VARCHAR(255)"
+        },
+        "established_year": {
+          "type": "INTEGER"
+        },
+        "registration_status": {
+          "type": "ENUM",
+          "values": [
+            "registered",
+            "provisional",
+            "pending"
+          ]
+        },
+        "registration_date": {
+          "type": "DATE"
+        },
+        "curriculum_type": {
+          "type": "ENUM",
+          "values": [
+            "local",
+            "non_local",
+            "local_and_non_local"
+          ]
+        },
+        "is_active": {
+          "type": "BOOLEAN",
+          "default": true
+        },
+        "created_at": {
+          "type": "TIMESTAMP",
+          "default": "CURRENT_TIMESTAMP"
+        },
+        "updated_at": {
+          "type": "TIMESTAMP",
+          "default": "CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"
+        }
+      }
+    },
+    "programs": {
+      "description": "Programs offered by institutions",
+      "fields": {
+        "program_id": {
+          "type": "INTEGER",
+          "primary_key": true,
+          "auto_increment": true
+        },
+        "institution_id": {
+          "type": "INTEGER",
+          "foreign_key": "institutions.institution_id",
+          "required": true
+        },
+        "program_name_en": {
+          "type": "VARCHAR(255)",
+          "required": true
+        },
+        "program_name_zh": {
+          "type": "VARCHAR(255)",
+          "required": true
+        },
+        "program_type": {
+          "type": "ENUM",
+          "values": [
+            "playgroup",
+            "toddler",
+            "infant",
+            "pre_nursery",
+            "nursery",
+            "lower_kg",
+            "upper_kg"
+          ]
+        },
+        "age_group_min": {
+          "type": "INTEGER",
+          "description": "Minimum age in months"
+        },
+        "age_group_max": {
+          "type": "INTEGER",
+          "description": "Maximum age in months"
+        },
+        "session_type": {
+          "type": "ENUM",
+          "values": [
+            "half_day_am",
+            "half_day_pm",
+            "whole_day",
+            "extended_hours"
+          ]
+        },
+        "language_medium": {
+          "type": "SET",
+          "values": [
+            "english",
+            "chinese",
+            "mandarin",
+            "cantonese",
+            "trilingual"
+          ]
+        },
+        "class_size": {
+          "type": "INTEGER"
+        },
+        "teacher_student_ratio": {
+          "type": "VARCHAR(10)",
+          "description": "e.g., 1:8"
+        },
+        "fees_per_month": {
+          "type": "DECIMAL(10,2)"
+        },
+        "fees_per_annum": {
+          "type": "DECIMAL(10,2)"
+        },
+        "application_fee": {
+          "type": "DECIMAL(10,2)"
+        },
+        "registration_fee": {
+          "type": "DECIMAL(10,2)"
+        },
+        "meal_service": {
+          "type": "BOOLEAN",
+          "default": false
+        },
+        "transport_service": {
+          "type": "BOOLEAN",
+          "default": false
+        },
+        "special_needs_support": {
+          "type": "BOOLEAN",
+          "default": false
+        },
+        "non_chinese_speaking_support": {
+          "type": "BOOLEAN",
+          "default": false
+        },
+        "is_active": {
+          "type": "BOOLEAN",
+          "default": true
+        }
+      }
+    },
+    "facilities": {
+      "description": "Facilities available at institutions",
+      "fields": {
+        "facility_id": {
+          "type": "INTEGER",
+          "primary_key": true,
+          "auto_increment": true
+        },
+        "institution_id": {
+          "type": "INTEGER",
+          "foreign_key": "institutions.institution_id",
+          "required": true
+        },
+        "facility_type": {
+          "type": "ENUM",
+          "values": [
+            "classroom",
+            "outdoor_playground",
+            "indoor_playground",
+            "music_room",
+            "art_room",
+            "library",
+            "computer_room",
+            "kitchen",
+            "nursery_room",
+            "medical_room",
+            "office"
+          ]
+        },
+        "facility_name": {
+          "type": "VARCHAR(255)"
+        },
+        "capacity": {
+          "type": "INTEGER"
+        },
+        "area_sqm": {
+          "type": "DECIMAL(10,2)"
+        },
+        "description_en": {
+          "type": "TEXT"
+        },
+        "description_zh": {
+          "type": "TEXT"
+        }
+      }
+    },
+    "staff": {
+      "description": "Staff information for institutions",
+      "fields": {
+        "staff_id": {
+          "type": "INTEGER",
+          "primary_key": true,
+          "auto_increment": true
+        },
+        "institution_id": {
+          "type": "INTEGER",
+          "foreign_key": "institutions.institution_id",
+          "required": true
+        },
+        "staff_name_en": {
+          "type": "VARCHAR(255)",
+          "required": true
+        },
+        "staff_name_zh": {
+          "type": "VARCHAR(255)"
+        },
+        "position": {
+          "type": "ENUM",
+          "values": [
+            "principal",
+            "vice_principal",
+            "teacher",
+            "assistant_teacher",
+            "teaching_assistant",
+            "nurse",
+            "admin",
+            "support_staff"
+          ]
+        },
+        "qualifications": {
+          "type": "TEXT",
+          "description": "JSON array of qualifications"
+        },
+        "experience_years": {
+          "type": "INTEGER"
+        },
+        "languages": {
+          "type": "SET",
+          "values": [
+            "english",
+            "cantonese",
+            "mandarin",
+            "other"
+          ]
+        },
+        "specializations": {
+          "type": "TEXT",
+          "description": "JSON array of specializations"
+        },
+        "is_active": {
+          "type": "BOOLEAN",
+          "default": true
+        }
+      }
+    },
+    "applications": {
+      "description": "Application submissions from parents",
+      "fields": {
+        "application_id": {
+          "type": "INTEGER",
+          "primary_key": true,
+          "auto_increment": true
+        },
+        "institution_id": {
+          "type": "INTEGER",
+          "foreign_key": "institutions.institution_id",
+          "required": true
+        },
+        "program_id": {
+          "type": "INTEGER",
+          "foreign_key": "programs.program_id",
+          "required": true
+        },
+        "child_name_en": {
+          "type": "VARCHAR(255)",
+          "required": true
+        },
+        "child_name_zh": {
+          "type": "VARCHAR(255)"
+        },
+        "child_dob": {
+          "type": "DATE",
+          "required": true
+        },
+        "child_gender": {
+          "type": "ENUM",
+          "values": [
+            "male",
+            "female"
+          ]
+        },
+        "parent_name": {
+          "type": "VARCHAR(255)",
+          "required": true
+        },
+        "parent_phone": {
+          "type": "VARCHAR(20)",
+          "required": true
+        },
+        "parent_email": {
+          "type": "VARCHAR(255)",
+          "required": true
+        },
+        "address": {
+          "type": "TEXT"
+        },
+        "preferred_start_date": {
+          "type": "DATE"
+        },
+        "application_status": {
+          "type": "ENUM",
+          "values": [
+            "submitted",
+            "under_review",
+            "interview_scheduled",
+            "accepted",
+            "rejected",
+            "waitlisted"
+          ],
+          "default": "submitted"
+        },
+        "notes": {
+          "type": "TEXT"
+        },
+        "submitted_at": {
+          "type": "TIMESTAMP",
+          "default": "CURRENT_TIMESTAMP"
+        },
+        "updated_at": {
+          "type": "TIMESTAMP",
+          "default": "CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"
+        }
+      }
+    },
+    "reviews": {
+      "description": "Parent reviews and ratings",
+      "fields": {
+        "review_id": {
+          "type": "INTEGER",
+          "primary_key": true,
+          "auto_increment": true
+        },
+        "institution_id": {
+          "type": "INTEGER",
+          "foreign_key": "institutions.institution_id",
+          "required": true
+        },
+        "parent_name": {
+          "type": "VARCHAR(255)"
+        },
+        "parent_email": {
+          "type": "VARCHAR(255)"
+        },
+        "rating": {
+          "type": "INTEGER",
+          "min": 1,
+          "max": 5,
+          "required": true
+        },
+        "title": {
+          "type": "VARCHAR(255)"
+        },
+        "review_text": {
+          "type": "TEXT"
+        },
+        "is_verified": {
+          "type": "BOOLEAN",
+          "default": false
+        },
+        "is_published": {
+          "type": "BOOLEAN",
+          "default": false
+        },
+        "created_at": {
+          "type": "TIMESTAMP",
+          "default": "CURRENT_TIMESTAMP"
+        }
+      }
+    },
+    "districts": {
+      "description": "Hong Kong district information",
+      "fields": {
+        "district_id": {
+          "type": "INTEGER",
+          "primary_key": true,
+          "auto_increment": true
+        },
+        "district_code": {
+          "type": "VARCHAR(10)",
+          "unique": true
+        },
+        "district_name_en": {
+          "type": "VARCHAR(100)",
+          "required": true
+        },
+        "district_name_zh": {
+          "type": "VARCHAR(100)",
+          "required": true
+        },
+        "region": {
+          "type": "ENUM",
+          "values": [
+            "Hong_Kong_Island",
+            "Kowloon",
+            "New_Territories"
+          ]
+        },
+        "area_sqkm": {
+          "type": "DECIMAL(10,2)"
+        },
+        "population": {
+          "type": "INTEGER"
+        }
+      }
+    },
+    "search_logs": {
+      "description": "Track user search behavior for analytics",
+      "fields": {
+        "log_id": {
+          "type": "INTEGER",
+          "primary_key": true,
+          "auto_increment": true
+        },
+        "search_query": {
+          "type": "VARCHAR(500)"
+        },
+        "filters_applied": {
+          "type": "JSON",
+          "description": "JSON object of applied filters"
+        },
+        "results_count": {
+          "type": "INTEGER"
+        },
+        "user_ip": {
+          "type": "VARCHAR(45)"
+        },
+        "user_agent": {
+          "type": "TEXT"
+        },
+        "search_timestamp": {
+          "type": "TIMESTAMP",
+          "default": "CURRENT_TIMESTAMP"
+        }
+      }
+    },
+    "admins": {
+      "description": "System administrators",
+      "fields": {
+        "admin_id": {
+          "type": "INTEGER",
+          "primary_key": true,
+          "auto_increment": true
+        },
+        "username": {
+          "type": "VARCHAR(50)",
+          "unique": true,
+          "required": true
+        },
+        "email": {
+          "type": "VARCHAR(255)",
+          "unique": true,
+          "required": true
+        },
+        "password_hash": {
+          "type": "VARCHAR(255)",
+          "required": true
+        },
+        "role": {
+          "type": "ENUM",
+          "values": [
+            "super_admin",
+            "admin",
+            "moderator"
+          ]
+        },
+        "is_active": {
+          "type": "BOOLEAN",
+          "default": true
+        },
+        "last_login": {
+          "type": "TIMESTAMP"
+        },
+        "created_at": {
+          "type": "TIMESTAMP",
+          "default": "CURRENT_TIMESTAMP"
+        }
+      }
+    }
+  },
+  "indexes": {
+    "institutions": [
+      "district",
+      "institution_type",
+      "category",
+      "is_active"
+    ],
+    "programs": [
+      "institution_id",
+      "program_type",
+      "age_group_min",
+      "age_group_max"
+    ],
+    "applications": [
+      "institution_id",
+      "application_status",
+      "submitted_at"
+    ],
+    "reviews": [
+      "institution_id",
+      "rating",
+      "is_published"
+    ],
+    "search_logs": [
+      "search_timestamp",
+      "user_ip"
+    ]
+  },
+  "relationships": [
+    {
+      "from": "programs.institution_id",
+      "to": "institutions.institution_id",
+      "type": "one_to_many"
+    },
+    {
+      "from": "facilities.institution_id",
+      "to": "institutions.institution_id",
+      "type": "one_to_many"
+    },
+    {
+      "from": "staff.institution_id",
+      "to": "institutions.institution_id",
+      "type": "one_to_many"
+    },
+    {
+      "from": "applications.institution_id",
+      "to": "institutions.institution_id",
+      "type": "many_to_one"
+    },
+    {
+      "from": "applications.program_id",
+      "to": "programs.program_id",
+      "type": "many_to_one"
+    },
+    {
+      "from": "reviews.institution_id",
+      "to": "institutions.institution_id",
+      "type": "many_to_one"
+    }
+  ]
+}

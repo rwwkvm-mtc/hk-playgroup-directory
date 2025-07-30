@@ -1,0 +1,223 @@
+{
+  "user_flows": {
+    "parent_search_flow": {
+      "title": "Parent Searching for Playgroup/Pre-nursery",
+      "description": "Primary user journey for parents looking for early childhood education options",
+      "user_persona": "Working parent with 18-36 month old child",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Landing on homepage",
+          "description": "Parent arrives at website via search engine or referral",
+          "page": "Homepage",
+          "user_goals": [
+            "Understand what the site offers",
+            "Find search functionality"
+          ],
+          "success_criteria": [
+            "Clear value proposition visible",
+            "Search bar prominent",
+            "Language toggle available"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "Initial search",
+          "description": "Parent enters basic search criteria",
+          "page": "Search interface",
+          "user_goals": [
+            "Find options near home/work",
+            "See relevant programs for child's age"
+          ],
+          "inputs": [
+            "District/location",
+            "Child age",
+            "Preferred language"
+          ],
+          "success_criteria": [
+            "Intuitive search interface",
+            "Quick search suggestions",
+            "Mobile-friendly input"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "Browse search results",
+          "description": "Parent reviews list of matching institutions",
+          "page": "Search results",
+          "user_goals": [
+            "Compare options",
+            "Filter by preferences",
+            "Quick overview of key info"
+          ],
+          "features": [
+            "Map view toggle",
+            "Sort options",
+            "Filter sidebar",
+            "Save favorites"
+          ],
+          "success_criteria": [
+            "Fast loading",
+            "Clear information hierarchy",
+            "Easy comparison"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "View institution details",
+          "description": "Parent clicks on interesting institution for more information",
+          "page": "Institution detail page",
+          "user_goals": [
+            "Get comprehensive information",
+            "See photos",
+            "Read reviews",
+            "Check availability"
+          ],
+          "key_info": [
+            "Programs offered",
+            "Fees",
+            "Facilities",
+            "Teacher qualifications",
+            "Contact info"
+          ],
+          "success_criteria": [
+            "Complete information displayed",
+            "High-quality photos",
+            "Clear contact methods"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "Submit application or inquiry",
+          "description": "Parent decides to apply or requests more information",
+          "page": "Application form",
+          "user_goals": [
+            "Easy application process",
+            "Clear requirements",
+            "Quick response"
+          ],
+          "required_info": [
+            "Child details",
+            "Parent contact",
+            "Preferred start date",
+            "Special requirements"
+          ],
+          "success_criteria": [
+            "Simple form",
+            "Clear instructions",
+            "Confirmation message"
+          ]
+        }
+      ],
+      "alternative_flows": [
+        "Parent uses map-based search instead of text search",
+        "Parent filters by specific criteria (fees, language, etc.)",
+        "Parent compares multiple institutions side-by-side"
+      ]
+    },
+    "institution_admin_flow": {
+      "title": "Institution Administrator Managing Listing",
+      "description": "Institution staff updating their information and managing applications",
+      "user_persona": "Playgroup administrator or teacher",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Login to admin dashboard",
+          "description": "Admin accesses their institution's management portal",
+          "page": "Admin login",
+          "security": [
+            "Secure authentication",
+            "Role-based access",
+            "Session management"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "Update institution information",
+          "description": "Admin maintains current information about programs and facilities",
+          "page": "Institution management",
+          "editable_fields": [
+            "Programs",
+            "Fees",
+            "Schedule",
+            "Staff info",
+            "Photos",
+            "Facilities"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "Manage applications",
+          "description": "Admin reviews and responds to parent applications",
+          "page": "Application management",
+          "features": [
+            "Application list",
+            "Status updates",
+            "Communication tools",
+            "Waitlist management"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "View analytics",
+          "description": "Admin checks website traffic and engagement metrics",
+          "page": "Analytics dashboard",
+          "metrics": [
+            "Page views",
+            "Application conversion",
+            "Popular search terms",
+            "Geographic distribution"
+          ]
+        }
+      ]
+    }
+  },
+  "wireframes": {
+    "homepage": {
+      "components": [
+        "Header with logo and language toggle",
+        "Hero section with main search bar",
+        "Quick filter buttons (district, age, type)",
+        "Featured institutions carousel",
+        "How it works section",
+        "Footer with links and contact info"
+      ],
+      "mobile_considerations": [
+        "Collapsible navigation menu",
+        "Touch-friendly search inputs",
+        "Swipeable featured sections",
+        "Sticky search button"
+      ]
+    },
+    "search_results": {
+      "components": [
+        "Search bar with applied filters",
+        "Results count and sort options",
+        "Filter sidebar (collapsible on mobile)",
+        "Institution cards with key info",
+        "Map view toggle",
+        "Pagination"
+      ],
+      "institution_card_info": [
+        "Institution name (English/Chinese)",
+        "District and address",
+        "Age groups served",
+        "Session types available",
+        "Starting fees",
+        "Rating and review count",
+        "Distance from user location"
+      ]
+    },
+    "institution_detail": {
+      "components": [
+        "Institution header with name and photos",
+        "Contact information and location map",
+        "Programs offered table",
+        "Facilities and amenities list",
+        "Staff information",
+        "Parent reviews section",
+        "Application form or inquiry button"
+      ]
+    }
+  }
+}

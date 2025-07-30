@@ -1,0 +1,50 @@
+{
+  "name": "hk-playgroup-directory",
+  "version": "1.0.0",
+  "description": "A comprehensive web application designed to help parents in Hong Kong find and apply to early childhood education programs",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve . -p 8000",
+    "dev": "npx live-server --port=8000 --open=/",
+    "build": "echo 'Static site - no build step required'",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'No linting configured'",
+    "format": "echo 'No formatting configured'",
+    "deploy": "echo 'Deploy to your preferred hosting service'"
+  },
+  "keywords": [
+    "hong-kong",
+    "playgroup",
+    "pre-nursery",
+    "education",
+    "directory",
+    "parenting",
+    "childcare",
+    "bilingual",
+    "responsive",
+    "web-app"
+  ],
+  "author": "Hong Kong Playgroup Directory Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/hk-playgroup-directory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/hk-playgroup-directory/issues"
+  },
+  "homepage": "https://github.com/yourusername/hk-playgroup-directory#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+} 

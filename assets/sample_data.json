@@ -1,0 +1,62 @@
+{
+  "institutions": [
+    {
+      "institution_name_en": "Happy Kids Playgroup",
+      "institution_name_zh": "快樂小孩遊戲小組",
+      "institution_type": "playgroup",
+      "category": "non_profit_making",
+      "district": "Central_Western",
+      "address_en": "Unit 12A, Central Plaza, 18 Harbour Road, Central",
+      "address_zh": "中環港灣道18號中環廣場12A室",
+      "phone": "2234-5678",
+      "email": "info@happykids.hk",
+      "established_year": 2018
+    },
+    {
+      "institution_name_en": "Little Scholars Pre-Nursery",
+      "institution_name_zh": "小學者學前班",
+      "institution_type": "pre_nursery",
+      "category": "private_independent",
+      "district": "Wan_Chai",
+      "address_en": "5/F, Landmark Building, 123 Queen's Road East, Wan Chai",
+      "address_zh": "灣仔皇后大道東123號地標大廈5樓",
+      "phone": "2345-6789",
+      "email": "contact@littlescholars.hk",
+      "established_year": 2015
+    }
+  ],
+  "programs": [
+    {
+      "institution_id": 1,
+      "program_name_en": "Toddler Exploration",
+      "program_name_zh": "幼兒探索班",
+      "program_type": "toddler",
+      "age_group_min": 18,
+      "age_group_max": 36,
+      "session_type": "half_day_am",
+      "language_medium": [
+        "english",
+        "cantonese"
+      ],
+      "class_size": 12,
+      "teacher_student_ratio": "1:6",
+      "fees_per_month": 2800.0
+    },
+    {
+      "institution_id": 2,
+      "program_name_en": "Pre-K Readiness",
+      "program_name_zh": "學前準備班",
+      "program_type": "pre_nursery",
+      "age_group_min": 24,
+      "age_group_max": 42,
+      "session_type": "whole_day",
+      "language_medium": [
+        "english",
+        "mandarin"
+      ],
+      "class_size": 15,
+      "teacher_student_ratio": "1:8",
+      "fees_per_month": 4200.0
+    }
+  ]
+}
