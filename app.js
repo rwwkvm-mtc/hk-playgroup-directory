@@ -861,9 +861,15 @@ function quickFilter(type, value) {
 function applyFilters() {
   let filtered = [...appData.institutions];
   
-  // Debug: Log total institutions and Sha Tin institutions
+  // Debug: Log total institutions and district breakdown
   console.log('Total institutions:', filtered.length);
   console.log('Sha Tin institutions:', filtered.filter(inst => inst.district === 'Sha Tin').length);
+  console.log('Central & Western institutions:', filtered.filter(inst => inst.district === 'Central & Western').length);
+  console.log('Wan Chai institutions:', filtered.filter(inst => inst.district === 'Wan Chai').length);
+  
+  // Log all districts present
+  const districts = [...new Set(filtered.map(inst => inst.district))];
+  console.log('All districts in data:', districts);
   
   // Apply search filter
   if (activeFilters.search) {
@@ -874,12 +880,15 @@ function applyFilters() {
       inst.district.toLowerCase().includes(searchLower) ||
       inst.address.toLowerCase().includes(searchLower)
     );
+    console.log('After search filter:', filtered.length, 'institutions');
   }
   
   // Apply district filter
   if (activeFilters.district) {
+    console.log('Filtering by district:', activeFilters.district);
     filtered = filtered.filter(inst => inst.district === activeFilters.district);
     console.log('After district filter:', filtered.length, 'institutions');
+    console.log('Filtered institutions:', filtered.map(inst => inst.name_en));
   }
   
   // Apply type filters
