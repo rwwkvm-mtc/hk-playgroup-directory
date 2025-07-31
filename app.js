@@ -1955,6 +1955,7 @@ function applyFilters() {
   console.log('Central & Western institutions:', filtered.filter(inst => inst.district === 'Central & Western').length);
   console.log('Eastern institutions:', filtered.filter(inst => inst.district === 'Eastern').length);
   console.log('Wan Chai institutions:', filtered.filter(inst => inst.district === 'Wan Chai').length);
+  console.log('Islands institutions:', filtered.filter(inst => inst.district === 'Islands').length); // Added for Islands fix
   
   // Log all districts present
   const districts = [...new Set(filtered.map(inst => inst.district))];
