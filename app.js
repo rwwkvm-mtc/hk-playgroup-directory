@@ -868,10 +868,6 @@ function createInstitutionCard(institution) {
         </div>
       </div>
       <div class="institution-footer">
-        <div class="rating">
-          <div class="stars">${generateStars(institution.rating)}</div>
-          <span class="review-count">(${institution.reviews})</span>
-        </div>
         <div class="fees">${formatCurrency(institution.fees)}/mo</div>
         <button class="favorite-btn ${isFavorite ? 'active' : ''}" onclick="event.stopPropagation(); toggleFavorite(${institution.id})">
           <i class="fas fa-heart"></i>
@@ -893,21 +889,6 @@ function displayInstitutionDetail(institution) {
   const container = document.getElementById('detail-content');
   if (!container) return;
   
-  const sampleReviews = [
-    {
-      name: currentLanguage === 'zh' ? '陳太太' : 'Mrs. Chan',
-      date: '2024-01-15',
-      rating: 5,
-      comment: currentLanguage === 'zh' ? '非常好的環境，老師很有愛心，孩子很喜歡。' : 'Excellent environment, caring teachers, my child loves it.'
-    },
-    {
-      name: currentLanguage === 'zh' ? '李先生' : 'Mr. Lee',
-      date: '2024-01-10',
-      rating: 4,
-      comment: currentLanguage === 'zh' ? '設施完善，課程豐富，值得推薦。' : 'Great facilities and diverse programs, highly recommended.'
-    }
-  ];
-  
   container.innerHTML = `
     <nav class="breadcrumb">
       <ul class="breadcrumb-list">
@@ -926,10 +907,6 @@ function displayInstitutionDetail(institution) {
     <div class="detail-header">
       <h1>${getInstitutionName(institution)}</h1>
       <p class="detail-subtitle">${institution.district} • ${translate(institution.type)}</p>
-      <div class="rating">
-        <div class="stars">${generateStars(institution.rating)}</div>
-        <span>(${institution.reviews} ${translate('reviews')})</span>
-      </div>
     </div>
 
     <div class="detail-section">
@@ -1000,23 +977,7 @@ function displayInstitutionDetail(institution) {
       </div>
     </div>
 
-    <div class="detail-section">
-      <h3><i class="fas fa-comments"></i> ${translate('Parent Reviews')}</h3>
-      <div class="reviews-list">
-        ${sampleReviews.map(review => `
-          <div class="review-item">
-            <div class="review-header">
-              <div class="reviewer-name">${review.name}</div>
-              <div class="review-date">${review.date}</div>
-            </div>
-            <div class="rating">
-              <div class="stars">${generateStars(review.rating)}</div>
-            </div>
-            <p>${review.comment}</p>
-          </div>
-        `).join('')}
-      </div>
-    </div>
+
 
     <div class="detail-section">
       <h3><i class="fas fa-paper-plane"></i> ${translate('Apply Now')}</h3>
