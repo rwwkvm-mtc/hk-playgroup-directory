@@ -1449,6 +1449,7 @@ function applyFilters() {
   console.log('Total institutions:', filtered.length);
   console.log('Sha Tin institutions:', filtered.filter(inst => inst.district === 'Sha Tin').length);
   console.log('Central & Western institutions:', filtered.filter(inst => inst.district === 'Central & Western').length);
+  console.log('Eastern institutions:', filtered.filter(inst => inst.district === 'Eastern').length);
   console.log('Wan Chai institutions:', filtered.filter(inst => inst.district === 'Wan Chai').length);
   
   // Log all districts present
