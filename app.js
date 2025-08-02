@@ -4617,7 +4617,7 @@ let activeFilters = {
   district: '',
   types: [],
   languages: [],
-  fees: 10000,
+  fees: 200000,
   search: ''
 };
 let selectedInstitution = null;
