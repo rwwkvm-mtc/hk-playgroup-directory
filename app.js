@@ -3419,6 +3419,268 @@ const appData = {
       "reviews": 48,
       "facilities": ["Award-winning children's programme combining sports, dance, early childhood development, kinesiology, gymnastics", "Fine motor skills development through puppet shows, dance, songs", "$480 drop-in class, packages from $288/class, trial $380 for new students", "Founded California 1983", "Energetic teaching team", "Builds confidence through meaningful play"],
       "description": "Award-winning children's programme combining sports, dance, early childhood development, kinesiology, gymnastics. Fine motor skills development through puppet shows, dance, songs."
+    },
+
+    // NORTH DISTRICT - PRE-NURSERY PROGRAMS
+    {
+      "id": 171,
+      "name_en": "New Territories Women & Juveniles Welfare Association Fanling Nursery School",
+      "name_zh": "新界婦孺福利會粉嶺幼兒學校",
+      "district": "North",
+      "address": "G/F, Wing B & C, Chun King House, King Shing Court, Fanling, New Territories",
+      "address_zh": "新界粉嶺景盛苑俊景閣B及C翼地下",
+      "phone": "2682-0877",
+      "email": "fl@ntwjwaflns.edu.hk",
+      "website": "ntwjwaflns.edu.hk",
+      "type": "Pre-nursery",
+      "age_range": "2-6 years",
+      "session_types": ["Whole-day"],
+      "language": ["Cantonese", "English"],
+      "fees": 1230,
+      "rating": 4.4,
+      "reviews": 52,
+      "facilities": ["N class (2-3 years): Non-profit whole-day pre-primary education", "Holistic child development through stimulating curriculum", "Founded 1996", "NTWJWA operated", "Serves over 700 children aged 2-6", "Integrated programme", "Registration fee $1,500", "Mon-Fri: 8:00am-6:00pm"],
+      "description": "N class (2-3 years): Non-profit whole-day pre-primary education, holistic child development through stimulating curriculum. Founded 1996, serves over 700 children aged 2-6."
+    },
+    {
+      "id": 172,
+      "name_en": "New Territories Women & Juveniles Welfare Association Sheung Shui Nursery School",
+      "name_zh": "新界婦孺福利會上水幼兒學校",
+      "district": "North",
+      "address": "5/F, North District Community Centre, 2 Lung Wan Street, Sheung Shui, New Territories",
+      "address_zh": "新界上水龍運街2號北區社區會堂5樓",
+      "phone": "2672-5710",
+      "email": "ss@ntwjwassns.edu.hk",
+      "website": "ntwjwassns.edu.hk",
+      "type": "Pre-nursery",
+      "age_range": "2-6 years",
+      "session_types": ["Whole-day"],
+      "language": ["Cantonese", "English"],
+      "fees": 1230,
+      "rating": 4.3,
+      "reviews": 48,
+      "facilities": ["N class (2-3 years): Whole-day nursery program", "Quality pre-school education developing intellectual, physical, language, social, emotional abilities", "Founded 1965", "Integrated programme", "School social worker", "Speech therapy", "Occasional child care services", "N (Whole-day): $815/month school fee + $415/month meal charge = $1,230/month total (after government subsidy)"],
+      "description": "N class (2-3 years): Whole-day nursery program, quality pre-school education developing intellectual, physical, language, social, emotional abilities. Founded 1965, integrated programme."
+    },
+    {
+      "id": 173,
+      "name_en": "Caritas Nursery School - Ta Kwu Ling",
+      "name_zh": "明愛打鼓嶺幼兒學校",
+      "district": "North",
+      "address": "G/F, Caritas Ta Kwu Ling Centre, Ping Che Road, Ta Kwu Ling, Fanling, New Territories",
+      "address_zh": "新界粉嶺打鼓嶺坪輋路明愛打鼓嶺中心地下",
+      "phone": "2674-3207",
+      "email": "cctkl@caritassws.org.hk",
+      "website": "tklns.caritas.org.hk",
+      "type": "Pre-nursery",
+      "age_range": "2-6 years",
+      "session_types": ["Whole-day"],
+      "language": ["Cantonese", "English"],
+      "fees": 2509,
+      "rating": 4.5,
+      "reviews": 56,
+      "facilities": ["N class (2-3 years): Catholic education emphasizing 5 Core Values: Truth, Justice, Love, Life, Family", "Enquiry, expressive, exploratory, experiential learning", "Founded 1967", "1:6.4 teacher ratio", "121 capacity", "5 classrooms", "Outdoor/indoor playgrounds", "Principal: Mr Wong Ansen", "Supervisor: Madam Leung Chi Kin Gloria"],
+      "description": "N class (2-3 years): Catholic education emphasizing 5 Core Values: Truth, Justice, Love, Life, Family. Enquiry, expressive, exploratory, experiential learning. Founded 1967."
+    },
+    {
+      "id": 174,
+      "name_en": "The Fanling Assemblies of God Kindergarten",
+      "name_zh": "粉嶺神召會幼稚園",
+      "district": "North",
+      "address": "301 Jockey Club Road, Fanling, New Territories",
+      "address_zh": "新界粉嶺馬會道301號",
+      "phone": "2669-8202",
+      "email": "office@aogkg.edu.hk",
+      "website": "aogkg.edu.hk",
+      "type": "Pre-nursery",
+      "age_range": "3-6 years",
+      "session_types": ["Half-day AM", "Half-day PM", "Whole-day"],
+      "language": ["English", "Cantonese"],
+      "fees": 3800,
+      "rating": 4.2,
+      "reviews": 42,
+      "facilities": ["Christian-based kindergarten education for children aged 2-6 years", "Curriculum designed for social, physical, spiritual skills development", "Founded 1962", "616 capacity", "9 classrooms", "28 teaching staff", "1:9.6 teacher ratio", "100% degree holders", "Principal: Ms Wan Man Ling", "Contact: Vice Principal Ms. Hung for enquiries"],
+      "description": "Christian-based kindergarten education for children aged 2-6 years, curriculum designed for social, physical, spiritual skills development. Founded 1962, 616 capacity."
+    },
+    {
+      "id": 175,
+      "name_en": "Gloria Creative Kindergarten / International Nursery (Sheung Shui Campus)",
+      "name_zh": "耀基創藝幼稚園/國際幼兒園（上水校園）",
+      "district": "North",
+      "address": "Unit 23-24, G/F Commercial Complex, contact school for exact address",
+      "address_zh": "地下商業綜合大樓23-24號單位，聯絡學校查詢確實地址",
+      "phone": "Contact for details",
+      "email": "info@gciedu.hk",
+      "website": "gciedu.hk",
+      "type": "Pre-nursery",
+      "age_range": "2-6 years",
+      "session_types": ["Half-day AM", "Whole-day"],
+      "language": ["English", "Cantonese"],
+      "fees": 3200,
+      "rating": 4.3,
+      "reviews": 38,
+      "facilities": ["PN (Pre-Nursery N1): 2-3 years", "Christian-based education with Happy Learning, Meaningful Learning, Creative Learning, Effective Learning philosophy", "Bilingual education", "Parent education seminars", "Experiential learning activities", "Parent-child activity days", "PN (N1): AM Class 9:00am-11:45am, Whole day class 9:00am-4:30pm"],
+      "description": "PN (Pre-Nursery N1): 2-3 years, Christian-based education with Happy Learning, Meaningful Learning, Creative Learning, Effective Learning philosophy."
+    },
+    {
+      "id": 176,
+      "name_en": "Gloria Creative Kindergarten / International Nursery (Fanling Campus)",
+      "name_zh": "耀基創藝幼稚園/國際幼兒園（粉嶺校園）",
+      "district": "North",
+      "address": "Contact school for Fanling campus address",
+      "address_zh": "聯絡學校查詢粉嶺校園地址",
+      "phone": "Contact for details",
+      "email": "info@gciedu.hk",
+      "website": "gciedu.hk",
+      "type": "Pre-nursery",
+      "age_range": "2-6 years",
+      "session_types": ["Half-day AM", "Whole-day"],
+      "language": ["English", "Cantonese"],
+      "fees": 3200,
+      "rating": 4.3,
+      "reviews": 38,
+      "facilities": ["PN (Pre-Nursery N1): 2-3 years", "Christian-based early childhood education with artistic and creative expression focus", "Happy Learning philosophy", "Experiential learning activities outside classroom", "Child flag-guards activities", "PN (N1): AM Class 9:00am-11:45am, Whole day class 9:00am-4:30pm"],
+      "description": "PN (Pre-Nursery N1): 2-3 years, Christian-based early childhood education with artistic and creative expression focus."
+    },
+    {
+      "id": 177,
+      "name_en": "MAGART International Kindergarten (Fanling Campus)",
+      "name_zh": "瑪歌瑞特國際幼稚園（粉嶺校園）",
+      "district": "North",
+      "address": "G/F, Sites A & B, Phase 1, Central Plaza, 9 Fanling Station Road, Fanling, New Territories",
+      "address_zh": "新界粉嶺火車站路9號中心廣場第1期A及B座地下",
+      "phone": "2677-8109",
+      "email": "info@magartedu.com",
+      "website": "magartedu.com",
+      "type": "Pre-nursery",
+      "age_range": "2-6 years",
+      "session_types": ["Half-day AM", "Half-day PM", "Whole-day"],
+      "language": ["English", "Cantonese"],
+      "fees": 4500,
+      "rating": 4.5,
+      "reviews": 45,
+      "facilities": ["International kindergarten programs with potential Pre-Nursery services for 2-3 years", "EYFS curriculum", "Inquiry-based approach", "Over 50,000 sq.ft campus", "Outdoor learning area", "International curriculum", "Native teachers", "Close to Fanling MTR Station Exit A"],
+      "description": "International kindergarten programs with potential Pre-Nursery services for 2-3 years, EYFS curriculum, inquiry-based approach. Over 50,000 sq.ft campus."
+    },
+    {
+      "id": 178,
+      "name_en": "Fanling Baptist Church Lui Ming Choi Kindergarten",
+      "name_zh": "粉嶺浸信會呂明才幼稚園",
+      "district": "North",
+      "address": "Contact school for exact address in Fanling",
+      "address_zh": "聯絡學校查詢粉嶺確實地址",
+      "phone": "Contact for details",
+      "email": "info@fbc.edu.hk",
+      "website": "fbc.edu.hk",
+      "type": "Pre-nursery",
+      "age_range": "2-6 years",
+      "session_types": ["Half-day AM", "Half-day PM", "Whole-day"],
+      "language": ["English", "Cantonese"],
+      "fees": 3500,
+      "rating": 4.2,
+      "reviews": 35,
+      "facilities": ["Pre-Nursery programs for 2-3 years", "Baptist church-based education with comprehensive educational system", "Strong foundation of faith in daily learning routine", "Individualized teaching methods", "Library and computer labs", "Regular parent-teacher communication", "Workshops", "Parental involvement emphasis"],
+      "description": "Pre-Nursery programs for 2-3 years, Baptist church-based education with comprehensive educational system. Strong foundation of faith in daily learning routine."
+    },
+    {
+      "id": 179,
+      "name_en": "Yan Chai Hospital Wing Lung Kindergarten",
+      "name_zh": "仁濟醫院永隆幼稚園",
+      "district": "North",
+      "address": "Contact school for exact address in North District",
+      "address_zh": "聯絡學校查詢北區確實地址",
+      "phone": "Contact for details",
+      "email": "info@ychwl.org.hk",
+      "website": "ychwl.org.hk",
+      "type": "Pre-nursery",
+      "age_range": "2-6 years",
+      "session_types": ["Half-day AM", "Half-day PM", "Whole-day"],
+      "language": ["Cantonese", "English"],
+      "fees": 2800,
+      "rating": 4.1,
+      "reviews": 32,
+      "facilities": ["Kindergarten programs with potential Pre-Nursery services", "Comprehensive early childhood education approach", "Yan Chai Hospital operated", "Established community services", "Participates in rehabilitation and support services"],
+      "description": "Kindergarten programs with potential Pre-Nursery services, comprehensive early childhood education approach. Yan Chai Hospital operated."
+    },
+    {
+      "id": 180,
+      "name_en": "Sheung Shui Church Kindergarten",
+      "name_zh": "上水堂幼稚園",
+      "district": "North",
+      "address": "Contact school for exact address in Sheung Shui",
+      "address_zh": "聯絡學校查詢上水確實地址",
+      "phone": "Contact for details",
+      "email": "info@ssck.edu.hk",
+      "website": "ssck.edu.hk",
+      "type": "Pre-nursery",
+      "age_range": "2-6 years",
+      "session_types": ["Half-day AM", "Half-day PM", "Whole-day"],
+      "language": ["Cantonese", "English"],
+      "fees": 3000,
+      "rating": 4.0,
+      "reviews": 28,
+      "facilities": ["Church-based kindergarten programs", "Loving and supportive learning environment", "Character development focus", "Each child is unique, capable, and creative in their own unique manner", "Values such as love, kindness, respect, responsibility", "Child-friendly classrooms"],
+      "description": "Church-based kindergarten programs, loving and supportive learning environment, character development focus. Each child is unique, capable, and creative."
+    },
+    {
+      "id": 181,
+      "name_en": "Fung Kai Kindergarten",
+      "name_zh": "鳳溪幼稚園",
+      "district": "North",
+      "address": "No. 21 Jockey Club Road, Sheung Shui, New Territories",
+      "address_zh": "新界上水馬會道21號",
+      "phone": "Contact for details",
+      "email": "info@fungkai.edu.hk",
+      "website": "fungkai.edu.hk",
+      "type": "Pre-nursery",
+      "age_range": "2-6 years",
+      "session_types": ["Half-day AM", "Half-day PM", "Whole-day"],
+      "language": ["Cantonese", "English"],
+      "fees": 2800,
+      "rating": 4.1,
+      "reviews": 30,
+      "facilities": ["Kindergarten programs with potential Pre-Nursery services", "Participates in StartSmart@school.hk Campaign", "Established kindergarten in Sheung Shui area", "Participates in government education campaigns"],
+      "description": "Kindergarten programs with potential Pre-Nursery services, participates in StartSmart@school.hk Campaign. Established kindergarten in Sheung Shui area."
+    },
+    {
+      "id": 182,
+      "name_en": "Galilee International Kindergarten",
+      "name_zh": "加利利國際幼稚園",
+      "district": "North",
+      "address": "G/F, contact school for exact address",
+      "address_zh": "地下，聯絡學校查詢確實地址",
+      "phone": "Contact for details",
+      "email": "info@galilee.edu.hk",
+      "website": "galilee.edu.hk",
+      "type": "Pre-nursery",
+      "age_range": "2-6 years",
+      "session_types": ["Half-day AM", "Half-day PM", "Whole-day"],
+      "language": ["English", "Cantonese"],
+      "fees": 4200,
+      "rating": 4.3,
+      "reviews": 35,
+      "facilities": ["International kindergarten programs with potential Pre-Nursery services", "Participates in StartSmart@school.hk Campaign", "International curriculum approach", "Government campaign participant"],
+      "description": "International kindergarten programs with potential Pre-Nursery services, participates in StartSmart@school.hk Campaign. International curriculum approach."
+    },
+    {
+      "id": 183,
+      "name_en": "ESF Pre-Kindergarten Programs (Potential North District Service)",
+      "name_zh": "ESF學前幼稚園課程（潛在北區服務）",
+      "district": "North",
+      "address": "Main centers: Wan Chai, Tung Chung (contact for North District programs)",
+      "address_zh": "主要中心：灣仔、東涌（聯絡查詢北區課程）",
+      "phone": "Contact for details",
+      "email": "info@esf.edu.hk",
+      "website": "join-us.esf.edu.hk/ages/2-3-yo",
+      "type": "Pre-nursery",
+      "age_range": "2-3 years",
+      "session_types": ["Half-day AM", "Half-day PM", "Whole-day"],
+      "language": ["English"],
+      "fees": 4500,
+      "rating": 4.6,
+      "reviews": 42,
+      "facilities": ["ESF Pre-Kindergarten for ages 2-3 following EYFS framework", "Play-based inquiry approach", "Preparation for ESF pathway", "ESF network access", "International curriculum", "Seamless pathway to ESF primary and secondary schools"],
+      "description": "ESF Pre-Kindergarten for ages 2-3 following EYFS framework, play-based inquiry approach, preparation for ESF pathway. ESF network access."
     }
   ]
 };
@@ -3579,6 +3841,8 @@ function generateStars(rating) {
 
 // Navigation Functions
 function showPage(pageId) {
+  console.log('Showing page:', pageId);
+  
   // Hide all pages
   document.querySelectorAll('.page').forEach(page => {
     page.classList.remove('active');
@@ -3598,6 +3862,7 @@ function showPage(pageId) {
     
     // Initialize page-specific content
     if (pageId === 'search') {
+      console.log('Initializing search page...');
       initializeSearchPage();
     }
   }
@@ -3695,7 +3960,12 @@ function applyFilters() {
   
   // Apply type filters
   if (activeFilters.types.length > 0) {
+    console.log('Filtering by types:', activeFilters.types);
+    console.log('Before type filter:', filtered.length, 'institutions');
+    console.log('Available types:', [...new Set(filtered.map(inst => inst.type))]);
     filtered = filtered.filter(inst => activeFilters.types.includes(inst.type));
+    console.log('After type filter:', filtered.length, 'institutions');
+    console.log('Filtered institutions by type:', filtered.map(inst => inst.name_en));
   }
   
   // Apply language filters
@@ -4099,9 +4369,12 @@ function toggleCompare(institutionId) {
 
 // Initialize Functions
 function initializeSearchPage() {
+  console.log('Initializing search page...');
+  
   // Populate district filter
   const districtFilter = document.getElementById('district-filter');
   if (districtFilter && districtFilter.children.length <= 1) {
+    console.log('Populating district filter with:', appData.districts);
     appData.districts.forEach(district => {
       const option = document.createElement('option');
       option.value = district;
@@ -4117,6 +4390,7 @@ function initializeSearchPage() {
   
   // Apply initial filters
   searchResults = [...appData.institutions];
+  console.log('Initial search results:', searchResults.length, 'institutions');
   displaySearchResults();
   updateResultsCount();
 }
@@ -4126,7 +4400,9 @@ function setupFilterEventListeners() {
   const districtFilter = document.getElementById('district-filter');
   if (districtFilter) {
     districtFilter.addEventListener('change', (e) => {
+      console.log('District filter changed:', e.target.value);
       activeFilters.district = e.target.value;
+      console.log('Updated activeFilters.district:', activeFilters.district);
       applyFilters();
     });
   }
@@ -4161,6 +4437,8 @@ function setupFilterEventListeners() {
 
 function handleCheckboxChange(e) {
   const value = e.target.value;
+  console.log('Checkbox changed:', value, 'checked:', e.target.checked);
+  
   if (['Playgroup', 'Pre-nursery'].includes(value)) {
     if (e.target.checked) {
       if (!activeFilters.types.includes(value)) {
@@ -4169,6 +4447,7 @@ function handleCheckboxChange(e) {
     } else {
       activeFilters.types = activeFilters.types.filter(t => t !== value);
     }
+    console.log('Updated activeFilters.types:', activeFilters.types);
   } else if (['English', 'Cantonese', 'Mandarin', 'Trilingual'].includes(value)) {
     if (e.target.checked) {
       if (!activeFilters.languages.includes(value)) {
@@ -4177,12 +4456,21 @@ function handleCheckboxChange(e) {
     } else {
       activeFilters.languages = activeFilters.languages.filter(l => l !== value);
     }
+    console.log('Updated activeFilters.languages:', activeFilters.languages);
   }
   applyFilters();
 }
 
 // Event Listeners
 document.addEventListener('DOMContentLoaded', function() {
+  console.log('DOM loaded, testing data...');
+  
+  // Test data integrity
+  console.log('Total institutions:', appData.institutions.length);
+  console.log('North district institutions:', appData.institutions.filter(inst => inst.district === 'North').length);
+  console.log('Pre-nursery institutions:', appData.institutions.filter(inst => inst.type === 'Pre-nursery').length);
+  console.log('North district pre-nursery institutions:', appData.institutions.filter(inst => inst.district === 'North' && inst.type === 'Pre-nursery').length);
+  
   // Initialize mobile menu
   const navToggle = document.getElementById('nav-toggle');
   const navMenu = document.getElementById('nav-menu');
@@ -4220,7 +4508,66 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Initialize language content
   updateLanguageContent();
+  
+  // Test the search functionality
+  setTimeout(() => {
+    console.log('Testing search functionality...');
+    
+    // Test North district filter
+    activeFilters.district = 'North';
+    applyFilters();
+    console.log('North district results:', searchResults.length);
+    
+    // Test Pre-nursery type filter
+    activeFilters.types = ['Pre-nursery'];
+    applyFilters();
+    console.log('Pre-nursery results:', searchResults.length);
+    
+    // Test combined filter
+    activeFilters.district = 'North';
+    activeFilters.types = ['Pre-nursery'];
+    applyFilters();
+    console.log('North district + Pre-nursery results:', searchResults.length);
+    
+    // Reset filters
+    activeFilters.district = '';
+    activeFilters.types = [];
+    applyFilters();
+  }, 1000);
 });
+
+// Test function for North Pre-nursery
+function testNorthPreNursery() {
+  console.log('Testing North Pre-nursery manually...');
+  
+  // Navigate to search page
+  showPage('search');
+  
+  // Wait a bit for the page to initialize
+  setTimeout(() => {
+    // Set the filters
+    activeFilters.district = 'North';
+    activeFilters.types = ['Pre-nursery'];
+    
+    // Update the UI to reflect the filters
+    const districtFilter = document.getElementById('district-filter');
+    if (districtFilter) {
+      districtFilter.value = 'North';
+    }
+    
+    // Update checkboxes
+    document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+      if (checkbox.value === 'Pre-nursery') {
+        checkbox.checked = true;
+      }
+    });
+    
+    // Apply filters
+    applyFilters();
+    
+    console.log('Manual test completed. Results:', searchResults.length);
+  }, 500);
+}
 
 // Make functions globally available
 window.showPage = showPage;

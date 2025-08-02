@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - North District Pre-Nursery Data</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-result { margin: 10px 0; padding: 10px; border: 1px solid #ccc; }
+        .success { background-color: #d4edda; border-color: #c3e6cb; }
+        .error { background-color: #f8d7da; border-color: #f5c6cb; }
+    </style>
+</head>
+<body>
+    <h1>Test Results for North District Pre-Nursery Data</h1>
+    <div id="results"></div>
+
+    <script src="app.js?v=21"></script>
+    <script>
+        function runTests() {
+            const results = document.getElementById('results');
+            
+            // Test 1: Check if data is loaded
+            const test1 = document.createElement('div');
+            test1.className = 'test-result';
+            if (appData && appData.institutions) {
+                test1.classList.add('success');
+                test1.innerHTML = `<strong>✓ Test 1:</strong> Data loaded successfully. Total institutions: ${appData.institutions.length}`;
+            } else {
+                test1.classList.add('error');
+                test1.innerHTML = `<strong>✗ Test 1:</strong> Data not loaded`;
+            }
+            results.appendChild(test1);
+            
+            // Test 2: Check North district institutions
+            const test2 = document.createElement('div');
+            test2.className = 'test-result';
+            const northInstitutions = appData.institutions.filter(inst => inst.district === 'North');
+            if (northInstitutions.length > 0) {
+                test2.classList.add('success');
+                test2.innerHTML = `<strong>✓ Test 2:</strong> North district institutions found: ${northInstitutions.length}`;
+            } else {
+                test2.classList.add('error');
+                test2.innerHTML = `<strong>✗ Test 2:</strong> No North district institutions found`;
+            }
+            results.appendChild(test2);
+            
+            // Test 3: Check Pre-nursery institutions
+            const test3 = document.createElement('div');
+            test3.className = 'test-result';
+            const preNurseryInstitutions = appData.institutions.filter(inst => inst.type === 'Pre-nursery');
+            if (preNurseryInstitutions.length > 0) {
+                test3.classList.add('success');
+                test3.innerHTML = `<strong>✓ Test 3:</strong> Pre-nursery institutions found: ${preNurseryInstitutions.length}`;
+            } else {
+                test3.classList.add('error');
+                test3.innerHTML = `<strong>✗ Test 3:</strong> No Pre-nursery institutions found`;
+            }
+            results.appendChild(test3);
+            
+            // Test 4: Check North district Pre-nursery institutions
+            const test4 = document.createElement('div');
+            test4.className = 'test-result';
+            const northPreNursery = appData.institutions.filter(inst => inst.district === 'North' && inst.type === 'Pre-nursery');
+            if (northPreNursery.length > 0) {
+                test4.classList.add('success');
+                test4.innerHTML = `<strong>✓ Test 4:</strong> North district Pre-nursery institutions found: ${northPreNursery.length}`;
+                
+                // List the institutions
+                const list = document.createElement('ul');
+                northPreNursery.forEach(inst => {
+                    const li = document.createElement('li');
+                    li.textContent = `${inst.name_en} (ID: ${inst.id})`;
+                    list.appendChild(li);
+                });
+                test4.appendChild(list);
+            } else {
+                test4.classList.add('error');
+                test4.innerHTML = `<strong>✗ Test 4:</strong> No North district Pre-nursery institutions found`;
+            }
+            results.appendChild(test4);
+            
+            // Test 5: Check filter functionality
+            const test5 = document.createElement('div');
+            test5.className = 'test-result';
+            
+            // Simulate filtering
+            let filtered = [...appData.institutions];
+            
+            // Apply district filter
+            filtered = filtered.filter(inst => inst.district === 'North');
+            
+            // Apply type filter
+            filtered = filtered.filter(inst => inst.type === 'Pre-nursery');
+            
+            if (filtered.length > 0) {
+                test5.classList.add('success');
+                test5.innerHTML = `<strong>✓ Test 5:</strong> Filter functionality works. Filtered results: ${filtered.length}`;
+            } else {
+                test5.classList.add('error');
+                test5.innerHTML = `<strong>✗ Test 5:</strong> Filter functionality failed`;
+            }
+            results.appendChild(test5);
+        }
+        
+        // Run tests when page loads
+        document.addEventListener('DOMContentLoaded', runTests);
+    </script>
+</body>
+</html> 

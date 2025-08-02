@@ -54,6 +54,11 @@
                                 <span data-en="Search" data-zh="搜尋">Search</span>
                             </button>
                         </div>
+                        <div style="margin-top: 10px;">
+                            <button class="btn btn--outline" onclick="testNorthPreNursery()" style="margin-right: 10px;">
+                                Test North Pre-Nursery
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -221,7 +226,7 @@
 
                     <div class="filter-group">
                         <label class="filter-label" data-en="District" data-zh="地區">District</label>
-                        <select id="district-filter" class="form-control" onchange="applyFilters()">
+                        <select id="district-filter" class="form-control">
                             <option value="" data-en="All Districts" data-zh="所有地區">All Districts</option>
                         </select>
                     </div>
@@ -230,11 +235,11 @@
                         <label class="filter-label" data-en="Program Type" data-zh="課程類型">Program Type</label>
                         <div class="checkbox-group">
                             <label class="checkbox-label">
-                                <input type="checkbox" value="Playgroup" onchange="applyFilters()">
+                                <input type="checkbox" value="Playgroup">
                                 <span data-en="Playgroup" data-zh="遊戲小組">Playgroup</span>
                             </label>
                             <label class="checkbox-label">
-                                <input type="checkbox" value="Pre-nursery" onchange="applyFilters()">
+                                <input type="checkbox" value="Pre-nursery">
                                 <span data-en="Pre-nursery" data-zh="學前班">Pre-nursery</span>
                             </label>
                         </div>
@@ -244,15 +249,15 @@
                         <label class="filter-label" data-en="Age Group" data-zh="年齡組別">Age Group</label>
                         <div class="checkbox-group">
                             <label class="checkbox-label">
-                                <input type="checkbox" value="6-18 months" onchange="applyFilters()">
+                                <input type="checkbox" value="6-18 months">
                                 <span data-en="6-18 months" data-zh="6-18個月">6-18 months</span>
                             </label>
                             <label class="checkbox-label">
-                                <input type="checkbox" value="18-24 months" onchange="applyFilters()">
+                                <input type="checkbox" value="18-24 months">
                                 <span data-en="18-24 months" data-zh="18-24個月">18-24 months</span>
                             </label>
                             <label class="checkbox-label">
-                                <input type="checkbox" value="2-3 years" onchange="applyFilters()">
+                                <input type="checkbox" value="2-3 years">
                                 <span data-en="2-3 years" data-zh="2-3歲">2-3 years</span>
                             </label>
                         </div>
@@ -262,19 +267,19 @@
                         <label class="filter-label" data-en="Language Medium" data-zh="教學語言">Language Medium</label>
                         <div class="checkbox-group">
                             <label class="checkbox-label">
-                                <input type="checkbox" value="English" onchange="applyFilters()">
+                                <input type="checkbox" value="English">
                                 <span data-en="English" data-zh="英文">English</span>
                             </label>
                             <label class="checkbox-label">
-                                <input type="checkbox" value="Cantonese" onchange="applyFilters()">
+                                <input type="checkbox" value="Cantonese">
                                 <span data-en="Cantonese" data-zh="粵語">Cantonese</span>
                             </label>
                             <label class="checkbox-label">
-                                <input type="checkbox" value="Mandarin" onchange="applyFilters()">
+                                <input type="checkbox" value="Mandarin">
                                 <span data-en="Mandarin" data-zh="普通話">Mandarin</span>
                             </label>
                             <label class="checkbox-label">
-                                <input type="checkbox" value="Trilingual" onchange="applyFilters()">
+                                <input type="checkbox" value="Trilingual">
                                 <span data-en="Trilingual" data-zh="三語">Trilingual</span>
                             </label>
                         </div>
@@ -283,7 +288,7 @@
                     <div class="filter-group">
                         <label class="filter-label" data-en="Monthly Fees (HK$)" data-zh="月費 (港幣)">Monthly Fees (HK$)</label>
                         <div class="range-slider">
-                            <input type="range" id="fees-range" min="0" max="10000" value="10000" step="100" onchange="applyFilters()">
+                            <input type="range" id="fees-range" min="0" max="10000" value="10000" step="100">
                             <div class="range-labels">
                                 <span>$0</span>
                                 <span id="fees-value">$10,000+</span>
@@ -475,6 +480,6 @@
         </div>
     </div>
 
-    <script src="app.js?v=18"></script>
+    <script src="app.js?v=23"></script>
 </body>
 </html>
