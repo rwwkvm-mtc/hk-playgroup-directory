@@ -8367,9 +8367,7 @@ function toggleLanguage() {
   updateLanguageContent();
   
   // Refresh current page content
-  if (currentPage === 'home') {
-    displayFeaturedInstitutions();
-  } else if (currentPage === 'search') {
+  if (currentPage === 'search') {
     displaySearchResults();
   } else if (currentPage === 'detail' && selectedInstitution) {
     displayInstitutionDetail(selectedInstitution);
@@ -8617,13 +8615,6 @@ function updateResultsCount() {
 }
 
 // Display Functions
-function displayFeaturedInstitutions() {
-  const container = document.getElementById('featured-grid');
-  if (!container) return;
-  
-  const featured = appData.institutions.slice(0, 6);
-  container.innerHTML = featured.map(institution => createInstitutionCard(institution)).join('');
-}
 
 function displaySearchResults() {
   const container = document.getElementById('results-grid');
@@ -8851,9 +8842,7 @@ function toggleFavorite(institutionId) {
   }
   
   // Update display
-  if (currentPage === 'home') {
-    displayFeaturedInstitutions();
-  } else if (currentPage === 'search') {
+  if (currentPage === 'search') {
     displaySearchResults();
   }
 }
