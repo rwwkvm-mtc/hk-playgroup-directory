@@ -7016,6 +7016,7 @@ const translations = {
   'Yuen Long': '元朗',
   'Kwun Tong': '觀塘',
   'Tsuen Wan': '荃灣',
+  'Wong Tai Sin': '黃大仙',
   'Type': '類型',
   'Age Range': '年齡範圍',
   'Languages': '語言',
@@ -7221,6 +7222,7 @@ function applyFilters() {
   console.log('Wan Chai institutions:', filtered.filter(inst => inst.district === 'Wan Chai').length);
   console.log('Islands institutions:', filtered.filter(inst => inst.district === 'Islands').length); // Added for Islands fix
   console.log('Tuen Mun institutions:', filtered.filter(inst => inst.district === 'Tuen Mun').length);
+  console.log('Wong Tai Sin institutions:', filtered.filter(inst => inst.district === 'Wong Tai Sin').length);
   
   // Log all districts present
   const districts = [...new Set(filtered.map(inst => inst.district))];
