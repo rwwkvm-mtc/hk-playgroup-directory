@@ -8415,6 +8415,8 @@ function quickFilter(type, value) {
 
 function applyFilters() {
   let filtered = [...appData.institutions];
+  console.log('Total institutions loaded:', filtered.length);
+  console.log('Yuen Long institutions:', filtered.filter(inst => inst.district === 'Yuen Long').length);
   
   // Debug: Log total institutions and district breakdown
   console.log('Total institutions:', filtered.length);
