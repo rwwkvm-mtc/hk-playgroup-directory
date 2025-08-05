@@ -8238,9 +8238,8 @@ const translations = {
   'Monthly Fee': '月費',
   'Facilities & Amenities': '設施及配套',
   'Parent Reviews': '家長評價',
-  'Apply Now': '立即申請',
-  'Submit Application': '提交申請',
-  'Call Now': '立即致電',
+
+
   'Half-day AM': '半日上午班',
   'Half-day PM': '半日下午班',
   'Whole-day': '全日班',
@@ -8774,56 +8773,11 @@ function displayInstitutionDetail(institution) {
 
 
 
-    <div class="detail-section">
-      <h3><i class="fas fa-paper-plane"></i> ${translate('Apply Now')}</h3>
-      <p>${translate('Ready to enroll your child? Submit your application below.')}</p>
-      <div class="action-buttons">
-        <button class="btn btn--primary" onclick="openApplicationModal(${institution.id})">
-          <i class="fas fa-paper-plane"></i>
-          ${translate('Submit Application')}
-        </button>
-        <button class="btn btn--outline" onclick="window.open('tel:${institution.phone}')">
-          <i class="fas fa-phone"></i>
-          ${translate('Call Now')}
-        </button>
-      </div>
-    </div>
+
   `;
 }
 
-// Modal Functions
-function openApplicationModal(institutionId) {
-  selectedInstitution = appData.institutions.find(inst => inst.id === institutionId);
-  const modal = document.getElementById('application-modal');
-  if (modal) {
-    modal.classList.remove('hidden');
-  }
-}
 
-function closeModal() {
-  document.querySelectorAll('.modal').forEach(modal => {
-    modal.classList.add('hidden');
-  });
-  
-  // Reset form
-  const form = document.getElementById('application-form');
-  if (form) {
-    form.reset();
-  }
-}
-
-function submitApplication(event) {
-  event.preventDefault();
-  
-  // Simulate form submission
-  setTimeout(() => {
-    closeModal();
-    const successModal = document.getElementById('success-modal');
-    if (successModal) {
-      successModal.classList.remove('hidden');
-    }
-  }, 1000);
-}
 
 // Favorite Functions
 function toggleFavorite(institutionId) {
