@@ -8662,7 +8662,7 @@ function createInstitutionCard(institution) {
         </div>
       </div>
       <div class="institution-footer">
-        <div class="fees">${formatCurrency(institution.fees)}/mo</div>
+        <div class="fees">${translate('Estimated Monthly Fee')} ${formatCurrency(institution.fees)}</div>
         <button class="favorite-btn ${isFavorite ? 'active' : ''}" onclick="event.stopPropagation(); toggleFavorite(${institution.id})">
           <i class="fas fa-heart"></i>
         </button>
