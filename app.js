@@ -488,6 +488,7 @@ const appData = {
       "address": "G/F Nam Hung Mansion, 5H Belchers Street, Kennedy Town, Hong Kong",
       "address_zh": "堅尼地城卑路乍街5H號南豐大廈地下10B鋪",
       "phone": "+852 5400 7710",
+      "whatsapp": "+852 5400 7710",
       "email": "kids@trybehk.com",
       "website": "https://www.trybehk.com",
       "type": "Playgroup",
@@ -529,6 +530,7 @@ const appData = {
       "address": "3/F, Centre Point 181-185 Gloucester Road, Wanchai, Hong Kong",
       "address_zh": "灣仔告士打道181-185號中怡大廈",
       "phone": "+852 3465 5000",
+      "whatsapp": "+852 9851 8100",
       "email": "enquiry@spring-learning.com.hk",
       "website": "https://spring-learning.com.hk",
       "type": "Playgroup",
@@ -549,6 +551,7 @@ const appData = {
       "address": "2203B, 22/F, The Centrium, 60 Wyndham Street, Central",
       "address_zh": "中環雲咸街60號Central大廈22樓2203B室",
       "phone": "2577-3322",
+      "whatsapp": "+852 9279 8968",
       "email": "info@mygymhk.com",
       "website": "https://mygymhk.com",
       "type": "Playgroup",
@@ -790,6 +793,7 @@ const appData = {
       "address": "Unit 901 and 2403, Universal Trade Centre, 17-19 Caine Road, Central, Hong Kong",
       "address_zh": "聯絡查詢地址詳情",
       "phone": "+852 5598 0509",
+      "whatsapp": "+852 5598 0509",
       "email": "hello@mulberryhouseasia.com",
       "website": "https://mulberryhousekg.com/en/central-campus/",
       "type": "Pre-nursery",
@@ -8244,6 +8248,7 @@ const translations = {
   'Institution': '機構',
   'Facilities': '設施',
   'Website': '網站',
+  'WhatsApp': 'WhatsApp',
   'You can compare up to 3 institutions at a time': '您最多可以同時比較3個機構',
   'Please select institutions to compare': '請選擇要比較的機構',
 
@@ -8724,6 +8729,22 @@ function displayInstitutionDetail(institution) {
             ${institution.phone}
           </div>
         </div>
+        ${institution.whatsapp ? `
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fab fa-whatsapp"></i>
+          </div>
+          <div>
+            <strong>${translate('WhatsApp')}:</strong><br>
+            <a href="https://wa.me/${institution.whatsapp.replace(/[^0-9]/g, '')}" 
+               target="_blank" 
+               style="color: #25D366; text-decoration: none;">
+              ${institution.whatsapp}
+              <i class="fas fa-external-link-alt" style="margin-left: 5px; font-size: 0.8em;"></i>
+            </a>
+          </div>
+        </div>
+        ` : ''}
         <div class="contact-item">
           <div class="contact-icon">
             <i class="fas fa-envelope"></i>
