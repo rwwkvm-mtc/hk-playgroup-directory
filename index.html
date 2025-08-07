@@ -190,6 +190,12 @@
                     </button>
                 </div>
                 <div class="active-filters" id="active-filters"></div>
+                <div class="search-actions">
+                    <button id="compare-button" class="btn btn--secondary" onclick="showComparePage()" style="display: none;">
+                        <i class="fas fa-balance-scale"></i>
+                        <span data-en="Compare" data-zh="比較">Compare</span>
+                    </button>
+                </div>
             </div>
 
             <div class="search-content">
@@ -305,6 +311,13 @@
             <div class="detail-content" id="detail-content">
                 <!-- Institution details will be populated by JavaScript -->
             </div>
+        </div>
+    </main>
+
+    <!-- Compare Page -->
+    <main id="compare-page" class="page">
+        <div class="container">
+            <div id="compare-content"></div>
         </div>
     </main>
 

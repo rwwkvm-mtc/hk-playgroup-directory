@@ -8185,6 +8185,7 @@ let activeFilters = {
   search: ''
 };
 let selectedInstitution = null;
+let compareList = [];
 let favorites = [];
 
 // Try to load favorites from localStorage, but don't break if it fails
@@ -8238,6 +8239,12 @@ const translations = {
   'Estimated Monthly Fee': '估算月費',
   'Facilities & Amenities': '設施及配套',
   'Parent Reviews': '家長評價',
+  'Compare': '比較',
+  'Compare Institutions': '比較機構',
+  'Institution': '機構',
+  'Facilities': '設施',
+  'You can compare up to 3 institutions at a time': '您最多可以同時比較3個機構',
+  'Please select institutions to compare': '請選擇要比較的機構',
 
 
   'Half-day AM': '半日上午班',
@@ -8633,6 +8640,7 @@ function displaySearchResults() {
   }
   
   container.innerHTML = searchResults.map(institution => createInstitutionCard(institution)).join('');
+  updateCompareButton();
 }
 
 function createInstitutionCard(institution) {
@@ -8817,8 +8825,140 @@ function toggleFavorite(institutionId) {
 }
 
 function toggleCompare(institutionId) {
-  // Comparison functionality placeholder
-  console.log('Toggle compare for institution:', institutionId);
+  const index = compareList.indexOf(institutionId);
+  if (index > -1) {
+    // Remove from compare list
+    compareList.splice(index, 1);
+  } else {
+    // Add to compare list (max 3 institutions)
+    if (compareList.length < 3) {
+      compareList.push(institutionId);
+    } else {
+      alert(translate('You can compare up to 3 institutions at a time'));
+      return;
+    }
+  }
+  
+  // Update the checkbox state
+  const checkbox = document.querySelector(`input[onchange="toggleCompare(${institutionId})"]`);
+  if (checkbox) {
+    checkbox.checked = index === -1;
+  }
+  
+  // Update compare button visibility
+  updateCompareButton();
+  
+  console.log('Compare list:', compareList);
+}
+
+function updateCompareButton() {
+  const compareButton = document.getElementById('compare-button');
+  if (compareButton) {
+    if (compareList.length > 0) {
+      compareButton.style.display = 'inline-block';
+      compareButton.textContent = `${translate('Compare')} (${compareList.length})`;
+    } else {
+      compareButton.style.display = 'none';
+    }
+  }
+}
+
+function showComparePage() {
+  if (compareList.length === 0) {
+    alert(translate('Please select institutions to compare'));
+    return;
+  }
+  
+  const institutions = compareList.map(id => appData.institutions.find(inst => inst.id === id)).filter(Boolean);
+  displayCompareResults(institutions);
+  showPage('compare');
+}
+
+function displayCompareResults(institutions) {
+  const container = document.getElementById('compare-content');
+  if (!container) return;
+  
+  container.innerHTML = `
+    <nav class="breadcrumb">
+      <ul class="breadcrumb-list">
+        <li class="breadcrumb-item">
+          <a href="#" onclick="showPage('home')" class="breadcrumb-link">${translate('Home')}</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="#" onclick="showPage('search')" class="breadcrumb-link">${translate('Search')}</a>
+        </li>
+        <li class="breadcrumb-item">
+          <span class="breadcrumb-current">${translate('Compare')}</span>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="compare-header">
+      <h1>${translate('Compare Institutions')}</h1>
+      <button class="btn btn--outline" onclick="clearCompareList()">
+        <i class="fas fa-times"></i> ${translate('Clear All')}
+      </button>
+    </div>
+
+    <div class="compare-table-container">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>${translate('Institution')}</th>
+            ${institutions.map(inst => `<th>${getInstitutionName(inst)}</th>`).join('')}
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>${translate('Type')}</strong></td>
+            ${institutions.map(inst => `<td>${translate(inst.type)}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>${translate('District')}</strong></td>
+            ${institutions.map(inst => `<td>${translate(inst.district)}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>${translate('Age Range')}</strong></td>
+            ${institutions.map(inst => `<td>${inst.age_range || 'N/A'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>${translate('Languages')}</strong></td>
+            ${institutions.map(inst => `<td>${inst.language ? inst.language.map(l => translate(l)).join(', ') : 'N/A'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>${translate('Estimated Monthly Fee')}</strong></td>
+            ${institutions.map(inst => `<td>${formatCurrency(inst.fees)}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>${translate('Phone')}</strong></td>
+            ${institutions.map(inst => `<td>${inst.phone || 'N/A'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>${translate('Email')}</strong></td>
+            ${institutions.map(inst => `<td>${inst.email || 'N/A'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>${translate('Address')}</strong></td>
+            ${institutions.map(inst => `<td>${inst.address || 'N/A'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>${translate('Facilities')}</strong></td>
+            ${institutions.map(inst => `<td>${inst.facilities ? inst.facilities.slice(0, 3).join(', ') + (inst.facilities.length > 3 ? '...' : '') : 'N/A'}</td>`).join('')}
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+function clearCompareList() {
+  compareList = [];
+  // Uncheck all compare checkboxes
+  document.querySelectorAll('input[onchange^="toggleCompare"]').forEach(checkbox => {
+    checkbox.checked = false;
+  });
+  updateCompareButton();
+  showPage('search');
 }
 
 // Initialize Functions
