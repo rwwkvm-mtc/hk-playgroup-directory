@@ -8757,6 +8757,13 @@ function displayInstitutionDetail(institution) {
           </tr>
         </tbody>
       </table>
+      <p class="fee-note" style="font-size: 0.9em; color: #888; margin-top: 10px; font-style: italic;">
+        <i class="fas fa-info-circle"></i> 
+        <span data-en="Note: Monthly fees are estimates. Please contact the institution directly for current fee information." 
+              data-zh="注意：月費為估算，請直接聯絡機構查詢最新收費資料。">
+          Note: Monthly fees are estimates. Please contact the institution directly for current fee information.
+        </span>
+      </p>
     </div>
 
     <div class="detail-section">
