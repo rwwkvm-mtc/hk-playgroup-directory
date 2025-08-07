@@ -8235,7 +8235,7 @@ const translations = {
   'Address': '地址',
   'Programs Offered': '提供的課程',
   'Session Types': '上課時間',
-  'Monthly Fee': '月費',
+  'Estimated Monthly Fee': '估算月費',
   'Facilities & Amenities': '設施及配套',
   'Parent Reviews': '家長評價',
 
@@ -8753,7 +8753,7 @@ function displayInstitutionDetail(institution) {
             <th>${translate('Age Range')}</th>
             <th>${translate('Session Types')}</th>
             <th>${translate('Languages')}</th>
-            <th>${translate('Monthly Fee')}</th>
+            <th>${translate('Estimated Monthly Fee')}</th>
           </tr>
         </thead>
         <tbody>
