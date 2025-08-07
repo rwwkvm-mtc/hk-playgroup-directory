@@ -996,7 +996,7 @@ const appData = {
       "address": "Rm 01 12/f King'S View Court Blk B. 905 King'S Rd. Hong Kong",
       "address_zh": "鰂魚涌（聯絡中華基督教神愛堂查詢確實地址）",
       "phone": "Contact for details",
-      "email": "info@lisacfunland.com.hk"
+      "email": "info@lisacfunland.com.hk",
       "whatsapp": "6100 6637",
       "website": "lisacfunland.com.hk",
       "type": "Playgroup",
@@ -1037,7 +1037,7 @@ const appData = {
       "address": "1/F, Happy Court, 39E Sing Woo Rd, Happy Valley",
       "address_zh": "跑馬地成和道39E號快樂大廈1樓",
       "phone": "2547 7176",
-      "email": "info@guidepost.hk"
+      "email": "info@guidepost.hk",
       "whatsapp": "2547 7176",
       "website": "guidepost.hk",
       "type": "Playgroup",
@@ -1078,7 +1078,7 @@ const appData = {
       "address": "Unit 01, 12/F, Park Avenue Tower, 5 Moreton Terrace, Causeway Bay, Hong Kong",
       "address_zh": "銅鑼灣摩頓臺5號百富中心12樓01室",
       "phone": "3565 6826",
-      "email": "info@musicrings.com.hk"
+      "email": "info@musicrings.com.hk",
       "whatsapp": "5439 8292",
       "website": "musicrings.com.hk",
       "type": "Playgroup",
@@ -1139,7 +1139,7 @@ const appData = {
       "address": "19/F, Parkview Centre, 7 Lau Li Street, Causeway Bay East, Hong Kong",
       "address_zh": "銅鑼灣東琉璃街7號百利中心19樓",
       "phone": "3689 5269",
-      "email": "enquiry@aschloe.com"
+      "email": "enquiry@aschloe.com",
       "whatsapp": "9685 9105",
       "website": "aschloe.com",
       "type": "Playgroup",
@@ -1180,7 +1180,7 @@ const appData = {
       "address": "Room 1502, 15/F, Kwai Hung Holdings Centre, No. 89 King's Road, North Point (MTR Fortress Hill Station Exit A1)",
       "address_zh": "聯絡查詢地點詳情",
       "phone": "2104 3527",
-      "email": "ccdance168@gmail.com"
+      "email": "ccdance168@gmail.com",
       "whatsapp": "6323 7693",
       "website": "cwsballet.com.hk",
       "type": "Playgroup",
@@ -1201,7 +1201,7 @@ const appData = {
       "address": "Unit 901, Universal Trade Centre, 17-19 Caine Road, Central, Hong Kong",
       "address_zh": "聯絡查詢地點詳情",
       "phone": "5598 0509",
-      "email": "hello@mulberryhouseasia.com"
+      "email": "hello@mulberryhouseasia.com",
       "whatsapp": "5598 0509",
       "website": "mulberryhouseasia.com",
       "type": "Playgroup",
@@ -9120,7 +9120,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   // Initialize homepage content
-  displayFeaturedInstitutions();
+  // displayFeaturedInstitutions(); // Removed - no longer needed
   
   // Set up search inputs
   const searchInputs = ['main-search', 'search-input'];
@@ -9190,3 +9190,6 @@ window.closeModal = closeModal;
 window.submitApplication = submitApplication;
 window.toggleFavorite = toggleFavorite;
 window.toggleCompare = toggleCompare;
+window.showComparePage = showComparePage;
+window.clearCompareList = clearCompareList;
+window.updateCompareButton = updateCompareButton;
