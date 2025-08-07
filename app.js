@@ -8731,6 +8731,14 @@ function displayInstitutionDetail(institution) {
           <div>
             <strong>${translate('Address')}:</strong><br>
             ${institution.address}
+            <br>
+            <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(institution.address)}" 
+               target="_blank" 
+               class="map-link" 
+               style="color: #4CAF50; text-decoration: none; font-size: 0.9em;">
+              <i class="fas fa-external-link-alt"></i> 
+              <span data-en="View on Google Maps" data-zh="在 Google 地圖查看">View on Google Maps</span>
+            </a>
           </div>
         </div>
       </div>
