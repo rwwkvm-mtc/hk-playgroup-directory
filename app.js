@@ -1932,7 +1932,7 @@ const appData = {
       "address": "Shop 1B, No.18 Fuk Lo Tsun Road, Kowloon City, Hong Kong",
       "address_zh": "九龍城福佬村道18號1B號舖",
       "phone": "+852 2716 9966",
-      "email": "info@imperialgroup.asia"
+      "email": "info@imperialgroup.asia",
       "whatsapp": "+852 9421 2974, +852 6473 0629",
       "website": "www.imperialgroup.asia",
       "type": "Playgroup",
@@ -2053,7 +2053,7 @@ const appData = {
       "address": "Office 06, 2/F, K83, 83 Tai Lin Pai Road, Kwai Chung, Kwai Tsing District, New Territories",
       "address_zh": "聯絡查詢九龍城區課程",
       "phone": "+852 3619 0119",
-      "email": "info@llamahood.com"
+      "email": "info@llamahood.com",
       "whatsapp": "+852 3619 0119",
       "website": "www.llamahood.com",
       "type": "Playgroup",
@@ -2114,7 +2114,7 @@ const appData = {
       "address": "Room# 6, Unit F2, 5th Floor, Phase-II, Hang Fung Industrial Building, 2G Hok Yuen Street, Hung Hom, Kowloon",
       "address_zh": "紅磡學源街恆豐工業大廈",
       "phone": "+852 6890 8280",
-      "email": "Kiddolandplaypark@gmail.com"
+      "email": "Kiddolandplaypark@gmail.com",
       "whatsapp": "+852 6890 8280",
       "website": "facebook.com/kiddolandplaypark",
       "type": "Playgroup",
@@ -2317,7 +2317,7 @@ const appData = {
       "address": "G/F, RESIDENCE 228, 228 Fuk Wing Street, Cheung Sha Wan, West Kowloon, Hong Kong",
       "address_zh": "長沙灣福榮街228號（聯絡查詢九龍城服務）",
       "phone": "+852 2328 8223",
-      "email": "info@kendall.edu.hk"
+      "email": "info@kendall.edu.hk",
       "whatsapp": "+852 5407 3884",
       "website": "www.kendall.edu.hk",
       "type": "Pre-nursery",
@@ -2358,7 +2358,7 @@ const appData = {
       "address": "LG/F, G/F & 1/F, Pau Chung Building, 152 Pau Chung Street, To Kwa Wan, Kowloon",
       "address_zh": "九龍城區多個地點",
       "phone": "+852 2714 5545",
-      "email": "school@sunisland.edu.hk"
+      "email": "school@sunisland.edu.hk",
       "whatsapp": "+852 5631 9017",
       "website": "www.sunisland.edu.hk",
       "type": "Pre-nursery",
