@@ -2381,7 +2381,7 @@ const appData = {
       "address": "Office 06, 2/F, K83, 83 Tai Lin Pai Road, Kwai Chung, Kwai Tsing District, New Territories",
       "address_zh": "新界葵青區葵涌大林百道83號K83二樓06室",
       "phone": "+852 3619 0119",
-      "email": "info@llamahood.com"
+      "email": "info@llamahood.com",
       "whatsapp": "+852 3619 0119",
       "website": "www.llamahood.com",
       "type": "Playgroup",
