@@ -1606,7 +1606,7 @@ const appData = {
       "address": "Plaza Lane, Discovery Bay, Hong Kong",
       "address_zh": "愉景灣（聯絡查詢確實地址）",
       "phone": "+852 6108 9131",
-      "email": "woodentotsdb@gmail.com"
+      "email": "woodentotsdb@gmail.com",
       "whatsapp": "+852 6108 9131",
       "website": "https://www.woodentotsdb.com/",
       "type": "Playgroup",
@@ -1647,7 +1647,7 @@ const appData = {
       "address": "Unit 5 & Unit 6, LG/F, Office Block One, 92 Siena Avenue DB North, Lantau Island, Hong Kong",
       "address_zh": "愉景灣愉景北廣場海澄湖畔路92號辦公大樓1座LG 05-08",
       "phone": "+852 8191 0813, +852 6071 3136",
-      "email": "info@ecole-discovery.com"
+      "email": "info@ecole-discovery.com",
       "whatsapp": "+852 6071 3136",
       "website": "https://ecole-discovery.com/",
       "type": "Playgroup",
@@ -1668,7 +1668,7 @@ const appData = {
       "address": "G/F., No. 89, Chung Hau St., Mui Wo, Lantau Island",
       "address_zh": "大嶼山梅窩涌口街89號地下",
       "phone": "Contact for details",
-      "email": "info@mindseedsstudio.com"
+      "email": "info@mindseedsstudio.com",
       "whatsapp": "+852 5106 4411",
       "website": "mindseedsstudio.com",
       "type": "Playgroup",
@@ -1849,7 +1849,7 @@ const appData = {
       "address": "1-06, 1/F, 92 Siena Avenue, Discovery Bay North, Discovery Bay",
       "address_zh": "愉景灣愉景北廣場海澄湖畔路92號1樓1-06",
       "phone": "+852 2185 6134",
-      "email": "admissions@guidepost.hk"
+      "email": "admissions@guidepost.hk",
       "whatsapp": "+852 2185 6134",
       "website": "https://guidepost.hk/locations/discovery-bay",
       "type": "Pre-nursery",
