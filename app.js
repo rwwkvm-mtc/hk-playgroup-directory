@@ -2844,7 +2844,7 @@ const appData = {
       "address": "觀塘成業街7號寧晉中心30樓F室",
       "address_zh": "九龍觀塘成業街7號寧晉中心30樓F室",
       "phone": "+852 6675 7527",
-      "email": "info-kt@cpda.com.hk"
+      "email": "info-kt@cpda.com.hk",
       "whatsapp": "+852 6675 7527",
       "website": "www.cpda.com.hk",
       "type": "Playgroup",
@@ -2945,7 +2945,7 @@ const appData = {
       "address": "G/F & 1/F, The Spectacle, 8 Cho Yuen Street, Yau Tong",
       "address_zh": "聯絡楓葉小熊油塘校園查詢確實地址",
       "phone": "+852 2185 6646",
-      "email": "info@maplebear.hk"
+      "email": "info@maplebear.hk",
       "whatsapp": "+852 6849 2840",
       "website": "www.maplebear.hk",
       "type": "Playgroup",
