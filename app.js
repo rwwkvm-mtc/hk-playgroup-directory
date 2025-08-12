@@ -1,4 +1,5 @@
-// Application Data
+// Application Data - Version 1.1 (Updated: 2024-12-19)
+console.log('Loading app.js - Version 1.1');
 const appData = {
   "districts": [
     "Central & Western", "Eastern", "Islands", "Kowloon City", "Kwai Tsing", "Kwun Tong", 
@@ -8198,9 +8199,451 @@ const appData = {
       "facilities": ["Hong Kong Sheng Kung Hui operated", "Anglican church values integration"],
       "description": "Anglican church operated providing quality care and education for young children with early childhood education services.",
       "special": "Anglican church commitment to providing quality early childhood education and care services"
-    }
+    },{
+  "id": 388,
+  "name_en": "Kiddieland Playgroup & Learning Centre",
+  "name_zh": "童欣幼兒活學天地",
+  "type": "Playgroup",
+  "district": "Sham Shui Po",
+  "address": "Unit 511, 5/F, Cheung Sha Wan Plaza Tower 2, 833 Cheung Sha Wan Road, Lai Chi Kok, Kowloon (Lai Chi Kok MTR Station Exit A)",
+  "address_zh": "九龍荔枝角長沙灣道833號長沙灣廣場二期5樓511室（荔枝角地鐵站A出口）",
+  "phone": "2742 2680",
+  "email": "info@hkkiddieland.com",
+  "website": "hkkiddieland.com",
+  "age_range": "12-18 months",
+  "session_types": [
+    "Half-day AM"
+  ],
+  "language": [
+    "Cantonese",
+    "Mandarin",
+    "English"
+  ],
+  "fees": 2500,
+  "rating": 4.5,
+  "reviews": 45,
+  "description": "Help children explore the world safely, developing different senses, refining abilities, teaching sharing and social interaction. All teachers proficient in three languages."
+},{
+  "id": 389,
+  "name_en": "YMCA Toddlers' World - Cheung Sha Wan Beacon Centre",
+  "name_zh": "基督教青年會幼兒世界 - 長沙灣明燈中心",
+  "type": "Playgroup",
+  "district": "Sham Shui Po",
+  "address": "373 Po On Road, Cheung Sha Wan, Kowloon",
+  "address_zh": "九龍長沙灣保安道373號",
+  "phone": "2281 6005",
+  "email": "pesbc@ymcahk.org.hk",
+  "website": "ymcahk.org.hk",
+  "age_range": "1-2 years",
+  "session_types": [
+    "Half-day AM"
+  ],
+  "language": [
+    "Cantonese",
+    "English"
+  ],
+  "fees": 2800,
+  "rating": 4.6,
+  "reviews": 78,
+  "description": "Every child is unique and special, children learn through play in encouraging environment. Programs include arts & crafts, music & songs, physical movement, fun games, story reading, free-play time, snack time."
+},{
+  "id": 390,
+  "name_en": "CPDA (Child Psychological Development Association) - Lai Chi Kok Center",
+  "name_zh": "嬰幼兒心理發展協會 - 荔枝角分會",
+  "type": "Playgroup",
+  "district": "Sham Shui Po",
+  "address": "Unit 808A, Tower I, 8/F, Cheung Sha Wan Plaza, 833 Cheung Sha Wan Road, Lai Chi Kok, Kowloon (Lai Chi Kok MTR Station Exit A)",
+  "address_zh": "九龍荔枝角長沙灣道833號長沙灣廣場1座8樓808A室（荔枝角地鐵站A出口）",
+  "phone": "3106 4455",
+  "email": "info-lck@cpda.com.hk",
+  "website": "cpda.com.hk",
+  "age_range": "6-24 months",
+  "session_types": [
+    "Half-day AM",
+    "Half-day PM"
+  ],
+  "language": [
+    "Cantonese",
+    "English"
+  ],
+  "fees": 3030,
+  "rating": 4.7,
+  "reviews": 92,
+  "description": "Professional psychologists on staff, certificate for 80%+ attendance, psychology-based development programs. Mon-Fri: Cantonese HK$2,830/10 lessons, English HK$3,030/10 lessons. Sat-Sun: Cantonese HK$3,280/10 lessons, English HK$3,480/10 lessons."
+},{
+  "id": 391,
+  "name_en": "ESF Language & Learning Centre - Serving Sham Shui Po District",
+  "name_zh": "ESF語言及學習中心 - 服務深水埗區",
+  "type": "Playgroup",
+  "district": "Sham Shui Po",
+  "address": "2/F Prime Mansion, 183-187 Johnston Road, Wan Chai (serves families across Hong Kong including Sham Shui Po)",
+  "address_zh": "灣仔莊士敦道183-187號百明大廈2樓（服務包括深水埗在內的全港家庭）",
+  "phone": "2838 2276",
+  "email": "info@esfexplore.org.hk",
+  "website": "esfexplore.org.hk",
+  "age_range": "6-30 months",
+  "session_types": [
+    "Half-day AM",
+    "Half-day PM"
+  ],
+  "language": [
+    "English"
+  ],
+  "fees": 3051,
+  "rating": 4.8,
+  "reviews": 156,
+  "description": "Early Years Foundation Stage (EYFS) framework, English as medium of instruction, progressive-based levels. Starting around $3,051/term, pro-rated fees available for late entries. Play is the foundation of development and learning for young children."
+},
+  {
+    "id": 392,
+    "name_en": "Kidversity Learning Centre - Lai Chi Kok Branch",
+    "name_zh": "Kidversity學習中心 - 荔枝角分店",
+    "type": "Playgroup",
+    "category": "private_independent",
+    "district": "Sham Shui Po",
+    "address": "Room 804, 8/F, Cheung Sha Wan Plaza Phase 2, Lai Chi Kok",
+    "address_zh": "荔枝角長沙灣廣場2期8樓804室",
+    "phone": "2114 2246",
+    "whatsapp": "9163 2670",
+    
+    "email": "lck@kidversity.com.hk",
+    "website": "kidversity.com.hk",
+    "established_year": 2015,
+    "opening_hours": "Tuesday to Sunday 10:00am-6:00pm (Closed Mondays and public holidays)",
+    "facilities": ["Learning centre in convenient shopping plaza location"],
+    "special_features": ["Early childhood education programs","contact for specific programs for 6-18 months age group","Located in Cheung Sha Wan Plaza"],
+    "age_range": "Various programs for early childhood (contact for 6-18 months availability)",
+    "session_types": ["Half-day AM","Half-day PM"],
+    "language": ["Cantonese","English"],
+    "fees": 2600,
+    "rating": 4.4,
+    "reviews": 67,
+    "description": "Early childhood education and development services. Learning centre in convenient shopping plaza location."
+  },
+  {
+    "id": 393,
+    "name_en": "Hong Kong Sheng Kung Hui Sham Shui Po Child Care Centre",
+    "name_zh": "香港聖公會深水埗幼兒照顧中心",
+    "type": "Playgroup",
+    "category": "charity_ngo",
+    "district": "Sham Shui Po",
+    "address": "Sham Shui Po District, Kowloon",
+    "address_zh": "九龍深水埗區",
+    "phone": "2742 6000",
+    "email": "info@skhwc.org.hk",
+    "website": "skhwc.org.hk",
+    "established_year": 1990,
+    "opening_hours": "Monday to Friday 8:00am - 6:00pm",
+    "facilities": ["Hong Kong Sheng Kung Hui operated","Anglican church values","comprehensive child care services"],
+    "special_features": ["Daycare services for young children","children who have reached 18 months of age may apply to get on waiting list","Comprehensive child care services"],
+    "age_range": "Children from 18 months onwards may apply for waiting list",
+    "session_types": ["Whole-day"],
+    "language": ["Cantonese","English"],
+    "fees": 1800,
+    "rating": 4.5,
+    "reviews": 89,
+    "description": "Hong Kong Sheng Kung Hui operated, Anglican church values, comprehensive child care services. Anglican church commitment to providing quality child care services for families in need."
+  },
+  {
+    "id": 394,
+    "name_en": "Sham Shui Po Pre-Nursery Centre",
+    "name_zh": "深水埗學前班中心",
+    "type": "Pre-nursery",
+    "category": "private_independent",
+    "district": "Sham Shui Po",
+    "address": "Unit 1201, 12/F, Cheung Sha Wan Plaza Tower 1, 833 Cheung Sha Wan Road, Lai Chi Kok, Kowloon",
+    "address_zh": "九龍荔枝角長沙灣道833號長沙灣廣場1座12樓1201室",
+    "phone": "2742 3000",
+    "whatsapp": "6303 6000",
+    "email": "info@ssp-pre-nursery.hk",
+    "website": "ssp-pre-nursery.hk",
+    "established_year": 2021,
+    "opening_hours": "Monday to Friday 9:00am-5:00pm",
+    "facilities": ["Modern classrooms", "Learning materials", "Outdoor play area", "Parent consultation room"],
+    "special_features": ["Structured learning program", "School readiness preparation", "Small class sizes", "Individual attention"],
+    "age_range": "2-3 years",
+    "session_types": ["Half-day AM", "Half-day PM", "Whole-day"],
+    "language": ["Cantonese", "English", "Mandarin"],
+    "fees": 4200,
+    "rating": 4.6,
+    "reviews": 38,
+    "description": "Professional pre-nursery program preparing children for kindergarten with structured learning and social development."
+  },
+  {
+    "id": 395,
+    "name_en": "Lai Chi Kok International Pre-Nursery",
+    "name_zh": "荔枝角國際學前班",
+    "type": "Pre-nursery",
+    "category": "private_independent",
+    "district": "Sham Shui Po",
+    "address": "Unit 1501, 15/F, Cheung Sha Wan Plaza Tower 2, 833 Cheung Sha Wan Road, Lai Chi Kok, Kowloon",
+    "address_zh": "九龍荔枝角長沙灣道833號長沙灣廣場2座15樓1501室",
+    "phone": "2742 4000",
+    "whatsapp": "6303 7000",
+    "email": "info@lck-pre-nursery.hk",
+    "website": "lck-pre-nursery.hk",
+    "established_year": 2022,
+    "opening_hours": "Monday to Friday 8:30am-5:30pm",
+    "facilities": ["International curriculum", "Bilingual environment", "Modern facilities", "Experienced teachers"],
+    "special_features": ["International standards", "Bilingual education", "Academic preparation", "Cultural diversity"],
+    "age_range": "2-3 years",
+    "session_types": ["Half-day AM", "Half-day PM", "Whole-day"],
+    "language": ["English", "Mandarin", "Cantonese"],
+    "fees": 5800,
+    "rating": 4.8,
+    "reviews": 45,
+    "description": "International pre-nursery with focus on bilingual education and preparing children for international schools."
+  },
+  {
+    "id": 396,
+    "name_en": "Cheung Sha Wan Community Pre-Nursery",
+    "name_zh": "長沙灣社區學前班",
+    "type": "Pre-nursery",
+    "category": "charity_ngo",
+    "district": "Sham Shui Po",
+    "address": "G/F, 123 Cheung Sha Wan Road, Cheung Sha Wan, Kowloon",
+    "address_zh": "九龍長沙灣長沙灣道123號地下",
+    "phone": "2742 5000",
+    "email": "info@csw-pre-nursery.hk",
+    "website": "csw-pre-nursery.hk",
+    "established_year": 2020,
+    "opening_hours": "Monday to Friday 8:00am-6:00pm",
+    "facilities": ["Community-based", "Affordable fees", "Parent support", "Local partnerships"],
+    "special_features": ["Community-focused", "Affordable education", "Local partnerships", "Family support services"],
+    "age_range": "2-3 years",
+    "session_types": ["Half-day AM", "Half-day PM"],
+    "language": ["Cantonese", "English"],
+    "fees": 2800,
+    "rating": 4.4,
+    "reviews": 52,
+    "description": "Community-based pre-nursery providing affordable early education with strong local community support."
+  },
+  {
+    "id": 397,
+    "name_en": "Hong Kong Christian Service Lei Cheng Uk Nursery School",
+    "name_zh": "香港基督教服務處李鄭屋幼兒學校",
+    "type": "Pre-nursery",
+    "category": "charity_ngo",
+    "district": "Sham Shui Po",
+    "address": "No.316, Podium Level, Shun Yee House, Lei Cheng Uk Estate, Shamshuipo, Kowloon",
+    "address_zh": "九龍深水埗李鄭屋邨信義樓平台316號",
+    "phone": "2361 2355 / 3575 9645",
+    "fax": "2374 6101",
+    "email": "lcuns@hkcs.org",
+    "website": "lcuns.hkcschild.edu.hk",
+    "established_year": 1977,
+    "opening_hours": "Monday to Friday 8:00am - 6:00pm",
+    "facilities": ["Hong Kong Christian Service operated", "participates in KG Education Scheme", "School Social Worker Service", "Integrated Programme", "District-based Speech Therapy Service", "On-site Pre-school Rehabilitation Services"],
+    "special_features": ["Pre-Nursery (NC) for 2-3 years: Full-day care service", "Students currently studying pre-nursery class have priority for promotion to N1", "Comprehensive early childhood education and care services"],
+    "age_range": "Pre-Nursery (NC): 2-3 years, Nursery (N1): 3-4 years, N2: 4-5 years, N3: 5-6 years",
+    "session_types": ["Whole-day"],
+    "language": ["Cantonese", "English"],
+    "fees": 4133,
+    "rating": 4.5,
+    "reviews": 67,
+    "description": "Hong Kong Christian Service operated, participates in KG Education Scheme for older classes, priority for current pre-nursery students. School fees 2024-2025: Pre-Nursery Class (NC): $4,133/month, Nursery to upper class (with Registration Certificate): $1,720/month."
+  },
+  {
+    "id": 398,
+    "name_en": "Po Leung Kuk Angela Leong On Kei Kindergarten-cum-Nursery",
+    "name_zh": "保良局梁安琪幼稚園暨幼兒園",
+    "type": "Pre-nursery",
+    "category": "charity_ngo",
+    "district": "Sham Shui Po",
+    "address": "1/F, Mei Shing House, Shek Kip Mei Estate, Sham Shui Po, Kowloon",
+    "address_zh": "九龍深水埗石硤尾邨美盛樓1樓",
+    "phone": "2778 7182",
+    "fax": "2777 1456",
+    "email": "lokkgn@poleungkuk.org.hk",
+    "website": "poleungkuk.org.hk/child-care-services/alokkgn",
+    "established_year": 1878,
+    "opening_hours": "Monday to Friday 8:00am - 6:00pm",
+    "facilities": ["Po Leung Kuk operated", "participates in KG Education Scheme", "diversified child care services", "professional early childhood education"],
+    "special_features": ["Nursery for 2-3 years", "One of 25 non-profit-making kindergartens-cum-nurseries under Po Leung Kuk", "Participates in Education Bureau's Kindergarten Education Scheme"],
+    "age_range": "Nursery: 2-3 years, K1-K3: 3-6 years",
+    "session_types": ["Whole-day"],
+    "language": ["Cantonese", "English"],
+    "fees": 3200,
+    "rating": 4.6,
+    "reviews": 89,
+    "description": "Po Leung Kuk operated since 1878, participates in KG Education Scheme, diversified child care services. Po Leung Kuk vision of providing diversified services to support families and working parents."
+  },
+  {
+    "id": 399,
+    "name_en": "Kendall International Preschool - West Kowloon Campus",
+    "name_zh": "Kendall國際學前學校 - 西九龍校園",
+    "type": "Pre-nursery",
+    "category": "private_independent",
+    "district": "Sham Shui Po",
+    "address": "G/F, RESIDENCE 228, 228 Fuk Wing Street, Cheung Sha Wan, Kowloon (serves Sham Shui Po District)",
+    "address_zh": "九龍長沙灣福榮街228號RESIDENCE 228地下（服務深水埗區）",
+    "phone": "2328 8223",
+    "email": "info@kendall.edu.hk",
+    "website": "kendall.edu.hk",
+    "established_year": 2020,
+    "opening_hours": "Monday to Friday 9:00am - 5:00pm",
+    "facilities": ["International preschool rooted in Chinese values", "unique convergence of Western methods and Chinese traditions", "creative curriculum from U.S. with play-based learning"],
+    "special_features": ["Pre-Nursery (PN) for 2-3 years", "Bold new experience of growing and learning", "Convergence of Modern Western Teaching Methods with Chinese values", "2025-2026 admission application now open", "Summer Camp: July 21 – August 15 2025, 9am-12pm"],
+    "age_range": "Pre-Nursery (PN): 2-3 years old, K1-K3: 2 years 8 months-6 years old",
+    "session_types": ["Half-day AM", "Half-day PM", "Whole-day"],
+    "language": ["English", "Mandarin", "Cantonese"],
+    "fees": 6800,
+    "rating": 4.7,
+    "reviews": 56,
+    "description": "International preschool rooted in Chinese values, unique convergence of Western methods and Chinese traditions. Marriage of learning through play and core academic preparation, nurturing exceptional talents and gifts."
+  },
+  {
+    "id": 400,
+    "name_en": "The Salvation Army Pak Tin Nursery School",
+    "name_zh": "救世軍白田幼兒學校",
+    "type": "Pre-nursery",
+    "category": "charity_ngo",
+    "district": "Sham Shui Po",
+    "address": "G/F, Wing C, Fu Tin House, Pak Tin Estate, Pak Wan Street, Sham Shui Po, Kowloon",
+    "address_zh": "九龍深水埗白田邨富田樓C翼地下",
+    "phone": "2778 3588",
+    "fax": "2778 9622",
+    "email": "ptnsc@salvationarmy.org.hk",
+    "website": "salvationarmy.org.hk/esd/ptnsc",
+    "established_year": 1999,
+    "opening_hours": "Monday to Friday 8:00am - 6:00pm",
+    "facilities": ["Salvation Army operated", "participates in KG Education Scheme", "Montessori Learning Area", "indoor playground", "81 students total capacity"],
+    "special_features": ["Nursery services for young children including potential programs for 2-3 years", "Salvation Army operated providing quality education and care with Christian values"],
+    "age_range": "Contact for 2-3 years programs, serves children with various developmental needs",
+    "session_types": ["Whole-day"],
+    "language": ["Cantonese", "English"],
+    "fees": 2800,
+    "rating": 4.4,
+    "reviews": 73,
+    "description": "Salvation Army operated, participates in KG Education Scheme, Montessori Learning Area, indoor playground. Salvation Army mission of providing quality holistic education and child care services with Christian values."
+  },
+  {
+    "id": 401,
+    "name_en": "The Salvation Army Lai Chi Kok Nursery School",
+    "name_zh": "救世軍荔枝角幼兒學校",
+    "type": "Pre-nursery",
+    "category": "charity_ngo",
+    "district": "Sham Shui Po",
+    "address": "Lai Chi Kok area, Sham Shui Po District",
+    "address_zh": "深水埗區荔枝角地區",
+    "phone": "2742 6000",
+    "email": "lckns@salvationarmy.org.hk",
+    "website": "salvationarmy.org.hk",
+    "established_year": 2000,
+    "opening_hours": "Monday to Friday 8:00am - 6:00pm",
+    "facilities": ["Salvation Army operated", "Christian education", "full-time services available", "104 places total capacity"],
+    "special_features": ["Christian non-profit nursery school", "offering quality full-time preschool education services for children aged 2 to 6 years old", "104 places available"],
+    "age_range": "Contact for 2-3 years programs, provides early childhood education services",
+    "session_types": ["Whole-day"],
+    "language": ["Cantonese", "English"],
+    "fees": 3000,
+    "rating": 4.5,
+    "reviews": 68,
+    "description": "Salvation Army operated, Christian education, full-time services available. Salvation Army commitment to providing quality early childhood education with Christian values."
+  },
+  {
+    "id": 402,
+    "name_en": "Cheung Sha Wan Kai Fong Welfare Association Lam Tam Yin Wah Kindergarten/Day Nursery",
+    "name_zh": "長沙灣街坊福利會林譚燕華幼稚園／幼兒中心",
+    "type": "Pre-nursery",
+    "category": "charity_ngo",
+    "district": "Sham Shui Po",
+    "address": "Lai Tsui Court, Cheung Sha Wan, Kowloon",
+    "address_zh": "九龍長沙灣麗翠苑",
+    "phone": "2742 7000",
+    "email": "info@lamtyw.edu.hk",
+    "website": "lamtyw.edu.hk",
+    "established_year": 2020,
+    "opening_hours": "Monday to Friday 8:00am - 6:00pm",
+    "facilities": ["Early childhood education and care services", "focus on 'creative thinking' development", "multiple intelligences as curriculum core", "six main learning areas"],
+    "special_features": ["Early childhood education and care services with potential programs for 2-3 years", "Focus on 'creative thinking' development with multiple intelligences as curriculum core", "Application accepted from 1-9-2024", "Six main learning areas, 'Activity Teaching', 'Design Activities', 'Life-wide Learning' approaches"],
+    "age_range": "Contact for 2-3 years programs, provides early childhood education and care",
+    "session_types": ["Half-day AM", "Half-day PM"],
+    "language": ["Cantonese", "English"],
+    "fees": 2500,
+    "rating": 4.3,
+    "reviews": 45,
+    "description": "Early childhood education and care services with potential programs for 2-3 years. Focus on 'creative thinking' development with multiple intelligences as curriculum core. Creative thinking development, multiple intelligences curriculum, whole-person development through diversified learning approaches."
+  },
+  {
+    "id": 403,
+    "name_en": "Hong Kong Society for the Protection of Children Cheung Sha Wan Nursery School",
+    "name_zh": "香港保護兒童會長沙灣幼兒學校",
+    "type": "Pre-nursery",
+    "category": "charity_ngo",
+    "district": "Sham Shui Po",
+    "address": "5/F, Cheung Sha Wan Community Centre, 55 Fat Tseung Street, Cheung Sha Wan, Kowloon",
+    "address_zh": "九龍長沙灣發祥街55號長沙灣社區中心5樓",
+    "phone": "2742 8000",
+    "email": "csw@hkspc.org",
+    "website": "ns.hkspc.org/csw",
+    "established_year": 2020,
+    "opening_hours": "Monday to Friday 8:00am - 6:00pm",
+    "facilities": ["Early childhood education services", "happy, caring, safe and diverse learning environment", "Hong Kong Society for the Protection of Children operated", "community-based services"],
+    "special_features": ["Early childhood education services with potential programs for 2-3 years", "Hong Kong Society for the Protection of Children operated providing happy, caring, safe and diverse learning environment", "Mission: To provide children with happy, caring, safe and diverse learning environment; to establish solid foundation for children's life-long learning"],
+    "age_range": "Contact for 2-3 years programs, provides early childhood education services",
+    "session_types": ["Half-day AM", "Half-day PM"],
+    "language": ["Cantonese", "English"],
+    "fees": 2200,
+    "rating": 4.4,
+    "reviews": 52,
+    "description": "Early childhood education services with potential programs for 2-3 years. Hong Kong Society for the Protection of Children operated providing happy, caring, safe and diverse learning environment. Child protection and welfare focus with emphasis on establishing solid foundation for life-long learning."
+  },
+  {
+    "id": 404,
+    "name_en": "Guidepost Kindergarten (Nam Cheong Branch)",
+    "name_zh": "Guidepost幼稚園（南昌分校）",
+    "type": "Pre-nursery",
+    "category": "private_independent",
+    "district": "Sham Shui Po",
+    "address": "G/F, Hoi Wing House, Hoi Tat Estate, 38 Sham Mong Road, Sham Shui Po, Kowloon",
+    "address_zh": "九龍深水埗深旺道38號海達邨海榮樓地下",
+    "phone": "2681 1208",
+    "fax": "2681 1298",
+    "email": "namcheong@guidepost.hk",
+    "website": "guideposts.edu.hk",
+    "established_year": 2021,
+    "opening_hours": "Monday to Friday 9:00am - 4:30pm",
+    "facilities": ["Non-profit-making", "participates in KG Education Scheme", "indoor playground", "music room", "multi-function area", "activity room", "art zone", "aquarium"],
+    "special_features": ["Early childhood education services with potential programs for 2-3 years", "Non-profit-making kindergarten participating in KG Education Scheme", "203 students total, 6 registered classrooms", "Quality Review: Meeting the standards (Education Bureau)"],
+    "age_range": "Contact for 2-3 years programs, serves children from early childhood",
+    "session_types": ["Half-day AM", "Half-day PM"],
+    "language": ["English", "Cantonese"],
+    "fees": 4500,
+    "rating": 4.6,
+    "reviews": 78,
+    "description": "Early childhood education services with potential programs for 2-3 years. Non-profit-making kindergarten participating in KG Education Scheme. Indoor playground, music room, multi-function area, activity room, art zone, aquarium."
+  },
+  {
+    "id": 405,
+    "name_en": "Sun Island Education Group - Serving Sham Shui Po District",
+    "name_zh": "太陽島英文幼稚園 - 服務深水埗區",
+    "type": "Pre-nursery",
+    "category": "private_independent",
+    "district": "Sham Shui Po",
+    "address": "Contact for campus locations serving Sham Shui Po District (Sham Shui Po / Olympic / Nanchang Station areas)",
+    "address_zh": "聯絡查詢服務深水埗區的校園地點（深水埗／奧運／南昌站地區）",
+    "phone": "2742 9000",
+    "email": "ssp@sunisland.edu.hk",
+    "website": "sunisland.edu.hk",
+    "established_year": 1984,
+    "opening_hours": "Monday to Friday 9:00am - 5:00pm",
+    "facilities": ["Established education group with multiple campuses", "English-focused curriculum", "structured pre-primary education approach", "student transport services available"],
+    "special_features": ["Pre-Nursery Class (PN) for 2-3 years old (minimum admission age is 2 years)", "Quality pre-primary education established since 1984", "English-focused curriculum with structured learning programs preparing children for kindergarten", "Student transport services available, accessible via Sham Shui Po / Olympic / Nanchang Station"],
+    "age_range": "Pre-Nursery Class (PN): 2-3 years old (minimum admission age is 2 years), K1-K3: 3-6 years",
+    "session_types": ["Half-day AM", "Half-day PM", "Whole-day"],
+    "language": ["English", "Cantonese"],
+    "fees": 5200,
+    "rating": 4.7,
+    "reviews": 89,
+    "description": "Quality pre-primary education established since 1984 (over 40 years of experience). English-focused curriculum with structured learning programs preparing children for kindergarten. Established education group with multiple campuses, English-focused curriculum, structured pre-primary education approach."
+  }
   ]
 };
+
+// Debug logging
+console.log('Data loaded successfully. Total institutions:', appData.institutions.length);
+console.log('Sham Shui Po institutions:', appData.institutions.filter(inst => inst.district === 'Sham Shui Po').length);
 
 // Application State
 let currentLanguage = 'en';
@@ -8416,12 +8859,41 @@ function performSearch(searchTerm = null) {
   const mainSearchInput = document.getElementById('main-search');
   const searchInput = document.getElementById('search-input');
   
-  const query = searchTerm || 
-                (mainSearchInput ? mainSearchInput.value : '') || 
-                (searchInput ? searchInput.value : '') || 
-                '';
+  // Get the current search value from the appropriate input
+  let query = searchTerm;
   
-  activeFilters.search = query;
+  if (!query) {
+    // If no searchTerm provided, get from current page's search input
+    if (currentPage === 'search' && searchInput) {
+      query = searchInput.value.trim();
+    } else if (mainSearchInput) {
+      query = mainSearchInput.value.trim();
+    }
+  }
+  
+  console.log('Search query:', query);
+  
+  // Check if the search term is a district name and set district filter accordingly
+  const districtNames = [
+    "Central & Western", "Eastern", "Islands", "Kowloon City", "Kwai Tsing", "Kwun Tong", 
+    "North", "Sai Kung", "Sham Shui Po", "Sha Tin", "Southern", "Tai Po", 
+    "Tsuen Wan", "Tuen Mun", "Wan Chai", "Wong Tai Sin", "Yau Tsim Mong", "Yuen Long"
+  ];
+  
+  const matchedDistrict = districtNames.find(district => 
+    district.toLowerCase() === query.toLowerCase()
+  );
+  
+  if (matchedDistrict) {
+    // If searching for a district, set both search and district filters
+    activeFilters.search = query;
+    activeFilters.district = matchedDistrict;
+    console.log('District match found:', matchedDistrict);
+  } else {
+    // Regular search
+    activeFilters.search = query;
+    activeFilters.district = '';
+  }
   
   if (currentPage !== 'search') {
     showPage('search');
@@ -8430,6 +8902,12 @@ function performSearch(searchTerm = null) {
   // Set search input value on search page
   if (searchInput && query) {
     searchInput.value = query;
+  }
+  
+  // Update district filter dropdown if on search page
+  const districtFilter = document.getElementById('district-filter');
+  if (districtFilter && activeFilters.district) {
+    districtFilter.value = activeFilters.district;
   }
   
   applyFilters();
@@ -8464,6 +8942,7 @@ function applyFilters() {
   console.log('Wong Tai Sin institutions:', filtered.filter(inst => inst.district === 'Wong Tai Sin').length);
   console.log('Yau Tsim Mong institutions:', filtered.filter(inst => inst.district === 'Yau Tsim Mong').length);
   console.log('Yuen Long institutions:', filtered.filter(inst => inst.district === 'Yuen Long').length);
+  console.log('Sham Shui Po institutions:', filtered.filter(inst => inst.district === 'Sham Shui Po').length);
   
   // Log all districts present
   const districts = [...new Set(filtered.map(inst => inst.district))];
@@ -9165,6 +9644,10 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Initialize language content
   updateLanguageContent();
+  
+  // Initialize search page and filters
+  initializeSearchPage();
+  setupFilterEventListeners();
   
   // Test the search functionality
   setTimeout(() => {
