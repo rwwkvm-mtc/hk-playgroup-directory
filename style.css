@@ -1386,6 +1386,42 @@ select.form-control {
     margin-bottom: var(--space-8);
 }
 
+.info-accuracy {
+    background: rgba(var(--color-teal-500-rgb), 0.05);
+    border: 1px solid rgba(var(--color-teal-500-rgb), 0.2);
+    border-radius: var(--radius-md);
+    padding: var(--space-20);
+    margin: var(--space-16) 0;
+}
+
+.info-accuracy p {
+    margin-bottom: var(--space-12);
+    line-height: 1.6;
+}
+
+.correction-contact {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    padding: var(--space-16);
+    margin-top: var(--space-16);
+}
+
+.correction-contact p {
+    margin-bottom: var(--space-8);
+}
+
+.correction-contact a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: var(--font-weight-medium);
+}
+
+.correction-contact a:hover {
+    color: var(--color-primary-hover);
+    text-decoration: underline;
+}
+
 .contact-info p {
     margin-bottom: var(--space-8);
 }
@@ -1455,6 +1491,47 @@ select.form-control {
     font-size: var(--font-size-4xl);
     color: var(--color-success);
     margin-bottom: var(--space-16);
+}
+
+/* Footer */
+.footer {
+    background: var(--color-slate-900);
+    color: var(--color-cream-50);
+    padding: var(--space-32) 0;
+    margin-top: var(--space-48);
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-info p {
+    margin-bottom: var(--space-16);
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-contact {
+    margin-top: var(--space-24);
+    padding-top: var(--space-24);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-contact p {
+    margin-bottom: var(--space-8);
+}
+
+.footer-contact a {
+    color: var(--color-teal-300);
+    text-decoration: none;
+    font-weight: var(--font-weight-medium);
+}
+
+.footer-contact a:hover {
+    color: var(--color-teal-200);
+    text-decoration: underline;
 }
 
 /* Responsive Design */
