@@ -9082,10 +9082,15 @@ function performSearch(searchTerm = null) {
     activeFilters.search = query;
     activeFilters.district = matchedDistrict;
     console.log('District match found:', matchedDistrict);
+    console.log('Set activeFilters.search to:', activeFilters.search);
+    console.log('Set activeFilters.district to:', activeFilters.district);
   } else {
     // Regular search
     activeFilters.search = query;
     activeFilters.district = '';
+    console.log('Regular search - no district match');
+    console.log('Set activeFilters.search to:', activeFilters.search);
+    console.log('Set activeFilters.district to:', activeFilters.district);
   }
   
   if (currentPage !== 'search') {
@@ -9144,6 +9149,10 @@ function applyFilters() {
   // Apply search filter
   if (activeFilters.search) {
     const searchLower = activeFilters.search.toLowerCase();
+    console.log('Applying search filter for:', activeFilters.search);
+    console.log('Search term (lowercase):', searchLower);
+    console.log('Before search filter:', filtered.length, 'institutions');
+    
     filtered = filtered.filter(inst => 
       inst.name_en.toLowerCase().includes(searchLower) ||
       inst.name_zh.includes(searchLower) ||
@@ -9151,6 +9160,7 @@ function applyFilters() {
       inst.address.toLowerCase().includes(searchLower)
     );
     console.log('After search filter:', filtered.length, 'institutions');
+    console.log('Search results:', filtered.map(inst => inst.name_en));
   }
   
   // Apply district filter
