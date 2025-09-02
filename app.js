@@ -9155,9 +9155,9 @@ function applyFilters() {
     
     filtered = filtered.filter(inst => 
       inst.name_en.toLowerCase().includes(searchLower) ||
-      inst.name_zh.includes(searchLower) ||
+      (inst.name_zh && inst.name_zh.includes(searchLower)) ||
       inst.district.toLowerCase().includes(searchLower) ||
-      inst.address.toLowerCase().includes(searchLower)
+      (inst.address && inst.address.toLowerCase().includes(searchLower))
     );
     console.log('After search filter:', filtered.length, 'institutions');
     console.log('Search results:', filtered.map(inst => inst.name_en));
