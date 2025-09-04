@@ -4756,7 +4756,7 @@ const appData = {
       "fees": 2000,
       "rating": 4.7,
       "reviews": 38,
-      "facilities": ["Maximum 7 children per session", "Circle time with bonding", "Free exploration", "Bilingual environment", "Sensory play for infants"],
+      "facilities": ["Maximum 7 children per session", "Circle time with bonding", "Free exploration", "Bilingual environment", "Sensory play for infants", "Outdoor area"],
       "description": "ICHK Hong Lok Yuen (Kindergarten and Primary) offers engaging Playgroup sessions for children aged 6 to 32 months, designed as a gentle introduction to its kindergarten environment. Led by experienced early years teachers, each session includes a mix of guided group activities and free play, featuring games, songs, and hands-on fun that caregivers can continue at home. It's a great way for young children to socialize and explore while parents and helpers actively participate, picking up useful ideas and skills to support learning and development beyond the classroom."
     },
     {
