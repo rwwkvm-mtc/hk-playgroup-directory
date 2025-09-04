@@ -4745,8 +4745,8 @@ const appData = {
       "address": "3, Twentieth Street, Hong Lok Yuen, Tai Po, New Territories, Hong Kong",
       "address_zh": "香港新界大埔香港凱壹苑第二十街3號",
       "phone": "+852 3955 3000",
-      "email": "admissions@ichkhly.edu.hk, info@ichkhly.edu.hk",
-      "website": "ichkhly.edu.hk",
+      "email": "admissions@ichkhly.edu.hk",
+      "website": "http://ichkhly.edu.hk/",
       "baby_sensory": "For 6-12 months, Thursdays 9:30-10:30am",
       "playgroups": "For 6-32 months",
       "type": "Playgroup",
@@ -4757,7 +4757,7 @@ const appData = {
       "rating": 4.7,
       "reviews": 38,
       "facilities": ["Maximum 7 children per session", "Circle time with bonding", "Free exploration", "Bilingual environment", "Sensory play for infants"],
-      "description": "Baby Sensory (6-12m): Sensory play for infants, develop motor and language skills, healthy brain development. Music & Early Starters: 30 mins music + 60 mins play."
+      "description": "ICHK Hong Lok Yuen (Kindergarten and Primary) offers engaging Playgroup sessions for children aged 6 to 32 months, designed as a gentle introduction to its kindergarten environment. Led by experienced early years teachers, each session includes a mix of guided group activities and free play, featuring games, songs, and hands-on fun that caregivers can continue at home. It's a great way for young children to socialize and explore while parents and helpers actively participate, picking up useful ideas and skills to support learning and development beyond the classroom."
     },
     {
       "id": 232,
