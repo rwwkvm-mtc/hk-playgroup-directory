@@ -4752,7 +4752,7 @@ const appData = {
       "type": "Playgroup",
       "age_range": "6-32 months (Baby Sensory: 6-12m, Music & Early Starters: 12-32m, Story & Craft: 18-32m)",
       "session_types": ["Baby Sensory", "Music & Early Starters", "Story & Craft"],
-      "language": ["English", "Cantonese"],
+      "language": ["English", "Mandarin"],
       "fees": 2000,
       "rating": 4.7,
       "reviews": 38,
