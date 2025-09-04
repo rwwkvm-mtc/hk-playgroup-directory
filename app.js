@@ -4906,28 +4906,9 @@ const appData = {
       "description": "Toddlers' World: Arts & Crafts, Music & Songs, Physical Movement, Fun Games, Story Reading, Free-play Time, Snack Time, special parties and outings."
     },
     // TAI PO DISTRICT - PRE-NURSERY PROGRAMS
+
     {
       "id": 239,
-      "name_en": "International College Hong Kong (ICHK) Hong Lok Yuen - Pre-Nursery",
-      "name_zh": "香港國際學院香港凱壹苑 - 學前班",
-      "district": "Tai Po",
-      "address": "3 Twentieth Street, Hong Lok Yuen, Tai Po, New Territories",
-      "address_zh": "新界大埔香港凱壹苑第二十街3號",
-      "phone": "3955 3000",
-      "email": "info@ichkhly.edu.hk",
-      "website": "ichkhly.edu.hk",
-      "type": "Pre-nursery",
-      "age_range": "2 years 8 months to 3 years (Pre-Nursery), 3-11 years (Nursery-Year 6)",
-      "session_types": ["Afternoon programme", "IB Primary Years Programme pathway"],
-      "language": ["English"],
-      "fees": 140880,
-      "rating": 4.8,
-      "reviews": 89,
-      "facilities": ["Founded 1983", "Community of learners under 400 students", "Forest School education leader", "Spacious gardens", "Outdoor play apparatus", "Allotment for growing", "Mini forest", "Outdoor forest classroom"],
-      "description": "Pre-Nursery: For children 2 years 8 months enrolled to join Nursery in following September, afternoon programme from January onwards (Mon, Tue, Thu). IB Primary Years Programme pathway."
-    },
-    {
-      "id": 240,
       "name_en": "Anchors International Nursery (Fuller Gardens Campus)",
       "name_zh": "安基司國際幼兒園（富來花園校園）",
       "district": "Tai Po",
@@ -4947,7 +4928,7 @@ const appData = {
       "description": "2-year old preparatory class: Mainstream N1 and International IN1. UK National Curriculum, bilingual approach (English/Mandarin). Online admission applications start 15 August annually."
     },
     {
-      "id": 241,
+      "id": 240,
       "name_en": "Anchors International Nursery (Constellation Cove Campus)",
       "name_zh": "安基司國際幼兒園（滌濤山校園）",
       "district": "Tai Po",
@@ -4967,7 +4948,7 @@ const appData = {
       "description": "2-year old preparatory class: Mainstream N1 and International IN1. UK National Curriculum, bilingual education. Constellation Cove development location."
     },
     {
-      "id": 242,
+      "id": 241,
       "name_en": "Zebedee International Preschool and Nursery",
       "name_zh": "思百德國際幼稚園",
       "district": "Tai Po",
@@ -4987,7 +4968,7 @@ const appData = {
       "description": "Nursery (2+ years): Non-profit family-oriented education, Early Years Foundation Stage framework (EYFS), small class sizes offering personal approach. Student Ratio: 1:8 Nursery, 1:10 Preschool."
     },
     {
-      "id": 243,
+      "id": 242,
       "name_en": "Tung Wah Group of Hospitals Fong Lai Ming Nursery School",
       "name_zh": "東華三院方麗明幼兒學校",
       "district": "Tai Po",
@@ -5008,7 +4989,7 @@ const appData = {
       "description": "Kindergarten-cum-Child Care Centre providing care and educational services for young children, harmonized pre-primary services since 2005. Capacity: 74 permitted accommodation according to Education Bureau."
     },
     {
-      "id": 244,
+      "id": 243,
       "name_en": "St. Paul's Catholic Day Nursery",
       "name_zh": "天主教聖保祿幼兒園",
       "district": "Tai Po",
@@ -5028,7 +5009,7 @@ const appData = {
       "description": "N1 (2-3 years full-day): Catholic-based education, full-day whole person development, child-centered approach with life experience foundation. 2025-2026 admission: December 1-31, 2024 online application."
     },
     {
-      "id": 245,
+      "id": 244,
       "name_en": "Mulberry House International Kindergarten (Tai Po Campus) - Pre-Nursery",
       "name_zh": "Mulberry House國際幼稚園（大埔校園）- 學前班",
       "district": "Tai Po",
@@ -5048,7 +5029,7 @@ const appData = {
       "description": "Pre-Nursery programme in partnership with established early childhood education, Reggio Emilia approach, bilingual classes. Next to Chinese University of Hong Kong and Hong Kong Science Park, beside Tolo Harbour."
     },
     {
-      "id": 246,
+      "id": 245,
       "name_en": "Tai Po Catholic Kindergarten",
       "name_zh": "天主教大埔幼稚園",
       "district": "Tai Po",
@@ -5068,7 +5049,7 @@ const appData = {
       "description": "Catholic kindergarten education, potential Pre-Nursery services for 2-3 years, holistic development approach."
     },
     {
-      "id": 247,
+      "id": 246,
       "name_en": "Tai Po Merchants Association Kindergarten",
       "name_zh": "大埔商會幼稚園",
       "district": "Tai Po",
@@ -5088,7 +5069,7 @@ const appData = {
       "description": "Community-based kindergarten education, potential Pre-Nursery services, Tai Po Merchants Association operated."
     },
     {
-      "id": 248,
+      "id": 247,
       "name_en": "Po Leung Kuk Lau Chun Kindergarten",
       "name_zh": "保良局劉進幼稚園",
       "district": "Tai Po",
@@ -5109,7 +5090,7 @@ const appData = {
       "description": "Po Leung Kuk kindergarten-cum-nursery services, potential Pre-Nursery programs for 2-3 years, holistic early childhood development."
     },
     {
-      "id": 249,
+      "id": 248,
       "name_en": "Pentecostal Church of Hong Kong Tai Wo Nursery School",
       "name_zh": "竹園區神召會太和康樂幼兒學校",
       "district": "Tai Po",
@@ -5130,7 +5111,7 @@ const appData = {
       "description": "Pre-Nursery programs for 2-3 years, Pentecostal church-based education, comprehensive early childhood development."
     },
     {
-      "id": 250,
+      "id": 249,
       "name_en": "Hong Kong Taoist Association Yuen Yuen Kindergarten (Fu Shin Estate)",
       "name_zh": "香港道教聯合會圓玄幼稚園（富善邨）",
       "district": "Tai Po",
@@ -5151,7 +5132,7 @@ const appData = {
       "description": "Taoist Association operated kindergarten, potential Pre-Nursery services, holistic development approach."
     },
     {
-      "id": 251,
+      "id": 250,
       "name_en": "The Education University of Hong Kong Early Childhood Learning Centre (Kindergarten Section)",
       "name_zh": "香港教育大學幼兒發展中心（幼稚園部）",
       "district": "Tai Po",
@@ -5172,7 +5153,7 @@ const appData = {
     },
     // TSUEN WAN DISTRICT - PLAYGROUPS
     {
-      "id": 252,
+      "id": 251,
       "name_en": "Child Psychological Development Association (CPDA) - Tsuen Wan Center",
       "name_zh": "嬰幼兒心理發展協會 - 荃灣分會",
       "district": "Tsuen Wan",
@@ -5194,7 +5175,7 @@ const appData = {
       "description": "Infant Development Playgroup: 10 lessons, 1 lesson/week (1 hour). Activities based on psychological development needs, sensory integration, motor skills. Opening Hours: Mon-Sun: 10:00am-6:30pm."
     },
     {
-      "id": 253,
+      "id": 252,
       "name_en": "Child Psychological Development Association (CPDA) - Tsuen Wan West Center",
       "name_zh": "嬰幼兒心理發展協會 - 荃灣西分會",
       "district": "Tsuen Wan",
@@ -5217,7 +5198,7 @@ const appData = {
       "description": "Infant Development Playgroup: 10 lessons, 1 lesson/week (1 hour). Activities based on psychological development needs, sensory integration. Opening Hours: Mon-Sun: 9:30am-6:30pm."
     },
     {
-      "id": 254,
+      "id": 253,
       "name_en": "ESF Tsing Yi International Kindergarten - Playgroups",
       "name_zh": "ESF青衣國際幼稚園 - 遊戲小組",
       "district": "Tsuen Wan",
@@ -5238,7 +5219,7 @@ const appData = {
       "description": "Progressive playgroups following EYFS framework: Level 1 (6-12m), Level 2 (13-24m). Stories, songs, hands-on sensory activities, building confidence. Principal: Suzannah Large (experienced early-years specialist)."
     },
     {
-      "id": 255,
+      "id": 254,
       "name_en": "Kids Garden (Tsuen Wan Branch) - English & Chinese Playgroup",
       "name_zh": "Kids Garden（荃灣分校）- 英文及中文遊戲小組",
       "district": "Tsuen Wan",
@@ -5258,7 +5239,7 @@ const appData = {
       "description": "English Playgroup: Singing, playing, themed weekly activities. Baby Gym: Physical fitness through playgroup elements with foreign teachers. Baby Yoga: Mom and baby yoga classes. Opening Hours: Mon-Sun: 9:00am-6:30pm."
     },
     {
-      "id": 256,
+      "id": 255,
       "name_en": "My Gym Premium - Children's Fitness Center",
       "name_zh": "My Gym Premium - 兒童體適能中心",
       "district": "Tsuen Wan",
@@ -5278,7 +5259,7 @@ const appData = {
       "description": "Tiny Tykes (6-12m): Beginning stretches, exercises, infant songs, dances, balance and agility skills. Waddlers (12-19m): Balancing, tumbling, hanging and agility exercises. Philosophy: Empower The Youngster by building confidence, coordination, and physical abilities."
     },
     {
-      "id": 257,
+      "id": 256,
       "name_en": "Artsplus Playgroup Programs (Potential Tsuen Wan Service)",
       "name_zh": "Artsplus遊戲小組課程（潛在荃灣服務）",
       "district": "Tsuen Wan",
@@ -5298,7 +5279,7 @@ const appData = {
       "description": "Infant Class: Strengthen gross and fine motor skills, prepare for sitting, standing, walking. Toddler Class: Build motor skills and coordination. Activities: Exploratory play, sensory play, musical activities, art, language, movement activities in purpose-built environment."
     },
     {
-      "id": 258,
+      "id": 257,
       "name_en": "Baumhaus Kindermusik (Accessible to Tsuen Wan)",
       "name_zh": "Baumhaus兒童音樂（荃灣可達）",
       "district": "Tsuen Wan",
@@ -5318,7 +5299,7 @@ const appData = {
       "description": "Kindermusik classes for infants and toddlers, encouraging singing, movement, musical instruments, story listening. Opening Hours: Mon-Sun: 9am-6pm. Transportation: Accessible from Tsuen Wan via MTR Tsuen Wan Line to Wan Chai."
     },
     {
-      "id": 259,
+      "id": 258,
       "name_en": "Llamahood Playgroup (Potential Tsuen Wan Service)",
       "name_zh": "Llamahood遊戲小組（潛在荃灣服務）",
       "district": "Tsuen Wan",
@@ -5338,7 +5319,7 @@ const appData = {
       "description": "Infanity (6-11m): Accompanied class for infants and parents to explore together, sensory stimulation. Top Learner (12-18m): Safe environment for developing individuality, physical abilities."
     },
     {
-      "id": 260,
+      "id": 259,
       "name_en": "Happy Theory Playhouse (Tsuen Wan)",
       "name_zh": "Happy Theory遊樂屋（荃灣）",
       "district": "Tsuen Wan",
@@ -5361,7 +5342,7 @@ const appData = {
     },
     // TSUEN WAN DISTRICT - PRE-NURSERY PROGRAMS
     {
-      "id": 261,
+      "id": 260,
       "name_en": "Hong Kong Young Women's Christian Association Tsuen Wan Nursery School",
       "name_zh": "香港基督教女青年會荃灣幼兒學校",
       "district": "Tsuen Wan",
@@ -5381,7 +5362,7 @@ const appData = {
       "description": "Pre-Nursery (N): 2-3 years, application fee $40, interview-based admission. Office hours: 10:00am-4:00pm (Mon-Fri), 9:00am-12:00pm (Sat)."
     },
     {
-      "id": 262,
+      "id": 261,
       "name_en": "ESF Tsing Yi International Kindergarten - Pre-Kindergarten Programs",
       "name_zh": "ESF青衣國際幼稚園 - 學前幼稚園課程",
       "district": "Tsuen Wan",
@@ -5402,7 +5383,7 @@ const appData = {
       "description": "Pre-Kindergarten programme for children aged 2-3, EYFS curriculum, play-based inquiry learning, multicultural setting. School bus routes to Tsuen Wan, Tuen Mun, Siu Lam, Ting Kau areas."
     },
     {
-      "id": 263,
+      "id": 262,
       "name_en": "Tsuen Wan Trade Association Chiu Kin Fung Kindergarten",
       "name_zh": "荃灣商會邱健峰幼稚園",
       "district": "Tsuen Wan",
@@ -5422,7 +5403,7 @@ const appData = {
       "description": "K1/Nursery Class: 2 years 8 months to 4 years old, quality pre-school education fostering whole-person development. Mission: Promote education for all and nurture youngsters."
     },
     {
-      "id": 264,
+      "id": 263,
       "name_en": "Parkview Rhine Garden Pre-School",
       "name_zh": "栢基海韻幼稚園",
       "district": "Tsuen Wan",
@@ -5442,7 +5423,7 @@ const appData = {
       "description": "Non-profit pre-school education under KG Education Scheme, whole person development approach, Chinese Art & Culture programs. Free tuition for K1-K3, Whole Day: $4,184/year (10 installments)."
     },
     {
-      "id": 265,
+      "id": 264,
       "name_en": "Parkview-Rhine Garden International Nursery",
       "name_zh": "栢基海韻國際幼兒園",
       "district": "Tsuen Wan",
@@ -5462,7 +5443,7 @@ const appData = {
       "description": "Private independent international nursery for 2+ years, not covered by KG Education Scheme, international curriculum approach. Office hours: Mon-Fri 8:30-12:30, 14:00-16:30, Sat 8:30-12:30."
     },
     {
-      "id": 266,
+      "id": 265,
       "name_en": "S.K.H. St. Christopher's Nursery (Kwai Chung)",
       "name_zh": "聖公會聖基道幼兒園（葵涌）",
       "district": "Tsuen Wan",
@@ -5482,7 +5463,7 @@ const appData = {
       "description": "Preschool class N: 2-3 years old, whole day pre-school education and daily care, multiple intelligence development. Medium of Instruction: Cantonese (except English and Putonghua lessons)."
     },
     {
-      "id": 267,
+      "id": 266,
       "name_en": "Kendall International Preschool and Nursery (Serves Tsuen Wan via School Bus)",
       "name_zh": "Kendall國際幼稚園及幼兒園（校車服務荃灣）",
       "district": "Tsuen Wan",
@@ -5504,7 +5485,7 @@ const appData = {
       "description": "Pre-Nursery (PN): 2-3 years old, half-day English and Mandarin programs, Creative Curriculum, child-developmental approach. School bus service available from Tsing Yi, Tsuen Wan, Tai Wai and Sha Tin areas."
     },
     {
-      "id": 268,
+      "id": 267,
       "name_en": "Po Leung Kuk Chi Pui Kindergarten",
       "name_zh": "保良局志沛幼稚園",
       "district": "Tsuen Wan",
@@ -5524,7 +5505,7 @@ const appData = {
       "description": "Po Leung Kuk kindergarten-cum-nursery services, potential Pre-Nursery programs for 2-3 years. Principal: Ms Wong Yin Ching."
     },
     {
-      "id": 269,
+      "id": 268,
       "name_en": "Hong Kong Young Women's Christian Association Tsing Yi Nursery School",
       "name_zh": "香港基督教女青年會青衣幼兒學校",
       "district": "Tsuen Wan",
@@ -5544,7 +5525,7 @@ const appData = {
       "description": "Pre-Nursery (N) classes admission arrangements, guidelines for 2-3 years old, nursery (K1) classes also available."
     },
     {
-      "id": 270,
+      "id": 269,
       "name_en": "Evangelical Lutheran Church of Hong Kong Ling Kung Nursery School",
       "name_zh": "基督教香港信義會靈工幼兒學校",
       "district": "Tsuen Wan",
@@ -5565,7 +5546,7 @@ const appData = {
       "description": "Lutheran church-based nursery education, potential Pre-Nursery services for 2-3 years, Christian values integration."
     },
     {
-      "id": 271,
+      "id": 270,
       "name_en": "The Salvation Army Tsuen Wan Nursery School",
       "name_zh": "救世軍荃灣幼兒學校",
       "district": "Tsuen Wan",
@@ -5585,7 +5566,7 @@ const appData = {
       "description": "Salvation Army operated kindergarten-cum-child care centre, Pre-Nursery services for 2-3 years."
     },
     {
-      "id": 272,
+      "id": 271,
       "name_en": "Hong Kong Sheng Kung Hui Lady MacLehose Centre Day Nursery",
       "name_zh": "香港聖公會麥理浩夫人中心幼兒園",
       "district": "Tsuen Wan",
@@ -5606,7 +5587,7 @@ const appData = {
       "description": "Anglican church-based day nursery services, potential Pre-Nursery programs, comprehensive child development approach."
     },
     {
-      "id": 273,
+      "id": 272,
       "name_en": "Hong Kong Sheng Kung Hui Lady MacLehose Centre (Shek Yam) Day Nursery",
       "name_zh": "香港聖公會麥理浩夫人中心（石蔭）幼兒園",
       "district": "Tsuen Wan",
@@ -5627,7 +5608,7 @@ const appData = {
       "description": "Anglican church-based day nursery services at Shek Yam Estate, potential Pre-Nursery programs for 2-3 years."
     },
     {
-      "id": 274,
+      "id": 273,
       "name_en": "Child Psychological Development Association (CPDA) - Tuen Mun Center",
       "name_zh": "嬰幼兒心理發展協會 - 屯門分會",
       "district": "Tuen Mun",
@@ -5653,7 +5634,7 @@ const appData = {
       "special_offers": "New member 10% discount, package discounts available"
     },
     {
-      "id": 275,
+      "id": 274,
       "name_en": "Hello Baby Art & Play Center (Tuen Mun Branch)",
       "name_zh": "Hello Baby藝術及遊戲中心（屯門分校）",
       "district": "Tuen Mun",
@@ -5677,7 +5658,7 @@ const appData = {
       "special_offers": "Trial classes with waived fees upon enrollment"
     },
     {
-      "id": 276,
+      "id": 275,
       "name_en": "Kids Corner Playgroup International (Tuen Mun Campus)",
       "name_zh": "Kids Corner國際遊戲小組（屯門校園）",
       "district": "Tuen Mun",
@@ -5700,7 +5681,7 @@ const appData = {
       "philosophy": "Games inspire learning, making learning more effective and enjoyable"
     },
     {
-      "id": 277,
+      "id": 276,
       "name_en": "Monkey Tree English Learning Centre (Tuen Mun Branch)",
       "name_zh": "Monkey Tree英語學習中心（屯門分校）",
       "district": "Tuen Mun",
@@ -5724,7 +5705,7 @@ const appData = {
       "special": "Largest English training institution in HK"
     },
     {
-      "id": 278,
+      "id": 277,
       "name_en": "Anchors Academy - Creative Tots Playgroup (Serves Tuen Mun)",
       "name_zh": "安基司學院 - 創意幼兒遊戲小組（服務屯門）",
       "district": "Tuen Mun",
@@ -5747,7 +5728,7 @@ const appData = {
       "application": "First come first serve basis"
     },
     {
-      "id": 279,
+      "id": 278,
       "name_en": "Tung Wah Group of Hospitals Tin Ka Ping Nursery School - Early Programs",
       "name_zh": "東華三院田家炳幼兒學校 - 早期課程",
       "district": "Tuen Mun",
@@ -5774,7 +5755,7 @@ const appData = {
       "special": "Priority placement for families with social needs referred by Social Welfare Department"
     },
     {
-      "id": 280,
+      "id": 279,
       "name_en": "Jing Jing Kindergarten and Nursery (Tuen Mun Branch)",
       "name_zh": "晶晶幼稚園暨幼兒園（屯門分校）",
       "district": "Tuen Mun",
@@ -5796,7 +5777,7 @@ const appData = {
       "nutrition": "Committed to providing well-balanced, nutritious foods, develop independence and good table manners"
     },
     {
-      "id": 281,
+      "id": 280,
       "name_en": "Tung Wah Group of Hospitals Zonta Club of Kowloon Nursery School",
       "name_zh": "東華三院九龍崇德社幼兒學校",
       "district": "Tuen Mun",
@@ -5821,7 +5802,7 @@ const appData = {
       "special": "Serves Tin Shui Wai District (adjacent to Tuen Mun)"
     },
     {
-      "id": 282,
+      "id": 281,
       "name_en": "LCSD Children's Play Rooms (Tuen Mun District)",
       "name_zh": "康文署兒童遊戲室（屯門區）",
       "district": "Tuen Mun",
@@ -5843,7 +5824,7 @@ const appData = {
       "special": "FREE admission, first-come-first-served, capacity varies by venue, parent accompaniment required for under 4s"
     },
     {
-      "id": 283,
+      "id": 282,
       "name_en": "Sik Sik Yuen Ho Shui Kindergarten - Early Programs",
       "name_zh": "嗇色園可瑞幼稚園 - 早期課程",
       "district": "Tuen Mun",
@@ -5867,7 +5848,7 @@ const appData = {
     },
     // ADDITIONAL TUEN MUN PRE-NURSERY PROGRAMS
     {
-      "id": 284,
+      "id": 283,
       "name_en": "Tung Wah Group of Hospitals Fong Tam Yuen Leung Nursery School",
       "name_zh": "東華三院方譚遠良幼兒學校",
       "district": "Tuen Mun",
@@ -5892,7 +5873,7 @@ const appData = {
       "special": "TWGHs operated, priority placement for families with social needs"
     },
     {
-      "id": 285,
+      "id": 284,
       "name_en": "Hong Kong Society for the Protection of Children Butterfly Estate Nursery School",
       "name_zh": "香港保護兒童會蝴蝶邨幼兒學校",
       "district": "Tuen Mun",
@@ -5915,7 +5896,7 @@ const appData = {
       "special": "Hong Kong Society for the Protection of Children operated, focus on English language development through stories and games"
     },
     {
-      "id": 286,
+      "id": 285,
       "name_en": "York International Pre-school (Tuen Mun)",
       "name_zh": "約克國際幼稚園（屯門）",
       "district": "Tuen Mun",
@@ -5939,7 +5920,7 @@ const appData = {
       "special": "Private independent school, trilingual education, international focus with global exchanges, high teacher-to-student ratio"
     },
     {
-      "id": 287,
+      "id": 286,
       "name_en": "Little Newton Anglo-Chinese Kindergarten",
       "name_zh": "小牛頓中英文幼稚園",
       "district": "Tuen Mun",
@@ -5963,7 +5944,7 @@ const appData = {
       "special": "Non-profit making, participates in free KG Education Scheme, 6,000 sq ft self-owned property"
     },
     {
-      "id": 288,
+      "id": 287,
       "name_en": "Zenith Kindergarten (Siu Hong)",
       "name_zh": "Zenith幼稚園（兆康）",
       "district": "Tuen Mun",
@@ -5986,7 +5967,7 @@ const appData = {
       "philosophy": "Cultivating students' lifelong passion for learning, developing language proficiency, critical thinking"
     },
     {
-      "id": 289,
+      "id": 288,
       "name_en": "Little Newton International Preschool (Tuen Mun)",
       "name_zh": "小牛頓國際幼兒園（屯門）",
       "district": "Tuen Mun",
@@ -6010,7 +5991,7 @@ const appData = {
       "special": "Private child care centre, separate from the main Little Newton Anglo-Chinese Kindergarten"
     },
     {
-      "id": 290,
+      "id": 289,
       "name_en": "Cannan Kindergarten (Prime View Garden)",
       "name_zh": "迦南幼稚園（景峰花園）",
       "district": "Tuen Mun",
@@ -6034,7 +6015,7 @@ const appData = {
       "special": "Non-profit making, participates in KG Education Scheme, 245 student capacity, 8 registered classrooms"
     },
     {
-      "id": 291,
+      "id": 290,
       "name_en": "Creative Kindergarten (Tuen Mun Branch)",
       "name_zh": "啟思幼稚園（屯門分校）",
       "district": "Tuen Mun",
@@ -6057,7 +6038,7 @@ const appData = {
       "teaching_method": "Joyful learning, specially designed curriculum in linguistic, STEM, art, music and physical activities"
     },
     {
-      "id": 292,
+      "id": 291,
       "name_en": "Yan Chai Hospital Yau Oi Kindergarten",
       "name_zh": "仁濟醫院友愛幼稚園",
       "district": "Tuen Mun",
@@ -6078,7 +6059,7 @@ const appData = {
       "special": "Yan Chai Hospital operated, participates in On-site Pre-school Rehabilitation Services"
     },
     {
-      "id": 293,
+      "id": 292,
       "name_en": "Yan Chai Hospital Shan King Kindergarten",
       "name_zh": "仁濟醫院山景幼稚園",
       "district": "Tuen Mun",
@@ -6099,7 +6080,7 @@ const appData = {
       "special": "Yan Chai Hospital operated, participates in On-site Pre-school Rehabilitation Services"
     },
     {
-      "id": 294,
+      "id": 293,
       "name_en": "Po Leung Kuk Butterfly Bay Kindergarten",
       "name_zh": "保良局蝴蝶灣幼稚園",
       "district": "Tuen Mun",
@@ -6120,7 +6101,7 @@ const appData = {
       "special": "Po Leung Kuk operated, participates in TWGHs social work services"
     },
     {
-      "id": 295,
+      "id": 294,
       "name_en": "The Neighbourhood Advice-Action Council Yau Oi Day Creche",
       "name_zh": "鄰舍輔導會友愛育嬰園",
       "district": "Tuen Mun",
@@ -6145,7 +6126,7 @@ const appData = {
     },
     // WAN CHAI DISTRICT - PLAYGROUPS
     {
-      "id": 296,
+      "id": 295,
       "name_en": "ESF Language & Learning Centre - Playgroups (Wan Chai)",
       "name_zh": "ESF語言學習中心 - 遊戲小組（灣仔）",
       "district": "Wan Chai",
@@ -6173,7 +6154,7 @@ const appData = {
       "philosophy": "Play is the foundation of development and learning for young children"
     },
     {
-      "id": 297,
+      "id": 296,
       "name_en": "Baumhaus - Kindermusik Classes & Playroom",
       "name_zh": "Baumhaus - 兒童音樂課程及遊戲室",
       "district": "Wan Chai",
@@ -6199,7 +6180,7 @@ const appData = {
       "location_benefits": "Located above M&S Food, nearest MTR: Admiralty Exit F"
     },
     {
-      "id": 298,
+      "id": 297,
       "name_en": "Victoria Playpark (Wan Chai Harcourt House Centre)",
       "name_zh": "Victoria Playpark（灣仔夏慤大廈中心）",
       "district": "Wan Chai",
@@ -6222,7 +6203,7 @@ const appData = {
       "awards": "2018 International Design Award (IDA) Silver for Interior Design"
     },
     {
-      "id": 299,
+      "id": 298,
       "name_en": "Spring Learning Centre",
       "name_zh": "Spring學習中心",
       "district": "Wan Chai",
@@ -6245,7 +6226,7 @@ const appData = {
       "special": "Creative and dedicated early childhood educators, child specialists, nutritionists, occupational therapists"
     },
     {
-      "id": 300,
+      "id": 299,
       "name_en": "KidzNJoy Playgroups (Wan Chai Branch)",
       "name_zh": "KidzNJoy遊戲小組（灣仔分校）",
       "district": "Wan Chai",
@@ -6268,7 +6249,7 @@ const appData = {
       "philosophy": "Foster early childhood development through play, teach basics like ABCs, numbers, colours"
     },
     {
-      "id": 301,
+      "id": 300,
       "name_en": "Little - Unique Baby Classes",
       "name_zh": "Little - 獨特嬰兒課程",
       "district": "Wan Chai",
@@ -6291,7 +6272,7 @@ const appData = {
       "activities": "Yoga inspired gentle stretching, coordination exercises, vibrant sensory play, communication through songs and baby sign language"
     },
     {
-      "id": 302,
+      "id": 301,
       "name_en": "Guidepost Montessori - Causeway Bay Family Club",
       "name_zh": "Guidepost蒙特梭利 - 銅鑼灣家庭會所",
       "district": "Wan Chai",
@@ -6314,7 +6295,7 @@ const appData = {
       "special": "Trial available, free monthly 'Get Togethers', free birthday celebrations"
     },
     {
-      "id": 303,
+      "id": 302,
       "name_en": "Guidepost Montessori - Happy Valley Sing Woo Road",
       "name_zh": "Guidepost蒙特梭利 - 跑馬地成和道",
       "district": "Wan Chai",
@@ -6338,7 +6319,7 @@ const appData = {
       "location": "Heart of Happy Valley, corner of Yuen Yuen Street and Sing Woo Road"
     },
     {
-      "id": 304,
+      "id": 303,
       "name_en": "Casita - Reimagined Family Center (Accessible to Wan Chai)",
       "name_zh": "Casita - 重新構想的家庭中心（灣仔可達）",
       "district": "Wan Chai",
@@ -6362,7 +6343,7 @@ const appData = {
       "philosophy": "Nurture every child's sense of wonder, family as cornerstone of growth"
     },
     {
-      "id": 305,
+      "id": 304,
       "name_en": "City Kids (Little Stars) - Central/Mid-Levels",
       "name_zh": "City Kids（小星星）- 中環/半山",
       "district": "Wan Chai",
@@ -6386,7 +6367,7 @@ const appData = {
       "special": "Community-based unique learning experience, weekly classes by term"
     },
     {
-      "id": 306,
+      "id": 305,
       "name_en": "My Gym (Wong Chuk Hang) - Serves Wan Chai Area",
       "name_zh": "My Gym（黃竹坑）- 服務灣仔地區",
       "district": "Wan Chai",
@@ -6411,7 +6392,7 @@ const appData = {
     },
     // WAN CHAI DISTRICT - PRE-NURSERY PROGRAMS
     {
-      "id": 307,
+      "id": 306,
       "name_en": "S.K.H. St. Christopher's Nursery (Wan Chai)",
       "name_zh": "聖公會聖基道幼兒園（灣仔）",
       "district": "Wan Chai",
@@ -6436,7 +6417,7 @@ const appData = {
       "professional_qualification": "All teachers qualified pre-school education professionals, some with degree and diploma level"
     },
     {
-      "id": 308,
+      "id": 307,
       "name_en": "ESF Language & Learning Centre - Pre-Kindergarten Programme (Wan Chai)",
       "name_zh": "ESF語言學習中心 - 學前幼稚園課程（灣仔）",
       "district": "Wan Chai",
@@ -6464,7 +6445,7 @@ const appData = {
       "application_benefits": "Pre-K students granted priority interview status within ESF Kindergarten Admission"
     },
     {
-      "id": 309,
+      "id": 308,
       "name_en": "Island Children's Montessori International Nursery - Pre-Casa Program",
       "name_zh": "Island Children's Montessori國際幼兒園 - Pre-Casa課程",
       "district": "Wan Chai",
@@ -6488,7 +6469,7 @@ const appData = {
       "transportation": "Daily complimentary school bus service for AM Pre-Casa students"
     },
     {
-      "id": 310,
+      "id": 309,
       "name_en": "Guidepost Montessori - Happy Valley Hawthorn Road (Toddler Program)",
       "name_zh": "Guidepost蒙特梭利 - 跑馬地山楂道（幼兒課程）",
       "district": "Wan Chai",
@@ -6512,7 +6493,7 @@ const appData = {
       "philosophy": "Montessori approach focusing on child's natural development and independence"
     },
     {
-      "id": 311,
+      "id": 310,
       "name_en": "Causeway Bay Victoria Kindergarten - Pre-Nursery Program",
       "name_zh": "銅鑼灣維多利亞幼稚園 - 學前班課程",
       "district": "Wan Chai",
@@ -6539,7 +6520,7 @@ const appData = {
       "special": "Private independent school, not joining KG Education Scheme, high teacher-to-student ratio, priority to Victoria Shanghai Academy"
     },
     {
-      "id": 312,
+      "id": 311,
       "name_en": "Victoria (Belcher) International Nursery - Pre-Nursery Program",
       "name_zh": "維多利亞（寶翠園）國際幼兒園 - 學前班課程",
       "district": "Wan Chai",
@@ -6564,7 +6545,7 @@ const appData = {
       "philosophy": "Multilingual Students Today, Global Citizens Tomorrow. First kindergarten to introduce English teachers into classroom"
     },
     {
-      "id": 313,
+      "id": 312,
       "name_en": "Lou Pichoun School - Happy Valley Campus (Très Petite Section)",
       "name_zh": "Lou Pichoun學校 - 跑馬地校園（超小班）",
       "district": "Wan Chai",
@@ -6588,7 +6569,7 @@ const appData = {
       "additional_services": "Wide range of extra-curricular activities from 13 months in French, English, Mandarin"
     },
     {
-      "id": 314,
+      "id": 313,
       "name_en": "Busy Bees Pre-School - Happy Valley (The Hive Classroom)",
       "name_zh": "Busy Bees學前學校 - 跑馬地（蜂巢教室）",
       "district": "Wan Chai",
@@ -6614,7 +6595,7 @@ const appData = {
       "mailing_address": "PO Box 47201, Morrison Hill Post Office, Hong Kong"
     },
     {
-      "id": 315,
+      "id": 314,
       "name_en": "Woodland Pre-schools - Happy Valley Campus",
       "name_zh": "Woodland學前學校 - 跑馬地校園",
       "district": "Wan Chai",
@@ -6637,7 +6618,7 @@ const appData = {
       "international_demographics": "Children from over 60 nationalities: 38% Chinese, 16% British, 11% American"
     },
     {
-      "id": 316,
+      "id": 315,
       "name_en": "York International Playschool (Central)",
       "name_zh": "約克國際遊戲學校（中環）",
       "district": "Wan Chai",
@@ -6661,7 +6642,7 @@ const appData = {
       "service_type": "AM/PM Sessions available"
     },
     {
-      "id": 317,
+      "id": 316,
       "name_en": "Highgate House Nursery School",
       "name_zh": "Highgate House幼兒學校",
       "district": "Wan Chai",
@@ -6685,7 +6666,7 @@ const appData = {
     },
     // WONG TAI SIN DISTRICT - PLAYGROUPS
     {
-      "id": 318,
+      "id": 317,
       "name_en": "Child Psychological Development Association (CPDA) - Wong Tai Sin Center",
       "name_zh": "嬰幼兒心理發展協會 - 黃大仙分會",
       "district": "Wong Tai Sin",
@@ -6709,7 +6690,7 @@ const appData = {
       "special": "Professional psychologists on staff, certificate for 80%+ attendance, psychology-based development programs"
     },
     {
-      "id": 319,
+      "id": 318,
       "name_en": "Kangaroo Babycare - Diamond Hill Campus",
       "name_zh": "Kangaroo Babycare - 鑽石山校園",
       "district": "Wong Tai Sin",
@@ -6734,7 +6715,7 @@ const appData = {
       "philosophy": "Parents lead little kangaroos to explore the world and guide self-directed learning"
     },
     {
-      "id": 320,
+      "id": 319,
       "name_en": "Stage Right Drama Studio - Teddy Bear Club (Diamond Hill Area Service)",
       "name_zh": "Stage Right戲劇工作室 - 泰迪熊俱樂部（鑽石山地區服務）",
       "district": "Wong Tai Sin",
@@ -6758,7 +6739,7 @@ const appData = {
       "additional_locations": "Also has playgroups at TKO, Shek Mun locations"
     },
     {
-      "id": 321,
+      "id": 320,
       "name_en": "YMCA Toddlers' World (Serves Wong Tai Sin District)",
       "name_zh": "基督教青年會幼兒世界（服務黃大仙區）",
       "district": "Wong Tai Sin",
@@ -6780,7 +6761,7 @@ const appData = {
       "special": "Play-based approach, quality learning environment, activities structured to develop potential in body, mind and spirit"
     },
     {
-      "id": 322,
+      "id": 321,
       "name_en": "St. Hilary's Kindergarten - SHInE Program (Accessible to Wong Tai Sin)",
       "name_zh": "聖希拉里幼稚園 - SHInE課程（黃大仙可達）",
       "district": "Wong Tai Sin",
@@ -6804,7 +6785,7 @@ const appData = {
       "philosophy": "Interactive & educational experience, school readiness development"
     },
     {
-      "id": 323,
+      "id": 322,
       "name_en": "The Boys' and Girls' Clubs Association - Cheerland Kindergarten (Wong Tai Sin)",
       "name_zh": "香港小童群益會樂緻幼稚園（黃大仙）",
       "district": "Wong Tai Sin",
@@ -6827,7 +6808,7 @@ const appData = {
       "location_benefits": "Located within Wong Tai Sin Estate for convenient access by residents"
     },
     {
-      "id": 324,
+      "id": 323,
       "name_en": "LCSD Children's Play Rooms (Wong Tai Sin District)",
       "name_zh": "康文署兒童遊戲室（黃大仙區）",
       "district": "Wong Tai Sin",
@@ -6850,7 +6831,7 @@ const appData = {
       "notable_venues": "Various sports centres throughout Wong Tai Sin district"
     },
     {
-      "id": 325,
+      "id": 324,
       "name_en": "Five Districts Business Welfare Association Zhang Zhu Shan Kindergarten - Early Programs",
       "name_zh": "五邑工商總會張祝珊幼稚園 - 早期課程",
       "district": "Wong Tai Sin",
@@ -6873,7 +6854,7 @@ const appData = {
       "location_benefits": "Located in Diamond Hill commercial complex for convenient access"
     },
     {
-      "id": 326,
+      "id": 325,
       "name_en": "AlphaStep Movement Programs (Wong Tai Sin Area)",
       "name_zh": "AlphaStep運動課程（黃大仙地區）",
       "district": "Wong Tai Sin",
@@ -6899,7 +6880,7 @@ const appData = {
     },
     // WONG TAI SIN DISTRICT - PRE-NURSERY PROGRAMS
     {
-      "id": 327,
+      "id": 326,
       "name_en": "Po Leung Kuk Wong Siu Ching Kindergarten-cum-Nursery",
       "name_zh": "保良局王少清幼稚園暨幼兒園",
       "district": "Wong Tai Sin",
@@ -6927,7 +6908,7 @@ const appData = {
       "services": "School Social Worker, Integrated Programme, District Speech Therapy Service, On-site Pre-school Rehabilitation Services"
     },
     {
-      "id": 328,
+      "id": 327,
       "name_en": "Sisters of the Immaculate Heart of Mary Wong Tai Sin Kindergarten",
       "name_zh": "聖母潔心會黃大仙幼稚園",
       "district": "Wong Tai Sin",
@@ -6952,7 +6933,7 @@ const appData = {
       "services": "On-site Pre-school Rehabilitation Services"
     },
     {
-      "id": 329,
+      "id": 328,
       "name_en": "San Po Kong Rhenish Nursery",
       "name_zh": "禮賢會新蒲崗幼兒園",
       "district": "Wong Tai Sin",
@@ -6977,7 +6958,7 @@ const appData = {
       "services": "Integrated Programme Service, On-site Pre-school Rehabilitation Services"
     },
     {
-      "id": 330,
+      "id": 329,
       "name_en": "Diamond Hill Ling Liang Kindergarten",
       "name_zh": "鑽石山靈糧幼稚園",
       "district": "Wong Tai Sin",
@@ -7005,7 +6986,7 @@ const appData = {
       "services": "School Social Worker Service, On-site Pre-school Rehabilitation Services"
     },
     {
-      "id": 331,
+      "id": 330,
       "name_en": "Kendall International Preschool (Serves Wong Tai Sin District)",
       "name_zh": "Kendall國際學前學校（服務黃大仙區）",
       "district": "Wong Tai Sin",
@@ -7029,7 +7010,7 @@ const appData = {
       "philosophy": "Marriage of learning through play and core academic preparation, nurturing exceptional talents"
     },
     {
-      "id": 332,
+      "id": 331,
       "name_en": "Tung Wah Group of Hospitals Fong Shiu Yee Nursery School",
       "name_zh": "東華三院方肇彝幼兒園",
       "district": "Wong Tai Sin",
@@ -7053,7 +7034,7 @@ const appData = {
       "philosophy": "Providing quality early childhood education and comprehensive care services"
     },
     {
-      "id": 333,
+      "id": 332,
       "name_en": "Tung Wah Group of Hospitals Kwan Fong Nursery School",
       "name_zh": "東華三院群芳幼兒園",
       "district": "Wong Tai Sin",
@@ -7077,7 +7058,7 @@ const appData = {
       "philosophy": "Providing quality early childhood education and comprehensive care services"
     },
     {
-      "id": 334,
+      "id": 333,
       "name_en": "Tung Wah Group of Hospitals Wai Cheung Chi Memorial Kindergarten",
       "name_zh": "東華三院韋祥智紀念幼稚園",
       "district": "Wong Tai Sin",
@@ -7100,7 +7081,7 @@ const appData = {
       "philosophy": "TWGHs commitment to providing quality education and comprehensive care"
     },
     {
-      "id": 335,
+      "id": 334,
       "name_en": "The Boys' and Girls' Clubs Association - Cheerland Kindergarten (Wong Tai Sin)",
       "name_zh": "香港小童群益會樂緻幼稚園（黃大仙）",
       "district": "Wong Tai Sin",
@@ -7123,7 +7104,7 @@ const appData = {
       "mission": "Provide early childhood education services, good care and counselling for healthy development"
     },
     {
-      "id": 336,
+      "id": 335,
       "name_en": "Five Districts Business Welfare Association Zhang Zhu Shan Kindergarten",
       "name_zh": "五邑工商總會張祝珊幼稚園",
       "district": "Wong Tai Sin",
@@ -7148,7 +7129,7 @@ const appData = {
     },
     // YAU TSIM MONG DISTRICT - PLAYGROUPS
     {
-      "id": 337,
+      "id": 336,
       "name_en": "Victoria Playpark - Tsim Sha Tsui K11 MUSEA Centre",
       "name_zh": "Victoria Playpark - 尖沙咀K11 MUSEA中心",
       "district": "Yau Tsim Mong",
@@ -7172,7 +7153,7 @@ const appData = {
       "awards": "2018 International Design Award (IDA) Silver for Interior Design"
     },
     {
-      "id": 338,
+      "id": 337,
       "name_en": "YMCA Toddlers' World - Tsim Sha Tsui Centre",
       "name_zh": "基督教青年會幼兒世界 - 尖沙咀中心",
       "district": "Yau Tsim Mong",
@@ -7194,7 +7175,7 @@ const appData = {
       "philosophy": "Every child is unique and special, children learn through play in encouraging environment"
     },
     {
-      "id": 339,
+      "id": 338,
       "name_en": "The Little Gym - Tsim Sha Tsui Star House",
       "name_zh": "The Little Gym - 尖沙咀星光行",
       "district": "Yau Tsim Mong",
@@ -7218,7 +7199,7 @@ const appData = {
       "philosophy": "Children learn and grow through movement-based learning and imaginative play"
     },
     {
-      "id": 340,
+      "id": 339,
       "name_en": "Malvern Playgroup - Yau Ma Tei Campus (Coronation Circle)",
       "name_zh": "Malvern遊戲小組 - 油麻地校園（加冕園）",
       "district": "Yau Tsim Mong",
@@ -7241,7 +7222,7 @@ const appData = {
       "philosophy": "Nurture children's social, emotional, cognitive, and physical development, 'environment is the third teacher'"
     },
     {
-      "id": 341,
+      "id": 340,
       "name_en": "Llamahood Playgroup - Serving Yau Tsim Mong District",
       "name_zh": "Llamahood遊戲小組 - 服務油尖旺區",
       "district": "Yau Tsim Mong",
@@ -7264,7 +7245,7 @@ const appData = {
       "philosophy": "Explore, play, and learn approach, providing safe nurturing environment"
     },
     {
-      "id": 342,
+      "id": 341,
       "name_en": "YMCA Saturday Playgroups - Tsim Sha Tsui",
       "name_zh": "基督教青年會週六遊戲小組 - 尖沙咀",
       "district": "Yau Tsim Mong",
@@ -7287,7 +7268,7 @@ const appData = {
       "philosophy": "Play-based approach believing children learn through play in encouraging environment"
     },
     {
-      "id": 343,
+      "id": 342,
       "name_en": "Baumhaus Kindermusik - Tsim Sha Tsui Location (CLOSED)",
       "name_zh": "Baumhaus兒童音樂課程 - 尖沙咀地點（已結業）",
       "district": "Yau Tsim Mong",
@@ -7313,7 +7294,7 @@ const appData = {
       "activities": "Musical instrument exploration, singing, movement activities, story listening sessions"
     },
     {
-      "id": 344,
+      "id": 343,
       "name_en": "United Services Recreation Club Playgroup - Jordan",
       "name_zh": "聯合服務康樂會遊戲小組 - 佐敦",
       "district": "Yau Tsim Mong",
@@ -7336,7 +7317,7 @@ const appData = {
       "philosophy": "Community gathering for parents and children, social interaction and play opportunities"
     },
     {
-      "id": 345,
+      "id": 344,
       "name_en": "Child Psychological Development Association (CPDA) - Serving Yau Tsim Mong District",
       "name_zh": "嬰幼兒心理發展協會 - 服務油尖旺區",
       "district": "Yau Tsim Mong",
@@ -7365,7 +7346,7 @@ const appData = {
     },
     // YAU TSIM MONG DISTRICT - PRE-NURSERY PROGRAMS
     {
-      "id": 346,
+      "id": 345,
       "name_en": "Malvern College Pre-School Hong Kong",
       "name_zh": "香港墨爾文國際幼稚園",
       "district": "Yau Tsim Mong",
@@ -7392,7 +7373,7 @@ const appData = {
       "philosophy": "Nurture children's social, emotional, cognitive, and physical development, encourage curiosity, independence, integrity, and kindness"
     },
     {
-      "id": 347,
+      "id": 346,
       "name_en": "Sun Island Education Group - Mong Kok Hung Hom Campus",
       "name_zh": "太陽島英文幼稚園 - 旺角紅磡校園",
       "district": "Yau Tsim Mong",
@@ -7416,7 +7397,7 @@ const appData = {
       "philosophy": "Quality pre-primary education focusing on English language development and school readiness preparation"
     },
     {
-      "id": 348,
+      "id": 347,
       "name_en": "The Salvation Army Catherine Booth Nursery School",
       "name_zh": "救世軍卜凱賽琳幼兒學校",
       "district": "Yau Tsim Mong",
@@ -7440,7 +7421,7 @@ const appData = {
       "philosophy": "'Educare with Christian Love' - providing holistic care and education with Christian values integration"
     },
     {
-      "id": 349,
+      "id": 348,
       "name_en": "Heep Hong Society Healthy Kids Nursery School",
       "name_zh": "協康會健康孩子幼兒學校",
       "district": "Yau Tsim Mong",
@@ -7468,7 +7449,7 @@ const appData = {
       "philosophy": "Supporting children with diverse learning and developmental needs through professional intervention and inclusive education"
     },
     {
-      "id": 350,
+      "id": 349,
       "name_en": "Victoria Nursery & Kindergarten - Ho Man Tin Campus",
       "name_zh": "維多利亞幼兒園暨幼稚園 - 何文田校園",
       "district": "Yau Tsim Mong",
@@ -7492,7 +7473,7 @@ const appData = {
       "transportation": "Accessible to Yau Tsim Mong District families via public transportation"
     },
     {
-      "id": 351,
+      "id": 350,
       "name_en": "Kendall International Preschool (Serves Yau Tsim Mong District)",
       "name_zh": "Kendall國際學前學校（服務油尖旺區）",
       "district": "Yau Tsim Mong",
@@ -7517,7 +7498,7 @@ const appData = {
       "philosophy": "Marriage of learning through play and core academic preparation, nurturing exceptional talents and gifts"
     },
     {
-      "id": 352,
+      "id": 351,
       "name_en": "Ming Wai International Kindergarten (Prince Edward Branch)",
       "name_zh": "明慧國際幼稚園（太子分校）",
       "district": "Yau Tsim Mong",
@@ -7540,7 +7521,7 @@ const appData = {
       "philosophy": "International approach to early childhood education with focus on multilingual development"
     },
     {
-      "id": 353,
+      "id": 352,
       "name_en": "Yaumatei Yang Memorial Methodist Pre-School",
       "name_zh": "油麻地循道衛理楊震幼兒學校",
       "district": "Yau Tsim Mong",
@@ -7563,7 +7544,7 @@ const appData = {
       "philosophy": "Methodist Christian values integrated with professional early childhood education"
     },
     {
-      "id": 354,
+      "id": 353,
       "name_en": "Cannan Kindergarten (Charming Garden)",
       "name_zh": "迦南幼稚園（富榮花園）",
       "district": "Yau Tsim Mong",
@@ -7589,7 +7570,7 @@ const appData = {
       "philosophy": "Christian values integration with project-based learning fostering independence and proactive learning"
     },
     {
-      "id": 355,
+      "id": 354,
       "name_en": "Yan Oi Tong Chan Cheng Yuk Yee Kindergarten",
       "name_zh": "仁愛堂陳鄭玉而幼稚園",
       "district": "Yau Tsim Mong",
@@ -7613,7 +7594,7 @@ const appData = {
     },
     // YUEN LONG DISTRICT - PLAYGROUPS
     {
-      "id": 356,
+      "id": 355,
       "name_en": "Kids Corner Playgroup International - Yuen Long Headquarters",
       "name_zh": "Kids Corner國際遊戲小組 - 元朗總校",
       "district": "Yuen Long",
@@ -7639,7 +7620,7 @@ const appData = {
       "philosophy": "Engage parents and newborns/infants in various activities to develop and enhance parent-child relationship"
     },
     {
-      "id": 357,
+      "id": 356,
       "name_en": "Tutor Time International - YOHO Mall Campus (WOW Activity Group)",
       "name_zh": "Tutor Time國際學校 - YOHO商場校園（WOW活動小組）",
       "district": "Yuen Long",
@@ -7665,7 +7646,7 @@ const appData = {
       "philosophy": "Full-immersion bilingual education, personalized curriculum, child-motivated learning experiences"
     },
     {
-      "id": 358,
+      "id": 357,
       "name_en": "Anchors Academy - Creative Tots Playgroup",
       "name_zh": "Anchors Academy - 創意幼兒遊戲小組",
       "district": "Yuen Long",
@@ -7691,7 +7672,7 @@ const appData = {
       "philosophy": "Enhance children's social emotional development, fine and gross motor development, cognitive and communication skills"
     },
     {
-      "id": 359,
+      "id": 358,
       "name_en": "Tung Wah Group of Hospitals Zonta Club of Kowloon Nursery School",
       "name_zh": "東華三院九龍崇德社幼兒學校",
       "district": "Yuen Long",
@@ -7716,7 +7697,7 @@ const appData = {
       "philosophy": "TWGHs commitment to providing quality child care and educational services"
     },
     {
-      "id": 360,
+      "id": 359,
       "name_en": "York International Kindergarten - Pre-Nursery Programs",
       "name_zh": "約克國際幼稚園 - 學前課程",
       "district": "Yuen Long",
@@ -7738,7 +7719,7 @@ const appData = {
       "philosophy": "Early trilingual language development with international and local curriculum integration"
     },
     {
-      "id": 361,
+      "id": 360,
       "name_en": "Zenith Kindergarten - Parent-Child Classes",
       "name_zh": "Zenith幼稚園 - 親子課程",
       "district": "Yuen Long",
@@ -7761,7 +7742,7 @@ const appData = {
       "philosophy": "Cultivating students' lifelong passion for learning, developing language proficiency and critical thinking"
     },
     {
-      "id": 362,
+      "id": 361,
       "name_en": "Yuen Long Town Hall Multiple Intelligence Centre",
       "name_zh": "元朗大會堂多元智能中心",
       "district": "Yuen Long",
@@ -7784,7 +7765,7 @@ const appData = {
       "philosophy": "Community service providing family life education and recreational activities for local residents"
     },
     {
-      "id": 363,
+      "id": 362,
       "name_en": "CPDA (Child Psychological Development Association) - Serving Yuen Long District",
       "name_zh": "嬰幼兒心理發展協會 - 服務元朗區",
       "district": "Yuen Long",
@@ -7807,7 +7788,7 @@ const appData = {
       "philosophy": "Psychology-based early childhood development, professional expertise in child development"
     },
     {
-      "id": 364,
+      "id": 363,
       "name_en": "Llamahood Playgroup - Serving Yuen Long District",
       "name_zh": "Llamahood遊戲小組 - 服務元朗區",
       "district": "Yuen Long",
@@ -7830,7 +7811,7 @@ const appData = {
       "philosophy": "Explore, play, and learn approach, providing safe nurturing environment"
     },
     {
-      "id": 365,
+      "id": 364,
       "name_en": "Kids Land Mandarin Playgroup - Serving Yuen Long District",
       "name_zh": "Kids Land中文遊戲小組 - 服務元朗區",
       "district": "Yuen Long",
@@ -7854,7 +7835,7 @@ const appData = {
     },
     // YUEN LONG DISTRICT - PRE-NURSERY PROGRAMS
     {
-      "id": 366,
+      "id": 365,
       "name_en": "Tutor Time International - YOHO Mall Campus",
       "name_zh": "Tutor Time國際學校 - YOHO商場校園",
       "district": "Yuen Long",
@@ -7880,7 +7861,7 @@ const appData = {
       "philosophy": "Full-immersion bilingual education, personalized curriculum, child-motivated learning experiences"
     },
     {
-      "id": 367,
+      "id": 366,
       "name_en": "Anchors Academy Affiliated International Kindergarten",
       "name_zh": "安基司學校附屬國際幼稚園",
       "district": "Yuen Long",
@@ -7908,7 +7889,7 @@ const appData = {
       "philosophy": "International and Local streams with trilingual education approach"
     },
     {
-      "id": 368,
+      "id": 367,
       "name_en": "The Salvation Army Kam Tin Nursery School",
       "name_zh": "救世軍錦田幼兒學校",
       "district": "Yuen Long",
@@ -7935,7 +7916,7 @@ const appData = {
       "philosophy": "Christian love-based education with child-centered integrated curriculum"
     },
     {
-      "id": 369,
+      "id": 368,
       "name_en": "Tung Wah Group of Hospitals Zonta Club of Kowloon Nursery School",
       "name_zh": "東華三院九龍崇德社幼兒學校",
       "district": "Yuen Long",
@@ -7960,7 +7941,7 @@ const appData = {
       "philosophy": "TWGHs commitment to providing quality child care and educational services"
     },
     {
-      "id": 370,
+      "id": 369,
       "name_en": "Christian & Missionary Alliance Tin Chung Nursery School",
       "name_zh": "基督教宣道會天頌幼兒學校",
       "district": "Yuen Long",
@@ -7990,7 +7971,7 @@ const appData = {
       "philosophy": "With the love of Christ, creating a child-respecting, loving and beautiful environment for children's growth"
     },
     {
-      "id": 371,
+      "id": 370,
       "name_en": "Academy Kindergarten (Tin Shui Wai)",
       "name_zh": "翰林幼稚園（天水圍）",
       "district": "Yuen Long",
@@ -8019,7 +8000,7 @@ const appData = {
       "philosophy": "Professional quality educational services for community children"
     },
     {
-      "id": 372,
+      "id": 371,
       "name_en": "Yuen Long Rhenish Nursery",
       "name_zh": "禮賢會元朗幼兒園",
       "district": "Yuen Long",
@@ -8043,7 +8024,7 @@ const appData = {
       "philosophy": "With the love of Christ, nurturing holistic children development"
     },
     {
-      "id": 373,
+      "id": 372,
       "name_en": "Sun Island Education Group - Yuen Long Branch",
       "name_zh": "太陽島英文幼稚園 - 元朗分校",
       "district": "Yuen Long",
@@ -8067,7 +8048,7 @@ const appData = {
       "philosophy": "Quality pre-primary education focusing on English language development"
     },
     {
-      "id": 374,
+      "id": 373,
       "name_en": "York International Kindergarten - Yuen Long Campus",
       "name_zh": "約克國際幼稚園 - 元朗校園",
       "district": "Yuen Long",
@@ -8091,7 +8072,7 @@ const appData = {
       "philosophy": "Early trilingual language development with international and local curriculum integration"
     },
     {
-      "id": 375,
+      "id": 374,
       "name_en": "Hong Kong Christian Service Tin Heng Nursery School",
       "name_zh": "香港基督教服務處天恆幼兒學校",
       "district": "Yuen Long",
@@ -8120,7 +8101,7 @@ const appData = {
       "philosophy": "Professional early childhood education service with Christian values"
     },
     {
-      "id": 376,
+      "id": 375,
       "name_en": "Hong Kong Sheng Kung Hui Ha Sui Yuen Nursery School",
       "name_zh": "香港聖公會夏瑞芸幼兒學校",
       "district": "Yuen Long",
@@ -8144,7 +8125,7 @@ const appData = {
       "philosophy": "Anglican church commitment to providing quality early childhood education and care services"
     },
     {
-      "id": 377,
+      "id": 376,
       "name_en": "Tutor Time International - YOHO Mall Campus",
       "name_zh": "Tutor Time國際學校 - YOHO商場校園",
       "district": "Yuen Long",
@@ -8168,7 +8149,7 @@ const appData = {
       "special": "First US preschool with bilingual English/Mandarin program in Hong Kong, Full-immersion bilingual education, Downstairs classrooms specifically designed for children under 3 years old, Personalized curriculum with child-motivated learning experiences"
     },
     {
-      "id": 378,
+      "id": 377,
       "name_en": "Anchors Academy Affiliated International Kindergarten",
       "name_zh": "安基司學校附屬國際幼稚園",
       "district": "Yuen Long",
@@ -8195,7 +8176,7 @@ const appData = {
       "special": "International and Local streams with trilingual education approach"
     },
     {
-      "id": 379,
+      "id": 378,
       "name_en": "The Salvation Army Kam Tin Nursery School",
       "name_zh": "救世軍錦田幼兒學校",
       "district": "Yuen Long",
@@ -8219,7 +8200,7 @@ const appData = {
       "special": "Salvation Army operated, participates in KG Education Scheme, School Social Worker Service, Integrated Programme, District-based Speech Therapy Service, On-site Pre-school Rehabilitation Services"
     },
     {
-      "id": 380,
+      "id": 379,
       "name_en": "Tung Wah Group of Hospitals Zonta Club of Kowloon Nursery School",
       "name_zh": "東華三院九龍崇德社幼兒學校",
       "district": "Yuen Long",
@@ -8240,7 +8221,7 @@ const appData = {
       "special": "Tung Wah Group of Hospitals - Sunshine Kids Team E On-site Pre-school Rehabilitation Services, Kindergarten-cum-Child Care Centre providing comprehensive development"
     },
     {
-      "id": 381,
+      "id": 380,
       "name_en": "Christian & Missionary Alliance Tin Chung Nursery School",
       "name_zh": "基督教宣道會天頌幼兒學校",
       "district": "Yuen Long",
@@ -8267,7 +8248,7 @@ const appData = {
       "special": "School Social Worker Service, Integrated Programme, District-based Speech Therapy Service, On-site Pre-school Rehabilitation Services"
     },
     {
-      "id": 382,
+      "id": 381,
       "name_en": "Academy Kindergarten (Tin Shui Wai)",
       "name_zh": "翰林幼稚園（天水圍）",
       "district": "Yuen Long",
@@ -8293,7 +8274,7 @@ const appData = {
       "special": "School Social Worker Service, On-site Pre-school Rehabilitation Services"
     },
     {
-      "id": 383,
+      "id": 382,
       "name_en": "Yuen Long Rhenish Nursery",
       "name_zh": "禮賢會元朗幼兒園",
       "district": "Yuen Long",
@@ -8312,7 +8293,7 @@ const appData = {
       "special": "Hong Kong Young Women Christian Association - Y Seeds Wellness Service (Team A)"
     },
     {
-      "id": 384,
+      "id": 383,
       "name_en": "Sun Island Education Group - Yuen Long Branch",
       "name_zh": "太陽島英文幼稚園 - 元朗分校",
       "district": "Yuen Long",
@@ -8331,7 +8312,7 @@ const appData = {
       "special": "Student transport services available"
     },
     {
-      "id": 385,
+      "id": 384,
       "name_en": "York International Kindergarten - Yuen Long Campus",
       "name_zh": "約克國際幼稚園 - 元朗校園",
       "district": "Yuen Long",
@@ -8350,7 +8331,7 @@ const appData = {
       "special": "Heep Hong Society On-site Pre-school Rehabilitation Services – Team 5"
     },
     {
-      "id": 386,
+      "id": 385,
       "name_en": "Hong Kong Christian Service Tin Heng Nursery School",
       "name_zh": "香港基督教服務處天恆幼兒學校",
       "district": "Yuen Long",
@@ -8373,7 +8354,7 @@ const appData = {
       "special": "Hong Kong Christian Service - Bridge Integrated Education Service (Team 6), Students currently studying pre-nursery class have priority for K1 admission"
     },
     {
-      "id": 387,
+      "id": 386,
       "name_en": "Hong Kong Sheng Kung Hui Ha Sui Yuen Nursery School",
       "name_zh": "香港聖公會夏瑞芸幼兒學校",
       "district": "Yuen Long",
@@ -8393,16 +8374,16 @@ const appData = {
       "description": "Anglican church operated providing quality care and education for young children with early childhood education services.",
       "special": "Anglican church commitment to providing quality early childhood education and care services"
     },{
-  "id": 388,
-  "name_en": "Kiddieland Playgroup & Learning Centre",
-  "name_zh": "童欣幼兒活學天地",
-  "type": "Playgroup",
-  "district": "Sham Shui Po",
-  "address": "Unit 511, 5/F, Cheung Sha Wan Plaza Tower 2, 833 Cheung Sha Wan Road, Lai Chi Kok, Kowloon (Lai Chi Kok MTR Station Exit A)",
-  "address_zh": "九龍荔枝角長沙灣道833號長沙灣廣場二期5樓511室（荔枝角地鐵站A出口）",
-  "phone": "2742 2680",
-  "email": "info@hkkiddieland.com",
-  "website": "hkkiddieland.com",
+    "id": 387,
+    "name_en": "Kiddieland Playgroup & Learning Centre",
+    "name_zh": "童欣幼兒活學天地",
+    "type": "Playgroup",
+    "district": "Sham Shui Po",
+    "address": "Unit 511, 5/F, Cheung Sha Wan Plaza Tower 2, 833 Cheung Sha Wan Road, Lai Chi Kok, Kowloon (Lai Chi Kok MTR Station Exit A)",
+    "address_zh": "九龍荔枝角長沙灣道833號長沙灣廣場二期5樓511室（荔枝角地鐵站A出口）",
+    "phone": "2742 2680",
+    "email": "info@hkkiddieland.com",
+    "website": "hkkiddieland.com",
   "age_range": "12-18 months",
   "session_types": [
     "Half-day AM"
@@ -8412,21 +8393,21 @@ const appData = {
     "Mandarin",
     "English"
   ],
-  "fees": 2500,
-  "rating": 4.5,
-  "reviews": 45,
-  "description": "Help children explore the world safely, developing different senses, refining abilities, teaching sharing and social interaction. All teachers proficient in three languages."
+    "fees": 2500,
+    "rating": 4.5,
+    "reviews": 45,
+    "description": "Help children explore the world safely, developing different senses, refining abilities, teaching sharing and social interaction. All teachers proficient in three languages."
 },{
-  "id": 389,
-  "name_en": "YMCA Toddlers' World - Cheung Sha Wan Beacon Centre",
-  "name_zh": "基督教青年會幼兒世界 - 長沙灣明燈中心",
-  "type": "Playgroup",
-  "district": "Sham Shui Po",
-  "address": "373 Po On Road, Cheung Sha Wan, Kowloon",
-  "address_zh": "九龍長沙灣保安道373號",
+    "id": 388,
+    "name_en": "YMCA Toddlers' World - Cheung Sha Wan Beacon Centre",
+    "name_zh": "基督教青年會幼兒世界 - 長沙灣明燈中心",
+    "type": "Playgroup",
+    "district": "Sham Shui Po",
+    "address": "373 Po On Road, Cheung Sha Wan, Kowloon",
+    "address_zh": "九龍長沙灣保安道373號",
   "phone": "2281 6005",
-  "email": "pesbc@ymcahk.org.hk",
-  "website": "ymcahk.org.hk",
+    "email": "pesbc@ymcahk.org.hk",
+    "website": "ymcahk.org.hk",
   "age_range": "1-2 years",
   "session_types": [
     "Half-day AM"
@@ -8435,21 +8416,21 @@ const appData = {
     "Cantonese",
     "English"
   ],
-  "fees": 2800,
-  "rating": 4.6,
-  "reviews": 78,
-  "description": "Every child is unique and special, children learn through play in encouraging environment. Programs include arts & crafts, music & songs, physical movement, fun games, story reading, free-play time, snack time."
+    "fees": 2800,
+    "rating": 4.6,
+    "reviews": 78,
+    "description": "Every child is unique and special, children learn through play in encouraging environment. Programs include arts & crafts, music & songs, physical movement, fun games, story reading, free-play time, snack time."
 },{
-  "id": 390,
-  "name_en": "CPDA (Child Psychological Development Association) - Lai Chi Kok Center",
-  "name_zh": "嬰幼兒心理發展協會 - 荔枝角分會",
-  "type": "Playgroup",
-  "district": "Sham Shui Po",
-  "address": "Unit 808A, Tower I, 8/F, Cheung Sha Wan Plaza, 833 Cheung Sha Wan Road, Lai Chi Kok, Kowloon (Lai Chi Kok MTR Station Exit A)",
-  "address_zh": "九龍荔枝角長沙灣道833號長沙灣廣場1座8樓808A室（荔枝角地鐵站A出口）",
-  "phone": "3106 4455",
-  "email": "info-lck@cpda.com.hk",
-  "website": "cpda.com.hk",
+    "id": 389,
+    "name_en": "CPDA (Child Psychological Development Association) - Lai Chi Kok Center",
+    "name_zh": "嬰幼兒心理發展協會 - 荔枝角分會",
+    "type": "Playgroup",
+    "district": "Sham Shui Po",
+    "address": "Unit 808A, Tower I, 8/F, Cheung Sha Wan Plaza, 833 Cheung Sha Wan Road, Lai Chi Kok, Kowloon (Lai Chi Kok MTR Station Exit A)",
+    "address_zh": "九龍荔枝角長沙灣道833號長沙灣廣場1座8樓808A室（荔枝角地鐵站A出口）",
+    "phone": "3106 4455",
+    "email": "info-lck@cpda.com.hk",
+    "website": "cpda.com.hk",
   "age_range": "6-24 months",
   "session_types": [
     "Half-day AM",
@@ -8459,21 +8440,21 @@ const appData = {
     "Cantonese",
     "English"
   ],
-  "fees": 3030,
-  "rating": 4.7,
-  "reviews": 92,
-  "description": "Professional psychologists on staff, certificate for 80%+ attendance, psychology-based development programs. Mon-Fri: Cantonese HK$2,830/10 lessons, English HK$3,030/10 lessons. Sat-Sun: Cantonese HK$3,280/10 lessons, English HK$3,480/10 lessons."
+    "fees": 3030,
+    "rating": 4.7,
+    "reviews": 92,
+    "description": "Professional psychologists on staff, certificate for 80%+ attendance, psychology-based development programs. Mon-Fri: Cantonese HK$2,830/10 lessons, English HK$3,030/10 lessons. Sat-Sun: Cantonese HK$3,280/10 lessons, English HK$3,480/10 lessons."
 },{
-  "id": 391,
-  "name_en": "ESF Language & Learning Centre - Serving Sham Shui Po District",
-  "name_zh": "ESF語言及學習中心 - 服務深水埗區",
-  "type": "Playgroup",
-  "district": "Sham Shui Po",
-  "address": "2/F Prime Mansion, 183-187 Johnston Road, Wan Chai (serves families across Hong Kong including Sham Shui Po)",
-  "address_zh": "灣仔莊士敦道183-187號百明大廈2樓（服務包括深水埗在內的全港家庭）",
-  "phone": "2838 2276",
-  "email": "info@esfexplore.org.hk",
-  "website": "esfexplore.org.hk",
+    "id": 390,
+    "name_en": "ESF Language & Learning Centre - Serving Sham Shui Po District",
+    "name_zh": "ESF語言及學習中心 - 服務深水埗區",
+    "type": "Playgroup",
+    "district": "Sham Shui Po",
+    "address": "2/F Prime Mansion, 183-187 Johnston Road, Wan Chai (serves families across Hong Kong including Sham Shui Po)",
+    "address_zh": "灣仔莊士敦道183-187號百明大廈2樓（服務包括深水埗在內的全港家庭）",
+    "phone": "2838 2276",
+    "email": "info@esfexplore.org.hk",
+    "website": "esfexplore.org.hk",
   "age_range": "6-30 months",
   "session_types": [
     "Half-day AM",
@@ -8482,13 +8463,13 @@ const appData = {
   "language": [
     "English"
   ],
-  "fees": 3051,
-  "rating": 4.8,
-  "reviews": 156,
-  "description": "Early Years Foundation Stage (EYFS) framework, English as medium of instruction, progressive-based levels. Starting around $3,051/term, pro-rated fees available for late entries. Play is the foundation of development and learning for young children."
-},
+    "fees": 3051,
+    "rating": 4.8,
+    "reviews": 156,
+    "description": "Early Years Foundation Stage (EYFS) framework, English as medium of instruction, progressive-based levels. Starting around $3,051/term, pro-rated fees available for late entries. Play is the foundation of development and learning for young children."
+  },
   {
-    "id": 392,
+    "id": 391,
     "name_en": "Kidversity Learning Centre - Lai Chi Kok Branch",
     "name_zh": "Kidversity學習中心 - 荔枝角分店",
     "type": "Playgroup",
@@ -8514,7 +8495,7 @@ const appData = {
     "description": "Early childhood education and development services. Learning centre in convenient shopping plaza location."
   },
   {
-    "id": 393,
+    "id": 392,
     "name_en": "Hong Kong Sheng Kung Hui Sham Shui Po Child Care Centre",
     "name_zh": "香港聖公會深水埗幼兒照顧中心",
     "type": "Playgroup",
@@ -8538,7 +8519,7 @@ const appData = {
     "description": "Hong Kong Sheng Kung Hui operated, Anglican church values, comprehensive child care services. Anglican church commitment to providing quality child care services for families in need."
   },
   {
-    "id": 394,
+    "id": 393,
     "name_en": "Sham Shui Po Pre-Nursery Centre",
     "name_zh": "深水埗學前班中心",
     "type": "Pre-nursery",
@@ -8563,7 +8544,7 @@ const appData = {
     "description": "Professional pre-nursery program preparing children for kindergarten with structured learning and social development."
   },
   {
-    "id": 395,
+    "id": 394,
     "name_en": "Lai Chi Kok International Pre-Nursery",
     "name_zh": "荔枝角國際學前班",
     "type": "Pre-nursery",
@@ -8588,7 +8569,7 @@ const appData = {
     "description": "International pre-nursery with focus on bilingual education and preparing children for international schools."
   },
   {
-    "id": 396,
+    "id": 395,
     "name_en": "Cheung Sha Wan Community Pre-Nursery",
     "name_zh": "長沙灣社區學前班",
     "type": "Pre-nursery",
@@ -8612,7 +8593,7 @@ const appData = {
     "description": "Community-based pre-nursery providing affordable early education with strong local community support."
   },
   {
-    "id": 397,
+    "id": 396,
     "name_en": "Hong Kong Christian Service Lei Cheng Uk Nursery School",
     "name_zh": "香港基督教服務處李鄭屋幼兒學校",
     "type": "Pre-nursery",
@@ -8637,7 +8618,7 @@ const appData = {
     "description": "Hong Kong Christian Service operated, participates in KG Education Scheme for older classes, priority for current pre-nursery students. School fees 2024-2025: Pre-Nursery Class (NC): $4,133/month, Nursery to upper class (with Registration Certificate): $1,720/month."
   },
   {
-    "id": 398,
+    "id": 397,
     "name_en": "Po Leung Kuk Angela Leong On Kei Kindergarten-cum-Nursery",
     "name_zh": "保良局梁安琪幼稚園暨幼兒園",
     "type": "Pre-nursery",
@@ -8662,7 +8643,7 @@ const appData = {
     "description": "Po Leung Kuk operated since 1878, participates in KG Education Scheme, diversified child care services. Po Leung Kuk vision of providing diversified services to support families and working parents."
   },
   {
-    "id": 399,
+    "id": 398,
     "name_en": "Kendall International Preschool - West Kowloon Campus",
     "name_zh": "Kendall國際學前學校 - 西九龍校園",
     "type": "Pre-nursery",
@@ -8686,7 +8667,7 @@ const appData = {
     "description": "International preschool rooted in Chinese values, unique convergence of Western methods and Chinese traditions. Marriage of learning through play and core academic preparation, nurturing exceptional talents and gifts."
   },
   {
-    "id": 400,
+    "id": 399,
     "name_en": "The Salvation Army Pak Tin Nursery School",
     "name_zh": "救世軍白田幼兒學校",
     "type": "Pre-nursery",
@@ -8711,7 +8692,7 @@ const appData = {
     "description": "Salvation Army operated, participates in KG Education Scheme, Montessori Learning Area, indoor playground. Salvation Army mission of providing quality holistic education and child care services with Christian values."
   },
   {
-    "id": 401,
+    "id": 400,
     "name_en": "The Salvation Army Lai Chi Kok Nursery School",
     "name_zh": "救世軍荔枝角幼兒學校",
     "type": "Pre-nursery",
@@ -8735,7 +8716,7 @@ const appData = {
     "description": "Salvation Army operated, Christian education, full-time services available. Salvation Army commitment to providing quality early childhood education with Christian values."
   },
   {
-    "id": 402,
+    "id": 401,
     "name_en": "Cheung Sha Wan Kai Fong Welfare Association Lam Tam Yin Wah Kindergarten/Day Nursery",
     "name_zh": "長沙灣街坊福利會林譚燕華幼稚園／幼兒中心",
     "type": "Pre-nursery",
@@ -8759,7 +8740,7 @@ const appData = {
     "description": "Early childhood education and care services with potential programs for 2-3 years. Focus on 'creative thinking' development with multiple intelligences as curriculum core. Creative thinking development, multiple intelligences curriculum, whole-person development through diversified learning approaches."
   },
   {
-    "id": 403,
+    "id": 402,
     "name_en": "Hong Kong Society for the Protection of Children Cheung Sha Wan Nursery School",
     "name_zh": "香港保護兒童會長沙灣幼兒學校",
     "type": "Pre-nursery",
@@ -8783,7 +8764,7 @@ const appData = {
     "description": "Early childhood education services with potential programs for 2-3 years. Hong Kong Society for the Protection of Children operated providing happy, caring, safe and diverse learning environment. Child protection and welfare focus with emphasis on establishing solid foundation for life-long learning."
   },
   {
-    "id": 404,
+    "id": 403,
     "name_en": "Guidepost Kindergarten (Nam Cheong Branch)",
     "name_zh": "Guidepost幼稚園（南昌分校）",
     "type": "Pre-nursery",
@@ -8808,7 +8789,7 @@ const appData = {
     "description": "Early childhood education services with potential programs for 2-3 years. Non-profit-making kindergarten participating in KG Education Scheme. Indoor playground, music room, multi-function area, activity room, art zone, aquarium."
   },
   {
-    "id": 405,
+    "id": 404,
     "name_en": "Sun Island Education Group - Serving Sham Shui Po District",
     "name_zh": "太陽島英文幼稚園 - 服務深水埗區",
     "type": "Pre-nursery",
@@ -9079,7 +9060,7 @@ function performSearch(searchTerm = null) {
   
   if (matchedDistrict) {
     // If searching for a district, set both search and district filters
-    activeFilters.search = query;
+  activeFilters.search = query;
     activeFilters.district = matchedDistrict;
     console.log('District match found:', matchedDistrict);
     console.log('Set activeFilters.search to:', activeFilters.search);
